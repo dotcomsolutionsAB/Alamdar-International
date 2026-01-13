@@ -1,0 +1,23 @@
+# =========================
+# Remove .php extension
+# =========================
+RewriteEngine On
+
+# If your project is inside a subfolder, uncomment and set it:
+# RewriteBase /products/
+
+# Prevent direct access to .php files (optional but recommended)
+RewriteCond %{THE_REQUEST} \s/+(.*)\.php[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Serve existing files/folders normally
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# If URL without extension matches a .php file, load it
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
+
+# Default route: / -> index.php
+DirectoryIndex index.php
