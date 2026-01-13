@@ -18,7 +18,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="product-card">
-                        <img src="https://via.placeholder.com/400x300/2c5f8d/ffffff?text=Valves" alt="Valves"
+                        <img src="assets/products/inds_valve.jpeg" alt="Valves"
                             class="card-img-top">
                         <div class="product-card-body">
                             <h5 class="product-card-title">Valves</h5>
@@ -39,7 +39,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="product-card">
-                        <img src="https://via.placeholder.com/400x300/2c5f8d/ffffff?text=Rubber+Products"
+                        <img src="assets/products/rubber.jpeg"
                             alt="Rubber Products" class="card-img-top">
                         <div class="product-card-body">
                             <h5 class="product-card-title">Rubber Products</h5>
@@ -60,7 +60,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="product-card">
-                        <img src="https://via.placeholder.com/400x300/2c5f8d/ffffff?text=Bellows" alt="Bellows"
+                        <img src="assets/products/bellows.jpeg" alt="Bellows"
                             class="card-img-top">
                         <div class="product-card-body">
                             <h5 class="product-card-title">Bellows</h5>
@@ -80,7 +80,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="product-card">
-                        <img src="https://via.placeholder.com/400x300/2c5f8d/ffffff?text=Pressure+%26+Temp"
+                        <img src="assets/products/pressure_temp.jpeg"
                             alt="Pressure & Temperature Instruments" class="card-img-top">
                         <div class="product-card-body">
                             <h5 class="product-card-title">Pressure & Temperature Instruments</h5>
@@ -100,7 +100,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="product-card">
-                        <img src="https://via.placeholder.com/400x300/2c5f8d/ffffff?text=Ceramic+Products"
+                        <img src="assets/products/ceramic.jpeg"
                             alt="Ceramic Products" class="card-img-top">
                         <div class="product-card-body">
                             <h5 class="product-card-title">Ceramic Products</h5>
@@ -121,7 +121,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="product-card">
-                        <img src="https://via.placeholder.com/400x300/2c5f8d/ffffff?text=Cast+Basalt" alt="Cast Basalt"
+                        <img src="assets/products/cast_b.jpeg" alt="Cast Basalt"
                             class="card-img-top">
                         <div class="product-card-body">
                             <h5 class="product-card-title">Cast Basalt</h5>
