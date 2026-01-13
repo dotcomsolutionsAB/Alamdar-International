@@ -9,7 +9,7 @@
                     <p>Your trusted partner for high-quality industrial products and solutions. We specialize in
                         manufacturing and supplying premium valves, rubber products, bellows, pressure & temperature
                         instruments, ceramic products, and cast basalt.</p>
-                    <a href="products" class="btn btn-light btn-lg me-3">Explore Products</a>
+                    <a href="product" class="btn btn-light btn-lg me-3">Explore Products</a>
                     <a href="contact" class="btn btn-outline-light btn-lg">Get in Touch</a>
                 </div>
                 <div class="col-lg-6">
