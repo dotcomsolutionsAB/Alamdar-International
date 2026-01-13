@@ -32,7 +32,7 @@
                                 <li><i class="fas fa-check text-primary-custom me-2"></i> Butterfly Valves</li>
                                 <li><i class="fas fa-check text-primary-custom me-2"></i> Check Valves</li>
                             </ul>
-                            <a href="products/valves.php" class="btn btn-primary">View Details</a>
+                            <a href="products/valves" class="btn btn-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                                 <li><i class="fas fa-check text-primary-custom me-2"></i> System Movement Accommodation
                                 </li>
                             </ul>
-                            <a href="products/rubber-products.php" class="btn btn-primary">View Details</a>
+                            <a href="products/rubber-products" class="btn btn-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                                 <li><i class="fas fa-check text-primary-custom me-2"></i> Misalignment Compensation</li>
                                 <li><i class="fas fa-check text-primary-custom me-2"></i> Multiple Materials</li>
                             </ul>
-                            <a href="products/bellows.php" class="btn btn-primary">View Details</a>
+                            <a href="products/bellows" class="btn btn-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                                 <li><i class="fas fa-check text-primary-custom me-2"></i> Transmitters</li>
                                 <li><i class="fas fa-check text-primary-custom me-2"></i> Controllers</li>
                             </ul>
-                            <a href="products/pressure-temp.php" class="btn btn-primary">View Details</a>
+                            <a href="products/pressure-temp" class="btn btn-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                                 <li><i class="fas fa-check text-primary-custom me-2"></i> Wear Resistance</li>
                                 <li><i class="fas fa-check text-primary-custom me-2"></i> Long Service Life</li>
                             </ul>
-                            <a href="products/ceramic-products.php" class="btn btn-primary">View Details</a>
+                            <a href="products/ceramic-products" class="btn btn-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                                 <li><i class="fas fa-check text-primary-custom me-2"></i> Cost-Effective Solution</li>
                                 <li><i class="fas fa-check text-primary-custom me-2"></i> Various Applications</li>
                             </ul>
-                            <a href="products/cast-basalt.php" class="btn btn-primary">View Details</a>
+                            <a href="products/cast-basalt" class="btn btn-primary">View Details</a>
                         </div>
                     </div>
                 </div>

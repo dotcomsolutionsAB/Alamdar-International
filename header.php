@@ -20,7 +20,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="index">
                 <img src="assets/logo.png" alt="Alamdar International" height="40">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -29,10 +29,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.php">Home</a>
+                        <a class="nav-link active" href="index">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">About Us</a>
+                        <a class="nav-link" href="about">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
@@ -40,20 +40,20 @@
                             Products
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                            <li><a class="dropdown-item" href="products.php">All Products</a></li>
+                            <li><a class="dropdown-item" href="products">All Products</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="products/valves.php">Valves</a></li>
-                            <li><a class="dropdown-item" href="products/rubber-products.php">Rubber Products</a></li>
-                            <li><a class="dropdown-item" href="products/bellows.php">Bellows</a></li>
-                            <li><a class="dropdown-item" href="products/pressure-temp.php">Pressure & Temp.</a></li>
-                            <li><a class="dropdown-item" href="products/ceramic-products.php">Ceramic Products</a></li>
-                            <li><a class="dropdown-item" href="products/cast-basalt.php">Cast Basalt</a></li>
+                            <li><a class="dropdown-item" href="products/valves">Valves</a></li>
+                            <li><a class="dropdown-item" href="products/rubber-products">Rubber Products</a></li>
+                            <li><a class="dropdown-item" href="products/bellows">Bellows</a></li>
+                            <li><a class="dropdown-item" href="products/pressure-temp">Pressure & Temp.</a></li>
+                            <li><a class="dropdown-item" href="products/ceramic-products">Ceramic Products</a></li>
+                            <li><a class="dropdown-item" href="products/cast-basalt">Cast Basalt</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact Us</a>
+                        <a class="nav-link" href="contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
