@@ -1,4 +1,4 @@
-<?php include "header.php"; ?>
+<?php include "header1.php"; ?>
 
     <!-- Page Header -->
     <section class="hero-section" style="padding: 120px 0 60px;">
@@ -135,4 +135,4 @@
         </div>
     </section>
 
-<?php include "footer.php"; ?>
+<?php include "footer1.php"; ?>

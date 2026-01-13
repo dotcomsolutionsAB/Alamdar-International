@@ -4,26 +4,27 @@
             <div class="row">
                 <div class="col-md-4">
                     <h5>Alamdar International</h5>
-                    <p>Leading manufacturer and supplier of industrial products and solutions. Committed to quality, innovation, and customer satisfaction.</p>
+                    <p>Leading manufacturer and supplier of industrial products and solutions. Committed to quality,
+                        innovation, and customer satisfaction.</p>
                 </div>
                 <div class="col-md-4">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="../about.html">About Us</a></li>
-                        <li><a href="../products.html">Products</a></li>
-                        <li><a href="../contact.html">Contact Us</a></li>
+                        <li><a href="index">Home</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="products">Products</a></li>
+                        <li><a href="contact">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h5>Contact Info</h5>
                     <p><i class="fas fa-envelope"></i> info@alamdarinternational.com</p>
-                    <p><i class="fas fa-phone"></i> +91 XXX XXX XXXX</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Kolkata, India</p>
+                    <p><i class="fas fa-phone"></i> +91( 033) 2243-5134</p>
+                    <p><i class="fas fa-map-marker-alt"></i>75, Netaji Subhas Road, 1st FLOOR, Room No. 7A, Kolkata – 700 001</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Alamdar International. All rights reserved.</p>
+                <p>&copy; 2026 Alamdar International. All rights reserved.</p>
             </div>
         </div>
     </footer>
