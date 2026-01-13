@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Precision-manufactured bellows for thermal expansion, vibration absorption, and misalignment compensation in industrial piping systems.">
     <title>Bellows - Alamdar International</title>
-    
+    <link rel="icon" type="image/png" href="../assets/logo.png">
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index">
-                <img src="assets/logo.png" alt="Alamdar International" height="40">
+                <img src="../assets/logo.png" alt="Alamdar International" height="40">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>

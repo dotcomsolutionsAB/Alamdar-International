@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="https://via.placeholder.com/600x400/2c5f8d/ffffff?text=Ceramic+Products" alt="Ceramic Products" class="img-fluid rounded">
+                    <img src="../assets/products/ceramic.jpeg" alt="Ceramic Products" class="img-fluid rounded">
                 </div>
                 <div class="col-lg-6">
                     <h2 class="text-primary-custom mb-4">Premium Ceramic Solutions</h2>

@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="https://via.placeholder.com/600x400/2c5f8d/ffffff?text=Cast+Basalt+Products" alt="Cast Basalt Products" class="img-fluid rounded">
+                    <img src="../assets/products/cast-b.jpeg" alt="Cast Basalt Products" class="img-fluid rounded">
                 </div>
                 <div class="col-lg-6">
                     <h2 class="text-primary-custom mb-4">Wear-Resistant Cast Basalt</h2>
