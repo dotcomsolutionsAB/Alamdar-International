@@ -19,12 +19,12 @@
                 <div class="col-md-4">
                     <h5>Contact Info</h5>
                     <p><i class="fas fa-envelope"></i> info@alamdarinternational.com</p>
-                    <p><i class="fas fa-phone"></i> +91 XXX XXX XXXX</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Kolkata, India</p>
+                    <p><i class="fas fa-phone"></i> +91( 033) 2243-5134</p>
+                    <p><i class="fas fa-map-marker-alt"></i>75, Netaji Subhas Road, 1st FLOOR, Room No. 7A, Kolkata – 700 001</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Alamdar International. All rights reserved.</p>
+                <p>&copy; 2026 Alamdar International. All rights reserved.</p>
             </div>
         </div>
     </footer>
