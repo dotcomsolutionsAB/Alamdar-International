@@ -26,10 +26,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index">Home</a>
+                        <a class="nav-link active" href="../index">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about">About Us</a>
+                        <a class="nav-link" href="../about">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
@@ -37,7 +37,7 @@
                             Products
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                            <li><a class="dropdown-item" href="product">All Products</a></li>
+                            <li><a class="dropdown-item" href="../product">All Products</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -50,7 +50,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact Us</a>
+                        <a class="nav-link" href="../contact">Contact Us</a>
                     </li>
                 </ul>
             </div>

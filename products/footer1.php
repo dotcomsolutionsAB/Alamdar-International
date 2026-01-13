@@ -10,10 +10,10 @@
                 <div class="col-md-4">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="index">Home</a></li>
-                        <li><a href="about">About Us</a></li>
-                        <li><a href="products">Products</a></li>
-                        <li><a href="contact">Contact Us</a></li>
+                        <li><a href="../index">Home</a></li>
+                        <li><a href="../about">About Us</a></li>
+                        <li><a href="../products">Products</a></li>
+                        <li><a href="../contact">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
