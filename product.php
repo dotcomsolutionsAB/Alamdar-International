@@ -39,7 +39,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="product-card">
-                        <img src="assets/products/rubber.jpeg"
+                        <img src="assets/products/rubber_A.jpeg"
                             alt="Rubber Products" class="card-img-top">
                         <div class="product-card-body">
                             <h5 class="product-card-title">Rubber Products</h5>

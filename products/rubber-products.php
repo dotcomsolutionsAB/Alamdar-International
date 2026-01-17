@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="../assets/products/rubber.jpeg" alt="Rubber Expansion Joints" class="img-fluid rounded">
+                    <img src="../assets/products/rubber_A.jpeg" alt="Rubber Expansion Joints" class="img-fluid rounded">
                 </div>
                 <div class="col-lg-6">
                     <h2 class="text-primary-custom mb-4">Rubber Expansion Joints</h2>
