@@ -41,7 +41,7 @@
 
                 <div class="col-md-4">
                     <div class="product-card">
-                        <img src="assets/home_rubber.jpg" alt="Rubber Products" class="card-img-top">
+                        <img src="assets/A_rubber.jpeg" alt="Rubber Products" class="card-img-top">
                         <div class="product-card-body">
                             <h5 class="product-card-title">Rubber Products</h5>
                             <p>High-quality rubber expansion joints designed to absorb vibrations, minimize noise, and
