@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Alamdar International for inquiries about our industrial products and services. Get in touch with our team today.">
+    <title>Contact Us - Alamdar International</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logo.png" alt="Alamdar International" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="products.html">All Products</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="products/valves.html">Valves</a></li>
+                            <li><a class="dropdown-item" href="products/rubber-products.html">Rubber Products</a></li>
+                            <li><a class="dropdown-item" href="products/bellows.html">Bellows</a></li>
+                            <li><a class="dropdown-item" href="products/pressure-temp.html">Pressure & Temp.</a></li>
+                            <li><a class="dropdown-item" href="products/ceramic-products.html">Ceramic Products</a></li>
+                            <li><a class="dropdown-item" href="products/cast-basalt.html">Cast Basalt</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero-section" style="padding: 120px 0 60px;">
+        <div class="container">
+            <h1 class="text-center">Contact Us</h1>
+            <p class="text-center" style="font-size: 1.2rem;">Get in Touch with Our Team</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-4 mb-lg-0">
+                    <div class="contact-form">
+                        <h3 class="mb-4">Send Us a Message</h3>
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Name <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                    <div class="invalid-feedback">
+                                        Please provide your name.
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email <span
+                                            class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid email address.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="tel" class="form-control" id="phone" name="phone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="subject" name="subject" required>
+                                <div class="invalid-feedback">
+                                    Please provide a subject.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message <span
+                                        class="text-danger">*</span></label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                <div class="invalid-feedback">
+                                    Please provide your message.
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mb-4">
+                        <h4 class="text-primary-custom mb-4">Contact Information</h4>
+                        <div class="mb-3">
+                            <i class="fas fa-map-marker-alt text-primary-custom me-2"></i>
+                            <strong>Address:</strong><br>
+                            <span class="ms-4">75, Netaji Subhas Road, 1st FLOOR,
+                                Room No. 7A, Kolkata – 700 001</span>
+                        </div>
+                        <div class="mb-3">
+                            <i class="fas fa-phone text-primary-custom me-2"></i>
+                            <strong>Phone:</strong><br>
+                            <span class="ms-4">+91( 033) 2243-5134</span>
+                        </div>
+                        <div class="mb-3">
+                            <i class="fas fa-envelope text-primary-custom me-2"></i>
+                            <strong>Email:</strong><br>
+                            <span class="ms-4">info@alamdarinternational.com</span>
+                        </div>
+                        <div class="mb-3">
+                            <i class="fas fa-clock text-primary-custom me-2"></i>
+                            <strong>Business Hours:</strong><br>
+                            <span class="ms-4">Monday - Friday: 9:00 AM - 6:00 PM<br>
+                                Saturday: 9:00 AM - 1:00 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <h5 class="text-primary-custom mb-3">Follow Us</h5>
+                        <div class="d-flex gap-3">
+                            <a href="#" class="text-primary-custom" style="font-size: 1.5rem;"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="#" class="text-primary-custom" style="font-size: 1.5rem;"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="#" class="text-primary-custom" style="font-size: 1.5rem;"><i
+                                    class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section (Optional) -->
+    <section class="section bg-light">
+        <div class="container">
+            <h3 class="text-center mb-4">Find Us</h3>
+            <div class="text-center">
+                <div
+                    style="height: 400px; background-color: #e0e0e0; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                    <p class="text-muted">Map integration can be added here</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Alamdar International</h5>
+                    <p>Leading manufacturer and supplier of industrial products and solutions. Committed to quality,
+                        innovation, and customer satisfaction.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-envelope"></i> info@alamdarinternational.com</p>
+                    <p><i class="fas fa-phone"></i> +91 XXX XXX XXXX</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Kolkata, India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Alamdar International. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

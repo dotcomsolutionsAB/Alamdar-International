@@ -1,0 +1,27 @@
+/* ===============================
+   GLOBAL MOBILE ADJUSTMENTS
+   =============================== */
+@media (max-width: 1024px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    section {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+
+    h1 {
+        font-size: 36px !important;
+    }
+
+    h2 {
+        font-size: 30px !important;
+    }
+
+    h3 {
+        font-size: 22px !important;
+    }
+
+}

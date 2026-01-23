@@ -1,0 +1,149 @@
+:root {
+    --primary: #28a5db;
+    /* OLD: #ff7a4d */
+    --secondary: #0b1430;
+    /* OLD: #0b1430 */
+    --secondary-mid: #1a223d;
+    /* OLD: #1a223d */
+    --primary-2: #1f8fc0;
+    /* slightly darker for gradient */
+    --placeholder-bg: #414b6a46;
+    --prev-color: ;
+}
+
+/* ===== Primary utilities ===== */
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.border-primary {
+    border-color: var(--primary) !important;
+}
+
+/* Primary with opacity (since you used /30 in tailwind) */
+.border-primary-30 {
+    border-color: rgba(40, 165, 219, .30) !important;
+}
+
+.border-primary-60 {
+    border-color: rgba(40, 165, 219, .60) !important;
+}
+
+/* ===== Secondary utilities ===== */
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+
+.bg-secondary-mid {
+    background-color: var(--secondary-mid) !important;
+}
+
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+/* ===== Navbar gradient helper (replaces bg-gradient-to-r from...via...to...) ===== */
+.nav-gradient {
+    background: linear-gradient(90deg, var(--secondary) 0%, var(--secondary-mid) 50%, var(--secondary) 100%) !important;
+}
+
+/* ===== Hover helpers ===== */
+.hover-text-primary:hover {
+    color: var(--primary) !important;
+}
+
+.hover-bg-primary:hover {
+    background-color: var(--primary) !important;
+}
+
+.hover-border-primary:hover {
+    border-color: var(--primary) !important;
+}
+
+/* Button gradient using primary color (same on both sides) */
+.btn-primary-grad {
+    background: linear-gradient(90deg, var(--primary), var(--primary)) !important;
+}
+
+.btn-secondary-grad {
+    background: linear-gradient(90deg, var(--secondary), var(--secondary)) !important;
+}
+
+.btn-secondary-pri-grad {
+    background: linear-gradient(40deg, #8ad8f938, #2a365e5f) !important;
+}
+
+.btn-primary-grad:hover {
+    filter: brightness(1.05);
+}
+
+/* Generic primary gradient background */
+.bg-primary-grad {
+    background: linear-gradient(90deg, var(--primary-2), var(--primary)) !important;
+}
+
+/* primary gradients */
+.bg-primary-grad-r {
+    background: linear-gradient(90deg, var(--primary-2), var(--primary)) !important;
+}
+
+.bg-primary-grad-b {
+    background: linear-gradient(180deg, var(--primary-2), var(--primary)) !important;
+}
+
+
+/* primary glow blobs */
+.bg-primary-glow-15 {
+    background: radial-gradient(circle at top right,
+            rgba(40, 165, 219, 0.15),
+            transparent 65%);
+}
+
+.bg-primary-glow-10 {
+    background: radial-gradient(circle at top right,
+            rgba(40, 165, 219, 0.10),
+            transparent 65%);
+}
+
+/* primary gradient (left → right) */
+.bg-primary-gradient {
+    background: linear-gradient(90deg, var(--primary), var(--primary));
+}
+
+/* Helper css */
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scaleX(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+
+.animate-fade-up {
+    animation: fadeUp .8s ease forwards;
+}
+
+.animate-scale-in {
+    animation: scaleIn .6s ease forwards;
+}

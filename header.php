@@ -1,61 +1,237 @@
-<!DOCTYPE html>
 <html lang="en">
-
+<?php include 'config/static-data.php'; ?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Alamdar International - Leading manufacturer and supplier of industrial valves, rubber products, bellows, pressure & temperature instruments, ceramic products, and cast basalt.">
-    <title>Alamdar International - Industrial Products Manufacturer</title>
-    <link rel="icon" type="image/png" href="assets/logo.png">
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <title><?= SITE_NAME ?></title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= SITE_LOGO ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= SITE_LOGO ?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= SITE_LOGO ?>">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+    <link rel="stylesheet" href="assets/css/color.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <style>
+        html,
+        body {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        /* force Montserrat everywhere */
+        * {
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+    <style>
+        body.custom-cursor {
+            cursor: none;
+        }
+
+        #cursorDot,
+        #cursorRing {
+            position: fixed;
+            left: 0;
+            top: 0;
+            pointer-events: none;
+            z-index: 99999;
+            transform: translate(-50%, -50%);
+        }
+
+        #cursorDot {
+            width: 8px;
+            height: 8px;
+            border-radius: 9999px;
+            background: var(--primary); 
+        }
+
+        #cursorRing {
+            width: 34px;
+            height: 34px;
+            border-radius: 9999px;
+            border: 2px solid rgba(0, 110, 157, 0.6);
+            transition: width .18s ease, height .18s ease, border-color .18s ease, opacity .18s ease;
+            opacity: .9;
+        }
+
+        /* Hover effect for links/buttons */
+        .cursor-hover #cursorRing {
+            width: 50px;
+            height: 50px;
+            border-color: rgba(40,165,219,.60);
+            opacity: 1;
+        }
+    </style>
+    <style>
+        #main-nav.nav-scrolled {
+            background: linear-gradient(90deg,
+                    #0b1430 0%,
+                    #1a223d 50%,
+                    #0b1430 100%);
+            box-shadow: 0 20px 50px rgba(16, 24, 40, 0.35);
+            border-bottom: 2px solid rgba(40,165,219,.60);
+            backdrop-filter: blur(10px);
+        }
+    </style>
 </head>
 
-<body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index">
-                <img src="assets/logo.png" alt="Alamdar International" height="40">
+<body class="custom-cursor">
+    <!-- Topbar -->
+    <div class="bg-[#222B3A] text-white text-sm hidden md:block">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center py-2 px-4">
+            <div class="flex flex-wrap items-center gap-x-6 gap-y-1">
+                <span class="flex items-center"><i class="fa-solid fa-location-dot mr-1 text-primary"></i><a
+                        href="https://maps.app.goo.gl/RU419bHcAWhNFQqb8" class="hover:underline"><?= SITE_ADDRESS ?></a></span>
+                <span class="flex items-center"><i class="fa-solid fa-envelope ml-4 mr-1 text-primary"></i><a
+                        href="mailto:<?= SITE_EMAIL ?>" class="hover:underline"><?= SITE_EMAIL ?></a></span>
+            </div>
+            <div class="flex flex-wrap items-center gap-x-6 gap-y-1 mt-1 md:mt-0">
+                <span class="flex items-center"><i class="fa-solid fa-clock mr-1 text-primary"></i>Mon to Sat: 8.00
+                    am - 7.00 pm</span>
+                <a href="<?= SITE_FACEBOOK ?>" class="ml-2 hover:text-blue-500"><i class="fab fa-facebook-f"></i></a>
+                <a href="<?= SITE_TWITTER ?>" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                <a href="https://pinterest.com" class="hover:text-red-500"><i class="fab fa-pinterest-p"></i></a>
+                <a href="https://instagram.com" class="hover:text-pink-500"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation Bar -->
+    <nav id="main-nav" class="sticky top-0 z-[9999] nav-gradient text-white w-full border-b border-primary-30-30 transition-all duration-300">
+
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-4 h-20">
+            <!-- Logo -->
+            <a href="index.php" class="flex items-center flex-shrink-0 h-full">
+                <img src="<?= SITE_LOGO ?>" alt="getizy HTML" class="h-8 md:h-16 w-auto drop-shadow-xl" />
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
-                            data-bs-toggle="dropdown">
-                            Products
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                            <li><a class="dropdown-item" href="product">All Products</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="products/valves">Valves</a></li>
-                            <li><a class="dropdown-item" href="products/rubber-products">Rubber Products</a></li>
-                            <li><a class="dropdown-item" href="products/bellows">Bellows</a></li>
-                            <li><a class="dropdown-item" href="products/pressure-temp">Pressure & Temp.</a></li>
-                            <li><a class="dropdown-item" href="products/ceramic-products">Ceramic Products</a></li>
-                            <li><a class="dropdown-item" href="products/cast-basalt">Cast Basalt</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact Us</a>
-                    </li>
-                </ul>
+            <!-- Menu -->
+            <ul class="hidden lg:flex flex-1 justify-center space-x-2 font-semibold text-base">
+                <li>
+                    <a href="index.php"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-house text-primary"></i>
+                        <span class="relative z-10">Home</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-primary rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.php"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-user-tie text-primary"></i>
+                        <span class="relative z-10">About</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-primary rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="services-grid.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-cogs text-primary"></i>
+                        <span class="relative z-10">Services</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-primary rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li> -->
+                <li>
+                    <a href="products.php"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-diagram-project text-primary"></i>
+                        <span class="relative z-10">Products</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-primary rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="blog-grid.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-blog text-primary"></i>
+                        <span class="relative z-10">Blog</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-primary rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li> -->
+            </ul>
+            <!-- Actions -->
+            <div class="flex items-center gap-2 md:gap-3 flex-shrink-0 whitespace-nowrap">
+    
+                <!-- Contact button: show always -->
+                <a href="contact.php" class="btn-primary-grad text-[#1A2230] px-7 py-2 rounded-2xl font-bold shadow-xl transition-all duration-200 border-2 border-primary-30 hover:scale-105 text-sm md:text-base">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="ml-3 relative z-10">Contact</span>
+                </a>
+
+                <!-- Phone: hide on mobile -->
+                <a href="tel:<?= SITE_PHONE_LINK ?>"
+                class="hidden md:flex items-center gap-2 text-white hover:text-primary transition-all duration-200">
+                    <i class="fa-solid fa-phone animate-pulse"></i>
+                    <span class="font-semibold"><?= SITE_PHONE ?></span>
+                </a>
+
+                <!-- Burger -->
+                <button id="menuBtn"
+                    class="lg:hidden text-2xl ml-1 text-white hover:text-primary transition-all duration-200"
+                    aria-label="Open Menu" aria-expanded="false" type="button">
+                    <i id="menuIcon" class="fa fa-bars"></i>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="lg:hidden hidden border-t border-white/10 bg-[#0b1430]/95 backdrop-blur">
+            <div class="max-w-7xl mx-auto px-4 py-4 space-y-2">
+
+                <a href="index.php"
+                class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
+                    <i class="fa-solid fa-house text-primary"></i>
+                    Home
+                </a>
+
+                <a href="about.php"
+                class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
+                    <i class="fa-solid fa-user-tie text-primary"></i>
+                    About
+                </a>
+
+                <a href="services-grid.php"
+                class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
+                    <i class="fa-solid fa-cogs text-primary"></i>
+                    Services
+                </a>
+
+                <a href="project.php"
+                class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
+                    <i class="fa-solid fa-diagram-project text-primary"></i>
+                    Projects
+                </a>
+
+                <a href="blog-grid.php"
+                class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
+                    <i class="fa-solid fa-blog text-primary"></i>
+                    Blog
+                </a>
+
+                <a href="contact.php"
+                class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
+                    <i class="fa-solid fa-envelope text-primary"></i>
+                    Contact
+                </a>
+
+                <div class="pt-3 border-t border-white/10 flex flex-col gap-3">
+                    <a href="contact.php"
+                    class="w-full text-center bg-gradient-to-r from-[#ff7a4d] to-[#ff5c2a] text-[#1A2230] px-6 py-3 rounded-2xl font-bold shadow-xl">
+                        Contact Us
+                    </a>
+
+                    <a href="tel:<?= SITE_PHONE_LINK ?>"
+                    class="w-full flex items-center justify-center gap-2 text-white hover:text-primary transition">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="font-semibold"><?= SITE_PHONE ?></span>
+                    </a>
+                </div>
             </div>
         </div>
     </nav>

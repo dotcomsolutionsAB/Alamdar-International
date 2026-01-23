@@ -1,180 +1,177 @@
-<?php include "header.php"; ?>
+<?php include 'header.php'; ?>
 
-    <!-- Page Header -->
-    <section class="hero-section" style="padding: 120px 0 60px;">
-        <div class="container">
-            <h1 class="text-center">About Alamdar International</h1>
-            <p class="text-center" style="font-size: 1.2rem;">Excellence in Industrial Manufacturing</p>
+    <!-- ===================== ABOUT (same as screenshot + animations) ===================== -->
+    <section id="about-best-agency" class="relative py-24 bg-white overflow-hidden">
+        <!-- soft peach glow right like template -->
+        <div
+            class="absolute -right-40 -top-40 w-[520px] h-[520px] rounded-full bg-primary-glow-15 blur-3xl pointer-events-none">
         </div>
-    </section>
+        <div
+            class="absolute -right-64 top-10 w-[700px] h-[700px] rounded-full bg-primary-glow-10 blur-3xl pointer-events-none">
+        </div>
 
-    <!-- About Content -->
-    <section class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2 class="text-primary-custom mb-4">Our Story</h2>
-                    <p>Alamdar International has been a trusted name in the industrial manufacturing sector for years.
-                        We specialize in the production and supply of high-quality industrial products including valves,
-                        rubber products, bellows, pressure & temperature instruments, ceramic products, and cast basalt.
-                    </p>
-                    <p>Founded with a vision to provide superior quality products and exceptional customer service, we
-                        have grown to become a recognized leader in our industry. Our commitment to excellence and
-                        innovation has enabled us to serve clients across various sectors including power generation,
-                        chemical processing, water treatment, oil & gas, and infrastructure development.</p>
-                    <p>We combine traditional manufacturing expertise with modern technology to deliver products that
-                        meet the highest international standards. Our state-of-the-art facilities and rigorous quality
-                        control processes ensure that every product leaving our factory meets our stringent quality
-                        requirements.</p>
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+            <!-- LEFT CONTENT -->
+            <div class="aboutL opacity-0 translate-y-6">
+                <div class="flex items-center gap-3 text-sm font-bold tracking-wide mb-4">
+                    <span class="w-3 h-3 rotate-45 bg-secondary inline-block"></span>
+                    <span class="text-primary">ABOUT US</span>
                 </div>
-                <div class="col-lg-6">
-                    <img src="assets/about_us.jpg" alt="Manufacturing Facilities" class="img-fluid rounded shadow">
+
+                <h2 class="text-5xl md:text-6xl font-black text-secondary leading-[1.05]">
+                    We’re the Best Agency<br />in Downtown
+                </h2>
+
+                <p class="mt-6 text-gray-500 text-lg leading-relaxed max-w-xl">
+                    There are many variations of passages of Lorem Ipsum avalab but
+                    the majority have suffered alteration in some form, by injected
+                    humour, or randomised words which don't
+                </p>
+
+                <!-- two feature blocks -->
+                <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-8 border-b border-black/15 pb-10">
+                    <div class="flex gap-5 items-start pr-0 sm:pr-8 sm:border-r sm:border-black/10">
+                        <div
+                            class="w-14 h-14 rounded-full bg-primary/12 text-primary flex items-center justify-center text-xl">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <div>
+                            <div class="text-xl font-extrabold text-secondary leading-snug">Versatile
+                                Latest<br />Technology</div>
+                            <div class="mt-3 text-gray-500 leading-relaxed">There are many variations of passages of
+                                Lorem</div>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-5 items-start pl-0 sm:pl-8">
+                        <div
+                            class="w-14 h-14 rounded-full bg-primary/12 text-primary flex items-center justify-center text-xl">
+                            <i class="fa-solid fa-user-group"></i>
+                        </div>
+                        <div>
+                            <div class="text-xl font-extrabold text-secondary leading-snug">Professional<br />Team
+                                Members</div>
+                            <div class="mt-3 text-gray-500 leading-relaxed">There are many variations of passages of
+                                Lorem</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- checklist + small image -->
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-end">
+                    <div class="space-y-5">
+                        <div class="flex items-center gap-4 text-gray-500 text-lg">
+                            <span
+                                class="w-8 h-8 rounded-full bg-secondary text-white flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            Many variations of passages of lorem
+                        </div>
+                        <div class="flex items-center gap-4 text-gray-500 text-lg">
+                            <span
+                                class="w-8 h-8 rounded-full bg-secondary text-white flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            Many variations of passages of lorem
+                        </div>
+                        <div class="flex items-center gap-4 text-gray-500 text-lg">
+                            <span
+                                class="w-8 h-8 rounded-full bg-secondary text-white flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            Expert many variations teacher
+                        </div>
+
+                        <a href="#"
+                            class="inline-block mt-6 btn-primary-grad text-white font-bold px-9 py-3 shadow hover:opacity-95 transition">
+                            Discover More
+                        </a>
+                    </div>
+
+                    <div class="aboutMini opacity-0 translate-y-6">
+                        <img src="https://picsum.photos/520/360?random=211" alt="about small"
+                            class="w-full h-[220px] object-cover shadow-xl border border-black/5" />
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Mission & Values -->
-    <section class="section bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <h2 class="text-primary-custom mb-4">Our Mission</h2>
-                    <p>Our mission is to be the preferred partner for industrial products and solutions by delivering
-                        superior quality, innovative solutions, and exceptional customer service. We strive to exceed
-                        customer expectations while maintaining the highest standards of integrity and professionalism.
-                    </p>
-                    <p>We are committed to continuous improvement, investing in technology and training to enhance our
-                        capabilities and better serve our customers. Our goal is to build long-term relationships based
-                        on trust, reliability, and mutual success.</p>
-                </div>
-                <div class="col-lg-6">
-                    <h2 class="text-primary-custom mb-4">Our Values</h2>
-                    <ul class="list-unstyled">
-                        <li class="mb-3">
-                            <i class="fas fa-check-circle text-primary-custom me-2"></i>
-                            <strong>Quality First:</strong> We never compromise on quality and ensure all products meet
-                            international standards.
-                        </li>
-                        <li class="mb-3">
-                            <i class="fas fa-check-circle text-primary-custom me-2"></i>
-                            <strong>Customer Focus:</strong> Our customers are at the heart of everything we do. We
-                            listen, understand, and deliver solutions that meet their needs.
-                        </li>
-                        <li class="mb-3">
-                            <i class="fas fa-check-circle text-primary-custom me-2"></i>
-                            <strong>Innovation:</strong> We continuously invest in new technologies and processes to
-                            improve our products and services.
-                        </li>
-                        <li class="mb-3">
-                            <i class="fas fa-check-circle text-primary-custom me-2"></i>
-                            <strong>Integrity:</strong> We conduct our business with honesty, transparency, and ethical
-                            practices.
-                        </li>
-                        <li class="mb-3">
-                            <i class="fas fa-check-circle text-primary-custom me-2"></i>
-                            <strong>Reliability:</strong> We deliver on our promises and stand behind our products with
-                            comprehensive support.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+            <!-- RIGHT IMAGE + ORANGE FRAME + EXPERIENCE SEMI -->
+            <div class="relative aboutR opacity-0 translate-y-6">
+                <!-- orange frame behind image -->
+                <div class="absolute -left-6 top-10 bottom-10 w-16 btn-primary-grad"></div>
 
-    <!-- Capabilities -->
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">Our Capabilities</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <i class="fas fa-industry"></i>
-                        <h4>Manufacturing Excellence</h4>
-                        <p>State-of-the-art manufacturing facilities equipped with modern machinery and technology to
-                            produce high-quality industrial products.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <i class="fas fa-microscope"></i>
-                        <h4>Quality Assurance</h4>
-                        <p>Rigorous quality control processes and testing to ensure every product meets international
-                            standards and customer specifications.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <i class="fas fa-users"></i>
-                        <h4>Expert Team</h4>
-                        <p>Experienced professionals with deep industry knowledge and expertise in manufacturing,
-                            engineering, and quality management.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <i class="fas fa-globe"></i>
-                        <h4>Global Standards</h4>
-                        <p>Our products comply with API, ANSI, DIN, and other international standards, ensuring
-                            compatibility and reliability worldwide.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <i class="fas fa-truck"></i>
-                        <h4>Timely Delivery</h4>
-                        <p>Efficient logistics and supply chain management to ensure on-time delivery of products to our
-                            customers.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <i class="fas fa-headset"></i>
-                        <h4>Customer Support</h4>
-                        <p>Comprehensive after-sales support and technical assistance to help customers get the most out
-                            of our products.</p>
+                <div class="relative bg-white shadow-[0_18px_60px_rgba(16,24,40,0.16)] border border-black/5">
+                    <img src="https://picsum.photos/900/1100?random=212" alt="about main"
+                        class="w-full h-[560px] object-cover" />
+
+                    <!-- semi circle badge -->
+                    <div class="absolute left-1/2 -translate-x-1/2 -bottom-20 w-[360px] h-[180px] rounded-t-[999px]
+                        bg-primary-gradient shadow-2xl flex flex-col items-center justify-center">
+                        <div class="text-white text-6xl font-black leading-none">20+</div>
+                        <div class="mt-2 text-white/95 text-xl font-bold">Year Of Experience</div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <style>
+            /* reveal animations */
+            #about-best-agency .about-in {
+                animation: aboutReveal .75s ease forwards;
+            }
+
+            #about-best-agency .about-in-delay {
+                animation: aboutReveal .75s ease forwards;
+                animation-delay: .18s;
+            }
+
+            #about-best-agency .about-in-delay2 {
+                animation: aboutReveal .75s ease forwards;
+                animation-delay: .32s;
+            }
+
+            @keyframes aboutReveal {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            /* subtle hover on right image container */
+            #about-best-agency .aboutR:hover {
+                transform: translateY(-4px);
+                transition: transform .25s ease;
+            }
+        </style>
+
+        <script>
+            // IntersectionObserver animation trigger
+            (function () {
+                const root = document.querySelector("#about-best-agency");
+                if (!root) return;
+
+                const left = root.querySelector(".aboutL");
+                const right = root.querySelector(".aboutR");
+                const mini = root.querySelector(".aboutMini");
+
+                const io = new IntersectionObserver((entries) => {
+                    entries.forEach((e) => {
+                        if (!e.isIntersecting) return;
+
+                        if (left) left.classList.add("about-in");
+                        if (right) right.classList.add("about-in-delay");
+                        if (mini) mini.classList.add("about-in-delay2");
+
+                        io.disconnect();
+                    });
+                }, { threshold: 0.18 });
+
+                io.observe(root);
+            })();
+        </script>
     </section>
 
-    <!-- Certifications -->
-    <section class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Quality Certifications</h2>
-            <p class="section-subtitle">We maintain the highest standards of quality and compliance</p>
-            <div class="row g-4 text-center">
-                <div class="col-md-3">
-                    <div class="p-4">
-                        <i class="fas fa-certificate fa-3x text-primary-custom mb-3"></i>
-                        <h5>API Certified</h5>
-                        <p>American Petroleum Institute standards compliance</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="p-4">
-                        <i class="fas fa-award fa-3x text-primary-custom mb-3"></i>
-                        <h5>ISO Standards</h5>
-                        <p>International quality management standards</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="p-4">
-                        <i class="fas fa-shield-alt fa-3x text-primary-custom mb-3"></i>
-                        <h5>Quality Assured</h5>
-                        <p>Rigorous testing and quality control processes</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="p-4">
-                        <i class="fas fa-check-double fa-3x text-primary-custom mb-3"></i>
-                        <h5>Industry Approved</h5>
-                        <p>Recognized by leading industrial organizations</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- ===================== OUR TEAM (icons fixed + hover effect like image) ===================== -->
+    <?php include 'inc/our-team.php'; ?>
 
-<?php include "footer.php"; ?>
+<?php include 'footer.php'; ?>

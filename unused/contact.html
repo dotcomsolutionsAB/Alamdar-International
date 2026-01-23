@@ -1,213 +1,684 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Contact Alamdar International for inquiries about our industrial products and services. Get in touch with our team today.">
-    <title>Contact Us - Alamdar International</title>
+    <title>Contact || Alamdar International</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <style>
+        html,
+        body {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        /* force Montserrat everywhere */
+        * {
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+    <style>
+        body.custom-cursor {
+            cursor: none;
+        }
+
+        #cursorDot,
+        #cursorRing {
+            position: fixed;
+            left: 0;
+            top: 0;
+            pointer-events: none;
+            z-index: 99999;
+            transform: translate(-50%, -50%);
+        }
+
+        #cursorDot {
+            width: 8px;
+            height: 8px;
+            border-radius: 9999px;
+            background: #ff5c2a;
+        }
+
+        #cursorRing {
+            width: 34px;
+            height: 34px;
+            border-radius: 9999px;
+            border: 2px solid rgba(255, 92, 42, 0.55);
+            transition: width .18s ease, height .18s ease, border-color .18s ease, opacity .18s ease;
+            opacity: .9;
+        }
+
+        /* Hover effect for links/buttons */
+        .cursor-hover #cursorRing {
+            width: 50px;
+            height: 50px;
+            border-color: rgba(255, 122, 77, 0.9);
+            opacity: 1;
+        }
+    </style>
+    <style>
+        #main-nav.nav-scrolled {
+            background: linear-gradient(90deg,
+                    #0b1430 0%,
+                    #1a223d 50%,
+                    #0b1430 100%);
+            box-shadow: 0 20px 50px rgba(16, 24, 40, 0.35);
+            border-bottom: 2px solid rgba(255, 92, 42, 0.6);
+            backdrop-filter: blur(10px);
+        }
+    </style>
 </head>
 
-<body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/logo.png" alt="Alamdar International" height="40">
+<body class="custom-cursor">
+    <!-- Topbar -->
+    <div class="bg-[#222B3A] text-white text-sm">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center py-2 px-4">
+            <div class="flex flex-wrap items-center gap-x-6 gap-y-1">
+                <span class="flex items-center"><i class="fa-solid fa-location-dot mr-1 text-primary"></i><a
+                        href="https://maps.app.goo.gl/RU419bHcAWhNFQqb8" class="hover:underline">30 Commercial Road
+                        Fratton, Australia</a></span>
+                <span class="flex items-center"><i class="fa-solid fa-envelope ml-4 mr-1 text-primary"></i><a
+                        href="mailto:needhelp@company.com" class="hover:underline">needhelp@company.com</a></span>
+            </div>
+            <div class="flex flex-wrap items-center gap-x-6 gap-y-1 mt-1 md:mt-0">
+                <span class="flex items-center"><i class="fa-solid fa-clock mr-1 text-primary"></i>Mon to Sat: 8.00
+                    am - 7.00 pm</span>
+                <a href="https://facebook.com" class="ml-2 hover:text-blue-500"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                <a href="https://pinterest.com" class="hover:text-red-500"><i class="fab fa-pinterest-p"></i></a>
+                <a href="https://instagram.com" class="hover:text-pink-500"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation Bar -->
+    <nav id="main-nav" class="sticky top-0 z-[9999] bg-gradient-to-r from-[#0b1430] via-[#1a223d] to-[#0b1430]
+  text-white w-full border-b border-primary-30 transition-all duration-300">
+
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-0 h-20">
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center flex-shrink-0 h-full">
+                <img src="assets/images/logo-dark.png" alt="getizy HTML" class="h-16 w-auto drop-shadow-xl" />
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
-                            data-bs-toggle="dropdown">
-                            Products
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                            <li><a class="dropdown-item" href="products.html">All Products</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="products/valves.html">Valves</a></li>
-                            <li><a class="dropdown-item" href="products/rubber-products.html">Rubber Products</a></li>
-                            <li><a class="dropdown-item" href="products/bellows.html">Bellows</a></li>
-                            <li><a class="dropdown-item" href="products/pressure-temp.html">Pressure & Temp.</a></li>
-                            <li><a class="dropdown-item" href="products/ceramic-products.html">Ceramic Products</a></li>
-                            <li><a class="dropdown-item" href="products/cast-basalt.html">Cast Basalt</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact Us</a>
-                    </li>
-                </ul>
+            <!-- Menu -->
+            <ul class="hidden lg:flex flex-1 justify-center space-x-2 font-semibold text-base">
+                <li>
+                    <a href="index.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-house text-primary"></i>
+                        <span class="relative z-10">Home</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-[#ff7a4d] rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-user-tie text-primary"></i>
+                        <span class="relative z-10">About</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-[#ff7a4d] rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="services-grid.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-cogs text-primary"></i>
+                        <span class="relative z-10">Services</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-[#ff7a4d] rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="project.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-diagram-project text-primary"></i>
+                        <span class="relative z-10">Projects</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-[#ff7a4d] rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="blog-grid.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-blog text-primary"></i>
+                        <span class="relative z-10">Blog</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-[#ff7a4d] rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-envelope text-primary"></i>
+                        <span class="relative z-10">Contact</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-[#ff7a4d] rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+            </ul>
+            <!-- Actions -->
+            <div class="flex items-center gap-3">
+                <a href="contact.html"
+                    class="bg-gradient-to-r from-[#ff7a4d] to-[#ff7a4d] hover:from-[#ff7a4d] hover:to-[#ff7a4d] text-[#1A2230] px-7 py-2 rounded-2xl font-bold shadow-xl transition-all duration-200 border-2 border-[#ff7a4d] hover:border-[#ff7a4d] scale-100 hover:scale-105">Contact
+                    Us</a>
+                <a href="tel:+8801775-338747"
+                    class="hidden md:flex items-center gap-2 text-white hover:text-primary transition-all duration-200">
+                    <i class="fa-solid fa-phone animate-pulse"></i>
+                    <span class="font-semibold">(303) 555-0105</span>
+                </a>
+                <button class="lg:hidden text-2xl ml-2 text-white hover:text-primary transition-all duration-200"
+                    aria-label="Open Menu"><i class="fa fa-bars"></i></button>
             </div>
         </div>
     </nav>
 
-    <!-- Page Header -->
-    <section class="hero-section" style="padding: 120px 0 60px;">
-        <div class="container">
-            <h1 class="text-center">Contact Us</h1>
-            <p class="text-center" style="font-size: 1.2rem;">Get in Touch with Our Team</p>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mb-4 mb-lg-0">
-                    <div class="contact-form">
-                        <h3 class="mb-4">Send Us a Message</h3>
-                        <form id="contactForm">
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <label for="name" class="form-label">Name <span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control" id="name" name="name" required>
-                                    <div class="invalid-feedback">
-                                        Please provide your name.
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <label for="email" class="form-label">Email <span
-                                            class="text-danger">*</span></label>
-                                    <input type="email" class="form-control" id="email" name="email" required>
-                                    <div class="invalid-feedback">
-                                        Please provide a valid email address.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="phone" class="form-label">Phone</label>
-                                <input type="tel" class="form-control" id="phone" name="phone">
-                            </div>
-                            <div class="mb-3">
-                                <label for="subject" class="form-label">Subject <span
-                                        class="text-danger">*</span></label>
-                                <input type="text" class="form-control" id="subject" name="subject" required>
-                                <div class="invalid-feedback">
-                                    Please provide a subject.
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Message <span
-                                        class="text-danger">*</span></label>
-                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                                <div class="invalid-feedback">
-                                    Please provide your message.
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
-                        </form>
-                    </div>
+    <!-- ===================== CONTACT FORM (same as screenshot + animation) ===================== -->
+    <section id="contact-form" class="relative py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4">
+            <!-- Heading -->
+            <div class="text-center mb-14 cf-head opacity-0 translate-y-6">
+                <div class="flex items-center justify-center gap-3 text-sm font-bold tracking-wide mb-4">
+                    <span class="w-3 h-3 rotate-45 bg-[#23223b] inline-block"></span>
+                    <span class="text-primary uppercase">Contact With Us</span>
                 </div>
-                <div class="col-lg-4">
-                    <div class="mb-4">
-                        <h4 class="text-primary-custom mb-4">Contact Information</h4>
-                        <div class="mb-3">
-                            <i class="fas fa-map-marker-alt text-primary-custom me-2"></i>
-                            <strong>Address:</strong><br>
-                            <span class="ms-4">75, Netaji Subhas Road, 1st FLOOR,
-                                Room No. 7A, Kolkata – 700 001</span>
-                        </div>
-                        <div class="mb-3">
-                            <i class="fas fa-phone text-primary-custom me-2"></i>
-                            <strong>Phone:</strong><br>
-                            <span class="ms-4">+91( 033) 2243-5134</span>
-                        </div>
-                        <div class="mb-3">
-                            <i class="fas fa-envelope text-primary-custom me-2"></i>
-                            <strong>Email:</strong><br>
-                            <span class="ms-4">info@alamdarinternational.com</span>
-                        </div>
-                        <div class="mb-3">
-                            <i class="fas fa-clock text-primary-custom me-2"></i>
-                            <strong>Business Hours:</strong><br>
-                            <span class="ms-4">Monday - Friday: 9:00 AM - 6:00 PM<br>
-                                Saturday: 9:00 AM - 1:00 PM</span>
-                        </div>
+
+                <h2 class="text-5xl md:text-7xl font-black text-[#23223b] leading-[1.05]">
+                    Feel Free To Write Us Anytime
+                </h2>
+            </div>
+
+            <!-- Form -->
+            <div class="cf-wrap opacity-0 translate-y-8">
+                <form class="max-w-5xl mx-auto" action="#" method="post">
+                    <!-- 2 columns -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                        <input type="text" name="name" placeholder="Your Name"
+                            class="cf-input w-full bg-[#f8e7e2] px-10 py-7 text-lg font-semibold text-[#23223b] placeholder:text-[#23223b]/75 outline-none border border-transparent focus:border-[#ff5c2a]/35 focus:ring-0" />
+                        <input type="email" name="email" placeholder="Email Address"
+                            class="cf-input w-full bg-[#f8e7e2] px-10 py-7 text-lg font-semibold text-[#23223b] placeholder:text-[#23223b]/75 outline-none border border-transparent focus:border-[#ff5c2a]/35 focus:ring-0" />
+                        <input type="text" name="phone" placeholder="Phone"
+                            class="cf-input w-full bg-[#f8e7e2] px-10 py-7 text-lg font-semibold text-[#23223b] placeholder:text-[#23223b]/75 outline-none border border-transparent focus:border-[#ff5c2a]/35 focus:ring-0" />
+                        <input type="text" name="subject" placeholder="Write A Message"
+                            class="cf-input w-full bg-[#f8e7e2] px-10 py-7 text-lg font-semibold text-[#23223b] placeholder:text-[#23223b]/75 outline-none border border-transparent focus:border-[#ff5c2a]/35 focus:ring-0" />
                     </div>
 
-                    <div class="mt-4">
-                        <h5 class="text-primary-custom mb-3">Follow Us</h5>
-                        <div class="d-flex gap-3">
-                            <a href="#" class="text-primary-custom" style="font-size: 1.5rem;"><i
-                                    class="fab fa-facebook"></i></a>
-                            <a href="#" class="text-primary-custom" style="font-size: 1.5rem;"><i
-                                    class="fab fa-linkedin"></i></a>
-                            <a href="#" class="text-primary-custom" style="font-size: 1.5rem;"><i
-                                    class="fab fa-twitter"></i></a>
+                    <!-- message -->
+                    <div class="mt-10">
+                        <textarea name="message" rows="7" placeholder="Write A Message"
+                            class="cf-input w-full bg-[#f8e7e2] px-10 py-8 text-lg font-semibold text-[#23223b] placeholder:text-[#23223b]/75 outline-none border border-transparent focus:border-[#ff5c2a]/35 resize-none"></textarea>
+                    </div>
+
+                    <!-- button -->
+                    <div class="mt-12 flex justify-center">
+                        <button type="submit"
+                            class="cf-btn px-16 py-6 font-extrabold text-white text-lg shadow-xl bg-gradient-to-r from-[#ff5c2a] to-[#ff7a4d] hover:opacity-95 transition">
+                            Send a Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <style>
+            /* subtle input hover like screenshot (optional) */
+            #contact-form .cf-input {
+                transition: transform .18s ease, box-shadow .18s ease;
+            }
+
+            #contact-form .cf-input:hover {
+                box-shadow: 0 18px 50px rgba(16, 24, 40, 0.08);
+            }
+
+            /* Animations */
+            #contact-form .cf-in-up {
+                animation: cfInUp .75s ease forwards;
+            }
+
+            #contact-form .cf-in-up2 {
+                animation: cfInUp2 .85s ease forwards;
+            }
+
+            @keyframes cfInUp {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            @keyframes cfInUp2 {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        </style>
+
+        <script>
+            // animate on scroll (IntersectionObserver)
+            (function () {
+                const root = document.querySelector("#contact-form");
+                if (!root) return;
+
+                const head = root.querySelector(".cf-head");
+                const wrap = root.querySelector(".cf-wrap");
+
+                const io = new IntersectionObserver((entries) => {
+                    entries.forEach((e) => {
+                        if (!e.isIntersecting) return;
+
+                        if (head) head.classList.add("cf-in-up");
+                        if (wrap) wrap.classList.add("cf-in-up2");
+
+                        io.disconnect();
+                    });
+                }, { threshold: 0.18 });
+
+                io.observe(root);
+            })();
+        </script>
+    </section>
+
+
+    <!-- ===================== CONTACT (same as screenshot + animations) ===================== -->
+    <section id="contact-strip" class="relative py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <!-- LEFT CARDS -->
+                <div class="lg:col-span-4 space-y-8">
+                    <!-- Card 1 -->
+                    <div class="cCard opacity-0 translate-x-[-20px]" style="animation-delay:.05s">
+                        <div
+                            class="flex items-center bg-[#23223b] text-white px-10 py-8 shadow-[0_18px_55px_rgba(16,24,40,0.14)]">
+                            <div
+                                class="w-16 h-16 rounded-full bg-gradient-to-r from-[#ff5c2a] to-[#ff7a4d] flex items-center justify-center text-2xl shrink-0 shadow-lg">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+
+                            <div class="ml-6">
+                                <div class="text-white/60 text-lg">Call to Questions</div>
+                                <div class="mt-1 text-2xl font-extrabold">Free + 23 (000)-8050</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="cCard opacity-0 translate-x-[-20px]" style="animation-delay:.18s">
+                        <div
+                            class="flex items-center bg-[#23223b] text-white px-10 py-8 shadow-[0_18px_55px_rgba(16,24,40,0.14)]">
+                            <div
+                                class="w-16 h-16 rounded-full bg-gradient-to-r from-[#ff5c2a] to-[#ff7a4d] flex items-center justify-center text-2xl shrink-0 shadow-lg">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+
+                            <div class="ml-6">
+                                <div class="text-white/60 text-lg">Send Email</div>
+                                <div class="mt-1 text-2xl font-extrabold">Demo@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="cCard opacity-0 translate-x-[-20px]" style="animation-delay:.31s">
+                        <div
+                            class="flex items-center bg-[#23223b] text-white px-10 py-8 shadow-[0_18px_55px_rgba(16,24,40,0.14)]">
+                            <div
+                                class="w-16 h-16 rounded-full bg-gradient-to-r from-[#ff5c2a] to-[#ff7a4d] flex items-center justify-center text-2xl shrink-0 shadow-lg">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div class="ml-6">
+                                <div class="text-white/60 text-lg">Visit Anytime</div>
+                                <div class="mt-1 text-2xl font-extrabold">6391 Elgin St. Delaware</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT MAP -->
+                <div class="lg:col-span-8">
+                    <div class="cMap opacity-0 translate-y-[18px]">
+                        <div
+                            class="relative bg-white shadow-[0_22px_70px_rgba(16,24,40,0.16)] overflow-hidden border border-black/5">
+                            <!-- Map iframe (grayscale + fixed height like screenshot) -->
+                            <iframe class="w-full h-[440px] md:h-[520px] mapGray" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                src="https://www.google.com/maps?q=Costco%20Wholesale%20Westlake%20Village&output=embed">
+                            </iframe>
+
+                            <!-- subtle border overlay to match clean look -->
+                            <div class="pointer-events-none absolute inset-0 ring-1 ring-black/10"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <style>
+            /* grayscale map like screenshot */
+            #contact-strip .mapGray {
+                filter: grayscale(1) contrast(1.05) brightness(1.02);
+            }
+
+            /* entrance animations */
+            #contact-strip .c-in-left {
+                animation: cInLeft .75s ease forwards;
+            }
+
+            #contact-strip .c-in-up {
+                animation: cInUp .75s ease forwards;
+            }
+
+            @keyframes cInLeft {
+                to {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            }
+
+            @keyframes cInUp {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            /* hover micro interaction (optional but nice) */
+            #contact-strip .cCard>div {
+                transition: transform .25s ease, box-shadow .25s ease;
+            }
+
+            #contact-strip .cCard>div:hover {
+                transform: translateY(-4px);
+                box-shadow: 0 26px 70px rgba(16, 24, 40, 0.18);
+            }
+        </style>
+
+        <script>
+            // animate on scroll (IntersectionObserver)
+            (function () {
+                const root = document.querySelector("#contact-strip");
+                if (!root) return;
+
+                const cards = root.querySelectorAll(".cCard");
+                const map = root.querySelector(".cMap");
+
+                const io = new IntersectionObserver((entries) => {
+                    entries.forEach((e) => {
+                        if (!e.isIntersecting) return;
+
+                        cards.forEach((el) => el.classList.add("c-in-left"));
+                        if (map) map.classList.add("c-in-up");
+
+                        io.disconnect();
+                    });
+                }, { threshold: 0.18 });
+
+                io.observe(root);
+            })();
+        </script>
     </section>
 
-    <!-- Map Section (Optional) -->
-    <section class="section bg-light">
-        <div class="container">
-            <h3 class="text-center mb-4">Find Us</h3>
-            <div class="text-center">
-                <div
-                    style="height: 400px; background-color: #e0e0e0; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
-                    <p class="text-muted">Map integration can be added here</p>
+    <!-- ===================== FOOTER (same as image) ===================== -->
+    <footer id="site-footer" class="relative overflow-hidden text-white">
+        <!-- background image -->
+        <div class="absolute inset-0 bg-center bg-cover"
+            style="background-image:url('https://pixydrops.com/getizy-html/assets/images/backgrounds/about-1-dark.png');">
+        </div>
+
+        <!-- deep blue overlay -->
+        <div class="absolute inset-0 bg-[#23223b]/95"></div>
+
+        <!-- subtle pattern overlay (optional to match texture) -->
+        <div class="absolute inset-0 opacity-[0.15]"
+            style="background-image: repeating-linear-gradient(160deg, rgba(255,255,255,0.22) 0px, rgba(255,255,255,0.22) 1px, transparent 1px, transparent 16px);">
+        </div>
+
+        <div class="relative z-10">
+            <!-- TOP CONTENT -->
+            <div class="max-w-7xl mx-auto px-4 py-20">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-10 items-start">
+
+                    <!-- LEFT: logo + text + subscribe -->
+                    <div class="md:col-span-1">
+                        <div class="flex items-center gap-3">
+                            <img src="https://picsum.photos/60/60?random=77" class="w-10 h-10 rounded-full object-cover"
+                                alt="Logo">
+                            <div class="text-2xl font-extrabold">Getizy</div>
+                        </div>
+
+                        <p class="mt-6 text-white/55 leading-relaxed text-lg max-w-sm">
+                            There are many variations of passages of Lorem ip available, but the majority have
+                        </p>
+
+                        <div class="mt-10">
+                            <input type="email" placeholder="Email address"
+                                class="w-full bg-white text-[#23223b] px-6 py-4 outline-none border border-black/10" />
+                            <button
+                                class="w-full mt-5 bg-gradient-to-r from-[#ff5c2a] to-[#ff7a4d] text-white font-bold py-4 shadow-lg hover:opacity-95 transition">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- LINKS -->
+                    <div class="md:col-span-1 relative md:pl-12 footer-col with-line">
+                        <h4 class="text-xl font-extrabold text-primary mb-7">Links</h4>
+                        <ul class="space-y-4 text-white/55 text-lg">
+                            <li><a href="#" class="footer-link">About Us</a></li>
+                            <li><a href="#" class="footer-link">Our Mission</a></li>
+                            <li><a href="#" class="footer-link">Meet the Team</a></li>
+                            <li><a href="#" class="footer-link">Our Project</a></li>
+                            <li><a href="#" class="footer-link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- EXPLORE -->
+                    <div class="md:col-span-1 relative md:pl-12 footer-col with-line">
+                        <h4 class="text-xl font-extrabold text-primary mb-7">Explore</h4>
+                        <ul class="space-y-4 text-white/55 text-lg">
+                            <li><a href="#" class="footer-link">What We Offer</a></li>
+                            <li><a href="#" class="footer-link">Our Story</a></li>
+                            <li><a href="#" class="footer-link">Latest News</a></li>
+                            <li><a href="#" class="footer-link">Help Center</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- GALLERY -->
+                    <div class="md:col-span-1 relative md:pl-12 footer-col with-line">
+                        <h4 class="text-xl font-extrabold text-primary mb-7">Gallery</h4>
+
+                        <div class="grid grid-cols-3 gap-2">
+                            <img class="w-full h-20 object-cover" src="https://picsum.photos/200/200?random=31" alt="">
+                            <img class="w-full h-20 object-cover" src="https://picsum.photos/200/200?random=32" alt="">
+                            <img class="w-full h-20 object-cover" src="https://picsum.photos/200/200?random=33" alt="">
+                            <img class="w-full h-20 object-cover" src="https://picsum.photos/200/200?random=34" alt="">
+                            <img class="w-full h-20 object-cover" src="https://picsum.photos/200/200?random=35" alt="">
+                            <img class="w-full h-20 object-cover" src="https://picsum.photos/200/200?random=36" alt="">
+                        </div>
+
+                        <div class="mt-8 flex items-center gap-3">
+                            <a href="#" class="footer-social" aria-label="Facebook"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="footer-social" aria-label="Twitter"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="footer-social" aria-label="Pinterest"><i
+                                    class="fa-brands fa-pinterest-p"></i></a>
+                            <a href="#" class="footer-social" aria-label="YouTube"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- CONTACT STRIP (white bar) -->
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="bg-white text-[#23223b] border border-black/10 shadow-xl">
+                    <div class="grid grid-cols-1 md:grid-cols-3">
+
+                        <!-- phones -->
+                        <div
+                            class="flex items-center gap-5 px-8 py-8 border-b md:border-b-0 md:border-r border-black/10">
+                            <div
+                                class="w-14 h-14 rounded-full bg-[#23223b] text-white flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="font-semibold">
+                                <div>+92 3800 8060</div>
+                                <div class="mt-1">+21 9555-0114</div>
+                            </div>
+                        </div>
+
+                        <!-- email / website -->
+                        <div
+                            class="flex items-center gap-5 px-8 py-8 border-b md:border-b-0 md:border-r border-black/10">
+                            <div
+                                class="w-14 h-14 rounded-full bg-[#23223b] text-white flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <div class="font-semibold">
+                                <div>mitc@example.com</div>
+                                <div class="mt-1">www.website.com</div>
+                            </div>
+                        </div>
+
+                        <!-- address -->
+                        <div class="flex items-center gap-5 px-8 py-8">
+                            <div
+                                class="w-14 h-14 rounded-full bg-[#23223b] text-white flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="font-semibold">
+                                3891 Ranchview Dr. Richardson, California 62639
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- BOTTOM BAR -->
+            <div class="mt-14 bg-white/10 border-t border-white/10">
+                <div class="max-w-7xl mx-auto px-4 py-7 text-center text-white/55 text-lg">
+                    © Copyright 2026 by Company.com
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>Alamdar International</h5>
-                    <p>Leading manufacturer and supplier of industrial products and solutions. Committed to quality,
-                        innovation, and customer satisfaction.</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Quick Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>Contact Info</h5>
-                    <p><i class="fas fa-envelope"></i> info@alamdarinternational.com</p>
-                    <p><i class="fas fa-phone"></i> +91 XXX XXX XXXX</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Kolkata, India</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Alamdar International. All rights reserved.</p>
-            </div>
-        </div>
+        <style>
+            /* column divider lines (thin vertical line at top like screenshot) */
+            #site-footer .footer-col.with-line::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 6px;
+                width: 3px;
+                height: 140px;
+                background: rgba(255, 255, 255, 0.85);
+            }
+
+            #site-footer .footer-link {
+                transition: all .2s ease;
+            }
+
+            #site-footer .footer-link:hover {
+                color: #fff;
+                padding-left: 6px;
+            }
+
+            #site-footer .footer-social {
+                width: 46px;
+                height: 46px;
+                border-radius: 9999px;
+                background: rgba(255, 255, 255, 0.08);
+                border: 1px solid rgba(255, 255, 255, 0.14);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                transition: all .25s ease;
+            }
+
+            #site-footer .footer-social:hover {
+                background: #ff5c2a;
+                border-color: #ff5c2a;
+                transform: translateY(-2px);
+            }
+        </style>
     </footer>
 
-    <!-- Bootstrap 5 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
-    <script src="js/main.js"></script>
+    <button id="backToTop"
+        class="fixed right-6 bottom-6 z-[9999] w-12 h-12 rounded-full bg-[#23223b] text-white shadow-xl border border-white/10 flex items-center justify-center opacity-0 pointer-events-none translate-y-4 transition-all duration-300 hover:bg-primary">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <div id="cursorDot"></div>
+    <div id="cursorRing"></div>
+    <script>
+        const nav = document.getElementById("main-nav");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 10) nav.classList.add("nav-scrolled");
+            else nav.classList.remove("nav-scrolled");
+        });
+    </script>
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 450) {
+                backToTop.classList.remove("opacity-0", "pointer-events-none", "translate-y-4");
+                backToTop.classList.add("opacity-100");
+            } else {
+                backToTop.classList.add("opacity-0", "pointer-events-none", "translate-y-4");
+                backToTop.classList.remove("opacity-100");
+            }
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+    <script>
+        const dot = document.getElementById("cursorDot");
+        const ring = document.getElementById("cursorRing");
+
+        let mouseX = 0, mouseY = 0;
+        let ringX = 0, ringY = 0;
+
+        window.addEventListener("mousemove", (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+
+            dot.style.left = mouseX + "px";
+            dot.style.top = mouseY + "px";
+        });
+
+        function animateRing() {
+            ringX += (mouseX - ringX) * 0.18;
+            ringY += (mouseY - ringY) * 0.18;
+
+            ring.style.left = ringX + "px";
+            ring.style.top = ringY + "px";
+
+            requestAnimationFrame(animateRing);
+        }
+        animateRing();
+
+        // hover detection
+        const hoverTargets = "a, button, input, textarea, select, .team-ic, .footer-social";
+        document.querySelectorAll(hoverTargets).forEach(el => {
+            el.addEventListener("mouseenter", () => document.body.classList.add("cursor-hover"));
+            el.addEventListener("mouseleave", () => document.body.classList.remove("cursor-hover"));
+        });
+    </script>
+
 </body>
 
 </html>

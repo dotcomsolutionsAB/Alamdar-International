@@ -1,277 +1,865 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Learn about Alamdar International - Our history, mission, values, and commitment to quality in industrial manufacturing.">
-    <title>About Us - Alamdar International</title>
+    <title>About || Alamdar International</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <style>
+        html,
+        body {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        /* force Montserrat everywhere */
+        * {
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+    <style>
+        body.custom-cursor {
+            cursor: none;
+        }
+
+        #cursorDot,
+        #cursorRing {
+            position: fixed;
+            left: 0;
+            top: 0;
+            pointer-events: none;
+            z-index: 99999;
+            transform: translate(-50%, -50%);
+        }
+
+        #cursorDot {
+            width: 8px;
+            height: 8px;
+            border-radius: 9999px;
+            background: #ff5c2a;
+        }
+
+        #cursorRing {
+            width: 34px;
+            height: 34px;
+            border-radius: 9999px;
+            border: 2px solid rgba(255, 92, 42, 0.55);
+            transition: width .18s ease, height .18s ease, border-color .18s ease, opacity .18s ease;
+            opacity: .9;
+        }
+
+        /* Hover effect for links/buttons */
+        .cursor-hover #cursorRing {
+            width: 50px;
+            height: 50px;
+            border-color: rgba(255, 122, 77, 0.9);
+            opacity: 1;
+        }
+    </style>
+    <style>
+        #main-nav.nav-scrolled {
+            background: linear-gradient(90deg,
+                    #0b1430 0%,
+                    #1a223d 50%,
+                    #0b1430 100%);
+            box-shadow: 0 20px 50px rgba(16, 24, 40, 0.35);
+            border-bottom: 2px solid rgba(255, 92, 42, 0.6);
+            backdrop-filter: blur(10px);
+        }
+    </style>
 </head>
 
-<body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/logo.png" alt="Alamdar International" height="40">
+<body class="custom-cursor">
+    <!-- Topbar -->
+    <div class="bg-[#222B3A] text-white text-sm">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center py-2 px-4">
+            <div class="flex flex-wrap items-center gap-x-6 gap-y-1">
+                <span class="flex items-center"><i class="fa-solid fa-location-dot mr-1 text-primary"></i><a
+                        href="https://maps.app.goo.gl/RU419bHcAWhNFQqb8" class="hover:underline">30 Commercial Road
+                        Fratton, Australia</a></span>
+                <span class="flex items-center"><i class="fa-solid fa-envelope ml-4 mr-1 text-primary"></i><a
+                        href="mailto:needhelp@company.com" class="hover:underline">needhelp@company.com</a></span>
+            </div>
+            <div class="flex flex-wrap items-center gap-x-6 gap-y-1 mt-1 md:mt-0">
+                <span class="flex items-center"><i class="fa-solid fa-clock mr-1 text-primary"></i>Mon to Sat: 8.00
+                    am - 7.00 pm</span>
+                <a href="https://facebook.com" class="ml-2 hover:text-blue-500"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                <a href="https://pinterest.com" class="hover:text-red-500"><i class="fab fa-pinterest-p"></i></a>
+                <a href="https://instagram.com" class="hover:text-pink-500"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation Bar -->
+    <nav id="main-nav" class="sticky top-0 z-[9999] bg-gradient-to-r from-[#0b1430] via-[#1a223d] to-[#0b1430]
+  text-white w-full border-b border-primary-30 transition-all duration-300">
+
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-0 h-20">
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center flex-shrink-0 h-full">
+                <img src="assets/images/logo-dark.png" alt="getizy HTML" class="h-16 w-auto drop-shadow-xl" />
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="about.html">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
-                            data-bs-toggle="dropdown">
-                            Products
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                            <li><a class="dropdown-item" href="products.html">All Products</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="products/valves.html">Valves</a></li>
-                            <li><a class="dropdown-item" href="products/rubber-products.html">Rubber Products</a></li>
-                            <li><a class="dropdown-item" href="products/bellows.html">Bellows</a></li>
-                            <li><a class="dropdown-item" href="products/pressure-temp.html">Pressure & Temp.</a></li>
-                            <li><a class="dropdown-item" href="products/ceramic-products.html">Ceramic Products</a></li>
-                            <li><a class="dropdown-item" href="products/cast-basalt.html">Cast Basalt</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                    </li>
-                </ul>
+            <!-- Menu -->
+            <ul class="hidden lg:flex flex-1 justify-center space-x-2 font-semibold text-base">
+                <li>
+                    <a href="index.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-house text-primary"></i>
+                        <span class="relative z-10">Home</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-[#ff7a4d] rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-user-tie text-primary"></i>
+                        <span class="relative z-10">About</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-[#ff7a4d] rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="services-grid.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-cogs text-primary"></i>
+                        <span class="relative z-10">Services</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-[#ff7a4d] rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="project.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-diagram-project text-primary"></i>
+                        <span class="relative z-10">Projects</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-[#ff7a4d] rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="blog-grid.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-blog text-primary"></i>
+                        <span class="relative z-10">Blog</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-[#ff7a4d] rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html"
+                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
+                        <i class="fa-solid fa-envelope text-primary"></i>
+                        <span class="relative z-10">Contact</span>
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-1 bg-[#ff7a4d] rounded-full group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </li>
+            </ul>
+            <!-- Actions -->
+            <div class="flex items-center gap-3">
+                <a href="contact.html"
+                    class="bg-gradient-to-r from-[#ff7a4d] to-[#ff7a4d] hover:from-[#ff7a4d] hover:to-[#ff7a4d] text-[#1A2230] px-7 py-2 rounded-2xl font-bold shadow-xl transition-all duration-200 border-2 border-[#ff7a4d] hover:border-[#ff7a4d] scale-100 hover:scale-105">Contact
+                    Us</a>
+                <a href="tel:+8801775-338747"
+                    class="hidden md:flex items-center gap-2 text-white hover:text-primary transition-all duration-200">
+                    <i class="fa-solid fa-phone animate-pulse"></i>
+                    <span class="font-semibold">(303) 555-0105</span>
+                </a>
+                <button class="lg:hidden text-2xl ml-2 text-white hover:text-primary transition-all duration-200"
+                    aria-label="Open Menu"><i class="fa fa-bars"></i></button>
             </div>
         </div>
     </nav>
 
-    <!-- Page Header -->
-    <section class="hero-section" style="padding: 120px 0 60px;">
-        <div class="container">
-            <h1 class="text-center">About Alamdar International</h1>
-            <p class="text-center" style="font-size: 1.2rem;">Excellence in Industrial Manufacturing</p>
+    <!-- ===================== ABOUT (same as screenshot + animations) ===================== -->
+    <section id="about-best-agency" class="relative py-24 bg-white overflow-hidden">
+        <!-- soft peach glow right like template -->
+        <div
+            class="absolute -right-40 -top-40 w-[520px] h-[520px] rounded-full bg-gradient-to-br from-[#ff5c2a]/15 to-transparent blur-3xl pointer-events-none">
         </div>
+        <div
+            class="absolute -right-64 top-10 w-[700px] h-[700px] rounded-full bg-gradient-to-br from-[#ff5c2a]/10 to-transparent blur-3xl pointer-events-none">
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+            <!-- LEFT CONTENT -->
+            <div class="aboutL opacity-0 translate-y-6">
+                <div class="flex items-center gap-3 text-sm font-bold tracking-wide mb-4">
+                    <span class="w-3 h-3 rotate-45 bg-[#23223b] inline-block"></span>
+                    <span class="text-primary">ABOUT US</span>
+                </div>
+
+                <h2 class="text-5xl md:text-6xl font-black text-[#23223b] leading-[1.05]">
+                    We’re the Best Agency<br />in Downtown
+                </h2>
+
+                <p class="mt-6 text-gray-500 text-lg leading-relaxed max-w-xl">
+                    There are many variations of passages of Lorem Ipsum avalab but
+                    the majority have suffered alteration in some form, by injected
+                    humour, or randomised words which don't
+                </p>
+
+                <!-- two feature blocks -->
+                <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-8 border-b border-black/15 pb-10">
+                    <div class="flex gap-5 items-start pr-0 sm:pr-8 sm:border-r sm:border-black/10">
+                        <div
+                            class="w-14 h-14 rounded-full bg-primary/12 text-primary flex items-center justify-center text-xl">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <div>
+                            <div class="text-xl font-extrabold text-[#23223b] leading-snug">Versatile
+                                Latest<br />Technology</div>
+                            <div class="mt-3 text-gray-500 leading-relaxed">There are many variations of passages of
+                                Lorem</div>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-5 items-start pl-0 sm:pl-8">
+                        <div
+                            class="w-14 h-14 rounded-full bg-primary/12 text-primary flex items-center justify-center text-xl">
+                            <i class="fa-solid fa-user-group"></i>
+                        </div>
+                        <div>
+                            <div class="text-xl font-extrabold text-[#23223b] leading-snug">Professional<br />Team
+                                Members</div>
+                            <div class="mt-3 text-gray-500 leading-relaxed">There are many variations of passages of
+                                Lorem</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- checklist + small image -->
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-end">
+                    <div class="space-y-5">
+                        <div class="flex items-center gap-4 text-gray-500 text-lg">
+                            <span
+                                class="w-8 h-8 rounded-full bg-[#23223b] text-white flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            Many variations of passages of lorem
+                        </div>
+                        <div class="flex items-center gap-4 text-gray-500 text-lg">
+                            <span
+                                class="w-8 h-8 rounded-full bg-[#23223b] text-white flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            Many variations of passages of lorem
+                        </div>
+                        <div class="flex items-center gap-4 text-gray-500 text-lg">
+                            <span
+                                class="w-8 h-8 rounded-full bg-[#23223b] text-white flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            Expert many variations teacher
+                        </div>
+
+                        <a href="#"
+                            class="inline-block mt-6 bg-gradient-to-r from-[#ff5c2a] to-[#ff7a4d] text-white font-bold px-9 py-3 shadow hover:opacity-95 transition">
+                            Discover More
+                        </a>
+                    </div>
+
+                    <div class="aboutMini opacity-0 translate-y-6">
+                        <img src="https://picsum.photos/520/360?random=211" alt="about small"
+                            class="w-full h-[220px] object-cover shadow-xl border border-black/5" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT IMAGE + ORANGE FRAME + EXPERIENCE SEMI -->
+            <div class="relative aboutR opacity-0 translate-y-6">
+                <!-- orange frame behind image -->
+                <div class="absolute -left-6 top-10 bottom-10 w-16 bg-gradient-to-b from-[#ff5c2a] to-[#ff7a4d]"></div>
+
+                <div class="relative bg-white shadow-[0_18px_60px_rgba(16,24,40,0.16)] border border-black/5">
+                    <img src="https://picsum.photos/900/1100?random=212" alt="about main"
+                        class="w-full h-[560px] object-cover" />
+
+                    <!-- semi circle badge -->
+                    <div class="absolute left-1/2 -translate-x-1/2 -bottom-20 w-[360px] h-[180px] rounded-t-[999px]
+                 bg-gradient-to-r from-[#ff5c2a] to-[#ff7a4d] shadow-2xl flex flex-col items-center justify-center">
+                        <div class="text-white text-6xl font-black leading-none">20+</div>
+                        <div class="mt-2 text-white/95 text-xl font-bold">Year Of Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            /* reveal animations */
+            #about-best-agency .about-in {
+                animation: aboutReveal .75s ease forwards;
+            }
+
+            #about-best-agency .about-in-delay {
+                animation: aboutReveal .75s ease forwards;
+                animation-delay: .18s;
+            }
+
+            #about-best-agency .about-in-delay2 {
+                animation: aboutReveal .75s ease forwards;
+                animation-delay: .32s;
+            }
+
+            @keyframes aboutReveal {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            /* subtle hover on right image container */
+            #about-best-agency .aboutR:hover {
+                transform: translateY(-4px);
+                transition: transform .25s ease;
+            }
+        </style>
+
+        <script>
+            // IntersectionObserver animation trigger
+            (function () {
+                const root = document.querySelector("#about-best-agency");
+                if (!root) return;
+
+                const left = root.querySelector(".aboutL");
+                const right = root.querySelector(".aboutR");
+                const mini = root.querySelector(".aboutMini");
+
+                const io = new IntersectionObserver((entries) => {
+                    entries.forEach((e) => {
+                        if (!e.isIntersecting) return;
+
+                        if (left) left.classList.add("about-in");
+                        if (right) right.classList.add("about-in-delay");
+                        if (mini) mini.classList.add("about-in-delay2");
+
+                        io.disconnect();
+                    });
+                }, { threshold: 0.18 });
+
+                io.observe(root);
+            })();
+        </script>
     </section>
 
-    <!-- About Content -->
-    <section class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2 class="text-primary-custom mb-4">Our Story</h2>
-                    <p>Alamdar International has been a trusted name in the industrial manufacturing sector for years.
-                        We specialize in the production and supply of high-quality industrial products including valves,
-                        rubber products, bellows, pressure & temperature instruments, ceramic products, and cast basalt.
-                    </p>
-                    <p>Founded with a vision to provide superior quality products and exceptional customer service, we
-                        have grown to become a recognized leader in our industry. Our commitment to excellence and
-                        innovation has enabled us to serve clients across various sectors including power generation,
-                        chemical processing, water treatment, oil & gas, and infrastructure development.</p>
-                    <p>We combine traditional manufacturing expertise with modern technology to deliver products that
-                        meet the highest international standards. Our state-of-the-art facilities and rigorous quality
-                        control processes ensure that every product leaving our factory meets our stringent quality
-                        requirements.</p>
+    <!-- ===================== OUR TEAM (icons fixed + hover effect like image) ===================== -->
+    <section id="our-team" class="relative py-24 overflow-hidden bg-white">
+        <!-- soft peach band -->
+        <div class="absolute inset-x-0 bottom-0 h-[220px] bg-[#f8e7e2]"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4">
+            <!-- Heading -->
+            <div class="text-center mb-14">
+                <div class="flex items-center justify-center gap-3 text-sm font-bold tracking-wide mb-4">
+                    <span class="w-2 h-2 rotate-45 bg-[#23223b] inline-block"></span>
+                    <span class="text-primary">OUR TEAM</span>
                 </div>
-                <div class="col-lg-6">
-                    <img src="assets/about_us.jpg" alt="Manufacturing Facilities" class="img-fluid rounded shadow">
+
+                <h2 class="text-5xl md:text-6xl font-black text-[#23223b] leading-[1.05]">
+                    Meet Our Professional<br />Team Members
+                </h2>
+            </div>
+
+            <!-- Team Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Card 1 -->
+                <div class="team-card group relative overflow-hidden bg-white shadow-[0_14px_40px_rgba(16,24,40,0.12)]">
+                    <img src="https://picsum.photos/900/900?random=111" alt="Team 1"
+                        class="team-img w-full h-[520px] object-cover" />
+
+                    <!-- Bottom semi circle -->
+                    <div class="team-bottom absolute left-0 right-0 bottom-0">
+                        <!-- dark base (default) -->
+                        <div class="team-base absolute inset-x-0 bottom-0 h-[210px] bg-[#23223b] rounded-t-[999px]">
+                        </div>
+
+                        <!-- orange hover cap (only on hover) -->
+                        <div
+                            class="team-hovercap absolute inset-x-0 bottom-0 h-[210px] bg-gradient-to-r from-[#ff5c2a] to-[#ff7a4d] rounded-t-[999px] opacity-0 translate-y-10">
+                        </div>
+
+                        <!-- content -->
+                        <div class="relative h-[210px] flex flex-col items-center justify-start pt-10 z-10">
+                            <h3 class="text-white font-extrabold text-xl">William Jenny</h3>
+                            <span
+                                class="mt-2 text-xs font-semibold px-4 py-1 rounded-full bg-white/30 text-white">Marketer</span>
+
+                            <!-- icons (VISIBLE) -->
+                            <div class="mt-7 flex items-center gap-4">
+                                <a href="#" class="team-ic" aria-label="Pinterest">
+                                    <!-- fallback SVG so it works even if FontAwesome not loaded -->
+                                    <svg class="ic-svg" viewBox="0 0 24 24" fill="none">
+                                        <path fill="currentColor"
+                                            d="M12.06 2C6.52 2 3 5.64 3 9.64c0 2.5 1.4 4 2.23 4 .35 0 .55-.98.55-1.26 0-.33-.96-1.19-.96-2.77 0-3.28 2.67-5.59 6.2-5.59 3.02 0 5.25 1.7 5.25 4.7 0 2.24-.9 6.45-3.82 6.45-1.06 0-1.97-.76-1.97-1.83 0-1.57 1.1-3.09 1.1-4.74 0-2.77-3.92-2.27-3.92.77 0 .64.08 1.34.37 1.92L7.2 19.5c-.23.95-.7 2.37-.6 3.34.03.22.31.28.47.17.66-.85 1.26-2.49 1.47-3.34l.86-3.28c.46.88 1.79 1.32 2.8 1.32 3.69 0 6.2-3.36 6.2-7.87C18.4 5.08 15.44 2 12.06 2Z" />
+                                    </svg>
+                                </a>
+
+                                <a href="#" class="team-ic" aria-label="Facebook">
+                                    <svg class="ic-svg" viewBox="0 0 24 24" fill="none">
+                                        <path fill="currentColor"
+                                            d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.3-1.6 1.7-1.6h1.5V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.2V11H7.5v3H10v8h3.5Z" />
+                                    </svg>
+                                </a>
+
+                                <a href="#" class="team-ic" aria-label="Twitter">
+                                    <svg class="ic-svg" viewBox="0 0 24 24" fill="none">
+                                        <path fill="currentColor"
+                                            d="M19.9 7.7c0 .2 0 .4-.01.6C19.6 14 15.6 18 10 18c-2.2 0-4.2-.6-5.9-1.7h.9c1.8 0 3.4-.6 4.7-1.6-1.7 0-3.1-1.1-3.6-2.6.2 0 .4.1.7.1.3 0 .6 0 .9-.1-1.8-.4-3.1-2-3.1-3.9v-.1c.5.3 1.2.6 1.9.6-1.1-.7-1.8-1.9-1.8-3.2 0-.7.2-1.4.6-2 2 2.4 5 4 8.4 4.2-.1-.3-.1-.6-.1-1 0-2.3 1.9-4.2 4.2-4.2 1.2 0 2.3.5 3.1 1.3.9-.2 1.8-.5 2.6-1-.3.9-1 1.7-1.9 2.2.8-.1 1.6-.3 2.3-.6-.5.8-1.1 1.5-1.8 2.1Z" />
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <!-- rings -->
+                            <div
+                                class="team-rings absolute left-1/2 -translate-x-1/2 bottom-[-80px] w-[360px] h-[180px] pointer-events-none">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="team-card group relative overflow-hidden bg-white shadow-[0_14px_40px_rgba(16,24,40,0.12)]">
+                    <img src="https://picsum.photos/900/900?random=112" alt="Team 2"
+                        class="team-img w-full h-[520px] object-cover" />
+
+                    <div class="team-bottom absolute left-0 right-0 bottom-0">
+                        <div class="team-base absolute inset-x-0 bottom-0 h-[210px] bg-[#23223b] rounded-t-[999px]">
+                        </div>
+                        <div
+                            class="team-hovercap absolute inset-x-0 bottom-0 h-[210px] bg-gradient-to-r from-[#ff5c2a] to-[#ff7a4d] rounded-t-[999px] opacity-0 translate-y-10">
+                        </div>
+
+                        <div class="relative h-[210px] flex flex-col items-center justify-start pt-10 z-10">
+                            <h3 class="text-white font-extrabold text-xl">Jhone Rox</h3>
+                            <span
+                                class="mt-2 text-xs font-semibold px-4 py-1 rounded-full bg-white/30 text-white">Marketer</span>
+
+                            <div class="mt-7 flex items-center gap-4">
+                                <a href="#" class="team-ic" aria-label="Pinterest"><svg class="ic-svg"
+                                        viewBox="0 0 24 24" fill="none">
+                                        <path fill="currentColor"
+                                            d="M12.06 2C6.52 2 3 5.64 3 9.64c0 2.5 1.4 4 2.23 4 .35 0 .55-.98.55-1.26 0-.33-.96-1.19-.96-2.77 0-3.28 2.67-5.59 6.2-5.59 3.02 0 5.25 1.7 5.25 4.7 0 2.24-.9 6.45-3.82 6.45-1.06 0-1.97-.76-1.97-1.83 0-1.57 1.1-3.09 1.1-4.74 0-2.77-3.92-2.27-3.92.77 0 .64.08 1.34.37 1.92L7.2 19.5c-.23.95-.7 2.37-.6 3.34.03.22.31.28.47.17.66-.85 1.26-2.49 1.47-3.34l.86-3.28c.46.88 1.79 1.32 2.8 1.32 3.69 0 6.2-3.36 6.2-7.87C18.4 5.08 15.44 2 12.06 2Z" />
+                                    </svg></a>
+                                <a href="#" class="team-ic" aria-label="Facebook"><svg class="ic-svg"
+                                        viewBox="0 0 24 24" fill="none">
+                                        <path fill="currentColor"
+                                            d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.3-1.6 1.7-1.6h1.5V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.2V11H7.5v3H10v8h3.5Z" />
+                                    </svg></a>
+                                <a href="#" class="team-ic" aria-label="Twitter"><svg class="ic-svg" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path fill="currentColor"
+                                            d="M19.9 7.7c0 .2 0 .4-.01.6C19.6 14 15.6 18 10 18c-2.2 0-4.2-.6-5.9-1.7h.9c1.8 0 3.4-.6 4.7-1.6-1.7 0-3.1-1.1-3.6-2.6.2 0 .4.1.7.1.3 0 .6 0 .9-.1-1.8-.4-3.1-2-3.1-3.9v-.1c.5.3 1.2.6 1.9.6-1.1-.7-1.8-1.9-1.8-3.2 0-.7.2-1.4.6-2 2 2.4 5 4 8.4 4.2-.1-.3-.1-.6-.1-1 0-2.3 1.9-4.2 4.2-4.2 1.2 0 2.3.5 3.1 1.3.9-.2 1.8-.5 2.6-1-.3.9-1 1.7-1.9 2.2.8-.1 1.6-.3 2.3-.6-.5.8-1.1 1.5-1.8 2.1Z" />
+                                    </svg></a>
+                            </div>
+
+                            <div
+                                class="team-rings absolute left-1/2 -translate-x-1/2 bottom-[-80px] w-[360px] h-[180px] pointer-events-none">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="team-card group relative overflow-hidden bg-white shadow-[0_14px_40px_rgba(16,24,40,0.12)]">
+                    <img src="https://picsum.photos/900/900?random=113" alt="Team 3"
+                        class="team-img w-full h-[520px] object-cover" />
+
+                    <div class="team-bottom absolute left-0 right-0 bottom-0">
+                        <div class="team-base absolute inset-x-0 bottom-0 h-[210px] bg-[#23223b] rounded-t-[999px]">
+                        </div>
+                        <div
+                            class="team-hovercap absolute inset-x-0 bottom-0 h-[210px] bg-gradient-to-r from-[#ff5c2a] to-[#ff7a4d] rounded-t-[999px] opacity-0 translate-y-10">
+                        </div>
+
+                        <div class="relative h-[210px] flex flex-col items-center justify-start pt-10 z-10">
+                            <h3 class="text-white font-extrabold text-xl">Robert Smith</h3>
+                            <span
+                                class="mt-2 text-xs font-semibold px-4 py-1 rounded-full bg-white/30 text-white">Marketer</span>
+
+                            <div class="mt-7 flex items-center gap-4">
+                                <a href="#" class="team-ic" aria-label="Pinterest"><svg class="ic-svg"
+                                        viewBox="0 0 24 24" fill="none">
+                                        <path fill="currentColor"
+                                            d="M12.06 2C6.52 2 3 5.64 3 9.64c0 2.5 1.4 4 2.23 4 .35 0 .55-.98.55-1.26 0-.33-.96-1.19-.96-2.77 0-3.28 2.67-5.59 6.2-5.59 3.02 0 5.25 1.7 5.25 4.7 0 2.24-.9 6.45-3.82 6.45-1.06 0-1.97-.76-1.97-1.83 0-1.57 1.1-3.09 1.1-4.74 0-2.77-3.92-2.27-3.92.77 0 .64.08 1.34.37 1.92L7.2 19.5c-.23.95-.7 2.37-.6 3.34.03.22.31.28.47.17.66-.85 1.26-2.49 1.47-3.34l.86-3.28c.46.88 1.79 1.32 2.8 1.32 3.69 0 6.2-3.36 6.2-7.87C18.4 5.08 15.44 2 12.06 2Z" />
+                                    </svg></a>
+                                <a href="#" class="team-ic" aria-label="Facebook"><svg class="ic-svg"
+                                        viewBox="0 0 24 24" fill="none">
+                                        <path fill="currentColor"
+                                            d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.3-1.6 1.7-1.6h1.5V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.2V11H7.5v3H10v8h3.5Z" />
+                                    </svg></a>
+                                <a href="#" class="team-ic" aria-label="Twitter"><svg class="ic-svg" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path fill="currentColor"
+                                            d="M19.9 7.7c0 .2 0 .4-.01.6C19.6 14 15.6 18 10 18c-2.2 0-4.2-.6-5.9-1.7h.9c1.8 0 3.4-.6 4.7-1.6-1.7 0-3.1-1.1-3.6-2.6.2 0 .4.1.7.1.3 0 .6 0 .9-.1-1.8-.4-3.1-2-3.1-3.9v-.1c.5.3 1.2.6 1.9.6-1.1-.7-1.8-1.9-1.8-3.2 0-.7.2-1.4.6-2 2 2.4 5 4 8.4 4.2-.1-.3-.1-.6-.1-1 0-2.3 1.9-4.2 4.2-4.2 1.2 0 2.3.5 3.1 1.3.9-.2 1.8-.5 2.6-1-.3.9-1 1.7-1.9 2.2.8-.1 1.6-.3 2.3-.6-.5.8-1.1 1.5-1.8 2.1Z" />
+                                    </svg></a>
+                            </div>
+
+                            <div
+                                class="team-rings absolute left-1/2 -translate-x-1/2 bottom-[-80px] w-[360px] h-[180px] pointer-events-none">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <style>
+            /* SVG icon size */
+            #our-team .ic-svg {
+                width: 18px;
+                height: 18px;
+            }
+
+            /* icons style (dark circle + orange icon) */
+            #our-team .team-ic {
+                width: 44px;
+                height: 44px;
+                border-radius: 9999px;
+                background: rgba(255, 255, 255, 0.08);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #ff5c2a;
+                border: 1px solid rgba(255, 255, 255, 0.14);
+                transition: all .25s ease;
+            }
+
+            #our-team .team-ic:hover {
+                background: #fff;
+                color: #ff5c2a;
+                border-color: #fff;
+                transform: translateY(-2px);
+            }
+
+            /* rings */
+            #our-team .team-rings {
+                background:
+                    radial-gradient(closest-side at 50% 0%,
+                        rgba(255, 255, 255, 0.10) 0 40%,
+                        transparent 41% 100%),
+                    radial-gradient(closest-side at 50% 0%,
+                        rgba(255, 255, 255, 0.08) 0 55%,
+                        transparent 56% 100%),
+                    radial-gradient(closest-side at 50% 0%,
+                        rgba(255, 255, 255, 0.06) 0 70%,
+                        transparent 71% 100%);
+                opacity: .95;
+            }
+
+            /* Image hover zoom */
+            #our-team .team-img {
+                transition: transform .55s ease;
+            }
+
+            #our-team .team-card:hover .team-img {
+                transform: scale(1.04);
+            }
+
+            /* Card lift */
+            #our-team .team-card {
+                transition: transform .25s ease, box-shadow .25s ease;
+            }
+
+            #our-team .team-card:hover {
+                transform: translateY(-6px);
+                box-shadow: 0 22px 60px rgba(16, 24, 40, 0.18);
+            }
+
+            /* HOVER EFFECT LIKE IMAGE:
+       - show orange half-circle in middle card style
+       - icons become white circles
+       - smooth slide-up cap */
+            #our-team .team-hovercap {
+                transition: all .35s ease;
+                z-index: 2;
+            }
+
+            #our-team .team-base {
+                z-index: 1;
+            }
+
+            #our-team .team-card:hover .team-hovercap {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            /* on hover make icons white circles with dark icon (like center card in screenshot) */
+            #our-team .team-card:hover .team-ic {
+                background: rgba(255, 255, 255, 0.95);
+                border-color: rgba(255, 255, 255, 0.95);
+                color: #23223b;
+            }
+
+            #our-team .team-card:hover .team-ic:hover {
+                background: #fff;
+                color: #ff5c2a;
+                transform: translateY(-3px);
+            }
+        </style>
     </section>
 
-    <!-- Mission & Values -->
-    <section class="section bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <h2 class="text-primary-custom mb-4">Our Mission</h2>
-                    <p>Our mission is to be the preferred partner for industrial products and solutions by delivering
-                        superior quality, innovative solutions, and exceptional customer service. We strive to exceed
-                        customer expectations while maintaining the highest standards of integrity and professionalism.
-                    </p>
-                    <p>We are committed to continuous improvement, investing in technology and training to enhance our
-                        capabilities and better serve our customers. Our goal is to build long-term relationships based
-                        on trust, reliability, and mutual success.</p>
-                </div>
-                <div class="col-lg-6">
-                    <h2 class="text-primary-custom mb-4">Our Values</h2>
-                    <ul class="list-unstyled">
-                        <li class="mb-3">
-                            <i class="fas fa-check-circle text-primary-custom me-2"></i>
-                            <strong>Quality First:</strong> We never compromise on quality and ensure all products meet
-                            international standards.
-                        </li>
-                        <li class="mb-3">
-                            <i class="fas fa-check-circle text-primary-custom me-2"></i>
-                            <strong>Customer Focus:</strong> Our customers are at the heart of everything we do. We
-                            listen, understand, and deliver solutions that meet their needs.
-                        </li>
-                        <li class="mb-3">
-                            <i class="fas fa-check-circle text-primary-custom me-2"></i>
-                            <strong>Innovation:</strong> We continuously invest in new technologies and processes to
-                            improve our products and services.
-                        </li>
-                        <li class="mb-3">
-                            <i class="fas fa-check-circle text-primary-custom me-2"></i>
-                            <strong>Integrity:</strong> We conduct our business with honesty, transparency, and ethical
-                            practices.
-                        </li>
-                        <li class="mb-3">
-                            <i class="fas fa-check-circle text-primary-custom me-2"></i>
-                            <strong>Reliability:</strong> We deliver on our promises and stand behind our products with
-                            comprehensive support.
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <!-- ===================== FOOTER (same as image) ===================== -->
+    <footer id="site-footer" class="relative overflow-hidden text-white">
+        <!-- background image -->
+        <div class="absolute inset-0 bg-center bg-cover"
+            style="background-image:url('https://pixydrops.com/getizy-html/assets/images/backgrounds/about-1-dark.png');">
         </div>
-    </section>
 
-    <!-- Capabilities -->
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">Our Capabilities</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <i class="fas fa-industry"></i>
-                        <h4>Manufacturing Excellence</h4>
-                        <p>State-of-the-art manufacturing facilities equipped with modern machinery and technology to
-                            produce high-quality industrial products.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <i class="fas fa-microscope"></i>
-                        <h4>Quality Assurance</h4>
-                        <p>Rigorous quality control processes and testing to ensure every product meets international
-                            standards and customer specifications.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <i class="fas fa-users"></i>
-                        <h4>Expert Team</h4>
-                        <p>Experienced professionals with deep industry knowledge and expertise in manufacturing,
-                            engineering, and quality management.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <i class="fas fa-globe"></i>
-                        <h4>Global Standards</h4>
-                        <p>Our products comply with API, ANSI, DIN, and other international standards, ensuring
-                            compatibility and reliability worldwide.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <i class="fas fa-truck"></i>
-                        <h4>Timely Delivery</h4>
-                        <p>Efficient logistics and supply chain management to ensure on-time delivery of products to our
-                            customers.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <i class="fas fa-headset"></i>
-                        <h4>Customer Support</h4>
-                        <p>Comprehensive after-sales support and technical assistance to help customers get the most out
-                            of our products.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <!-- deep blue overlay -->
+        <div class="absolute inset-0 bg-[#23223b]/95"></div>
 
-    <!-- Certifications -->
-    <section class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Quality Certifications</h2>
-            <p class="section-subtitle">We maintain the highest standards of quality and compliance</p>
-            <div class="row g-4 text-center">
-                <div class="col-md-3">
-                    <div class="p-4">
-                        <i class="fas fa-certificate fa-3x text-primary-custom mb-3"></i>
-                        <h5>API Certified</h5>
-                        <p>American Petroleum Institute standards compliance</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="p-4">
-                        <i class="fas fa-award fa-3x text-primary-custom mb-3"></i>
-                        <h5>ISO Standards</h5>
-                        <p>International quality management standards</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="p-4">
-                        <i class="fas fa-shield-alt fa-3x text-primary-custom mb-3"></i>
-                        <h5>Quality Assured</h5>
-                        <p>Rigorous testing and quality control processes</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="p-4">
-                        <i class="fas fa-check-double fa-3x text-primary-custom mb-3"></i>
-                        <h5>Industry Approved</h5>
-                        <p>Recognized by leading industrial organizations</p>
-                    </div>
-                </div>
-            </div>
+        <!-- subtle pattern overlay (optional to match texture) -->
+        <div class="absolute inset-0 opacity-[0.15]"
+            style="background-image: repeating-linear-gradient(160deg, rgba(255,255,255,0.22) 0px, rgba(255,255,255,0.22) 1px, transparent 1px, transparent 16px);">
         </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>Alamdar International</h5>
-                    <p>Leading manufacturer and supplier of industrial products and solutions. Committed to quality,
-                        innovation, and customer satisfaction.</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Quick Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>Contact Info</h5>
-                    <p><i class="fas fa-envelope"></i> info@alamdarinternational.com</p>
-                    <p><i class="fas fa-phone"></i> +91 XXX XXX XXXX</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Kolkata, India</p>
+        <div class="relative z-10">
+            <!-- TOP CONTENT -->
+            <div class="max-w-7xl mx-auto px-4 py-20">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-10 items-start">
+
+                    <!-- LEFT: logo + text + subscribe -->
+                    <div class="md:col-span-1">
+                        <div class="flex items-center gap-3">
+                            <img src="https://picsum.photos/60/60?random=77" class="w-10 h-10 rounded-full object-cover"
+                                alt="Logo">
+                            <div class="text-2xl font-extrabold">Getizy</div>
+                        </div>
+
+                        <p class="mt-6 text-white/55 leading-relaxed text-lg max-w-sm">
+                            There are many variations of passages of Lorem ip available, but the majority have
+                        </p>
+
+                        <div class="mt-10">
+                            <input type="email" placeholder="Email address"
+                                class="w-full bg-white text-[#23223b] px-6 py-4 outline-none border border-black/10" />
+                            <button
+                                class="w-full mt-5 bg-gradient-to-r from-[#ff5c2a] to-[#ff7a4d] text-white font-bold py-4 shadow-lg hover:opacity-95 transition">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- LINKS -->
+                    <div class="md:col-span-1 relative md:pl-12 footer-col with-line">
+                        <h4 class="text-xl font-extrabold text-primary mb-7">Links</h4>
+                        <ul class="space-y-4 text-white/55 text-lg">
+                            <li><a href="#" class="footer-link">About Us</a></li>
+                            <li><a href="#" class="footer-link">Our Mission</a></li>
+                            <li><a href="#" class="footer-link">Meet the Team</a></li>
+                            <li><a href="#" class="footer-link">Our Project</a></li>
+                            <li><a href="#" class="footer-link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- EXPLORE -->
+                    <div class="md:col-span-1 relative md:pl-12 footer-col with-line">
+                        <h4 class="text-xl font-extrabold text-primary mb-7">Explore</h4>
+                        <ul class="space-y-4 text-white/55 text-lg">
+                            <li><a href="#" class="footer-link">What We Offer</a></li>
+                            <li><a href="#" class="footer-link">Our Story</a></li>
+                            <li><a href="#" class="footer-link">Latest News</a></li>
+                            <li><a href="#" class="footer-link">Help Center</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- GALLERY -->
+                    <div class="md:col-span-1 relative md:pl-12 footer-col with-line">
+                        <h4 class="text-xl font-extrabold text-primary mb-7">Gallery</h4>
+
+                        <div class="grid grid-cols-3 gap-2">
+                            <img class="w-full h-20 object-cover" src="https://picsum.photos/200/200?random=31" alt="">
+                            <img class="w-full h-20 object-cover" src="https://picsum.photos/200/200?random=32" alt="">
+                            <img class="w-full h-20 object-cover" src="https://picsum.photos/200/200?random=33" alt="">
+                            <img class="w-full h-20 object-cover" src="https://picsum.photos/200/200?random=34" alt="">
+                            <img class="w-full h-20 object-cover" src="https://picsum.photos/200/200?random=35" alt="">
+                            <img class="w-full h-20 object-cover" src="https://picsum.photos/200/200?random=36" alt="">
+                        </div>
+
+                        <div class="mt-8 flex items-center gap-3">
+                            <a href="#" class="footer-social" aria-label="Facebook"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="footer-social" aria-label="Twitter"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="footer-social" aria-label="Pinterest"><i
+                                    class="fa-brands fa-pinterest-p"></i></a>
+                            <a href="#" class="footer-social" aria-label="YouTube"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Alamdar International. All rights reserved.</p>
+
+            <!-- CONTACT STRIP (white bar) -->
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="bg-white text-[#23223b] border border-black/10 shadow-xl">
+                    <div class="grid grid-cols-1 md:grid-cols-3">
+
+                        <!-- phones -->
+                        <div
+                            class="flex items-center gap-5 px-8 py-8 border-b md:border-b-0 md:border-r border-black/10">
+                            <div
+                                class="w-14 h-14 rounded-full bg-[#23223b] text-white flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="font-semibold">
+                                <div>+92 3800 8060</div>
+                                <div class="mt-1">+21 9555-0114</div>
+                            </div>
+                        </div>
+
+                        <!-- email / website -->
+                        <div
+                            class="flex items-center gap-5 px-8 py-8 border-b md:border-b-0 md:border-r border-black/10">
+                            <div
+                                class="w-14 h-14 rounded-full bg-[#23223b] text-white flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <div class="font-semibold">
+                                <div>mitc@example.com</div>
+                                <div class="mt-1">www.website.com</div>
+                            </div>
+                        </div>
+
+                        <!-- address -->
+                        <div class="flex items-center gap-5 px-8 py-8">
+                            <div
+                                class="w-14 h-14 rounded-full bg-[#23223b] text-white flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="font-semibold">
+                                3891 Ranchview Dr. Richardson, California 62639
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- BOTTOM BAR -->
+            <div class="mt-14 bg-white/10 border-t border-white/10">
+                <div class="max-w-7xl mx-auto px-4 py-7 text-center text-white/55 text-lg">
+                    © Copyright 2026 by Company.com
+                </div>
             </div>
         </div>
+
+        <style>
+            /* column divider lines (thin vertical line at top like screenshot) */
+            #site-footer .footer-col.with-line::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 6px;
+                width: 3px;
+                height: 140px;
+                background: rgba(255, 255, 255, 0.85);
+            }
+
+            #site-footer .footer-link {
+                transition: all .2s ease;
+            }
+
+            #site-footer .footer-link:hover {
+                color: #fff;
+                padding-left: 6px;
+            }
+
+            #site-footer .footer-social {
+                width: 46px;
+                height: 46px;
+                border-radius: 9999px;
+                background: rgba(255, 255, 255, 0.08);
+                border: 1px solid rgba(255, 255, 255, 0.14);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                transition: all .25s ease;
+            }
+
+            #site-footer .footer-social:hover {
+                background: #ff5c2a;
+                border-color: #ff5c2a;
+                transform: translateY(-2px);
+            }
+        </style>
     </footer>
 
-    <!-- Bootstrap 5 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
-    <script src="js/main.js"></script>
+    <button id="backToTop"
+        class="fixed right-6 bottom-6 z-[9999] w-12 h-12 rounded-full bg-[#23223b] text-white shadow-xl border border-white/10 flex items-center justify-center opacity-0 pointer-events-none translate-y-4 transition-all duration-300 hover:bg-primary">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <div id="cursorDot"></div>
+    <div id="cursorRing"></div>
+    <script>
+        const nav = document.getElementById("main-nav");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 10) nav.classList.add("nav-scrolled");
+            else nav.classList.remove("nav-scrolled");
+        });
+    </script>
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 450) {
+                backToTop.classList.remove("opacity-0", "pointer-events-none", "translate-y-4");
+                backToTop.classList.add("opacity-100");
+            } else {
+                backToTop.classList.add("opacity-0", "pointer-events-none", "translate-y-4");
+                backToTop.classList.remove("opacity-100");
+            }
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+    <script>
+        const dot = document.getElementById("cursorDot");
+        const ring = document.getElementById("cursorRing");
+
+        let mouseX = 0, mouseY = 0;
+        let ringX = 0, ringY = 0;
+
+        window.addEventListener("mousemove", (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+
+            dot.style.left = mouseX + "px";
+            dot.style.top = mouseY + "px";
+        });
+
+        function animateRing() {
+            ringX += (mouseX - ringX) * 0.18;
+            ringY += (mouseY - ringY) * 0.18;
+
+            ring.style.left = ringX + "px";
+            ring.style.top = ringY + "px";
+
+            requestAnimationFrame(animateRing);
+        }
+        animateRing();
+
+        // hover detection
+        const hoverTargets = "a, button, input, textarea, select, .team-ic, .footer-social";
+        document.querySelectorAll(hoverTargets).forEach(el => {
+            el.addEventListener("mouseenter", () => document.body.classList.add("cursor-hover"));
+            el.addEventListener("mouseleave", () => document.body.classList.remove("cursor-hover"));
+        });
+    </script>
+
 </body>
 
 </html>
