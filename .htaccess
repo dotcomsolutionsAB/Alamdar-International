@@ -1,0 +1,41 @@
+# =========================================================
+# 1) Hide .php extension
+# =========================================================
+Options -MultiViews
+RewriteEngine On
+
+# Canonical: redirect /page.php -> /page
+RewriteCond %{THE_REQUEST} \s/+(.*)\.php[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Serve /page -> /page.php (only if file exists)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+
+# =========================================================
+# 2) Maintenance mode (toggle by file)
+#   - Create a file named: maintenance.on   (empty file is fine)
+#   - Put your maintenance page: maintenance.html
+#   - Remove maintenance.on to disable
+# =========================================================
+RewriteCond %{DOCUMENT_ROOT}/maintenance.on -f
+
+# Allow these even in maintenance (adjust if needed)
+RewriteCond %{REQUEST_URI} !^/maintenance\.html$ [NC]
+RewriteCond %{REQUEST_URI} !^/assets/ [NC]
+RewriteCond %{REQUEST_URI} !^/uploads/ [NC]
+
+# (Optional) allow your IP to bypass maintenance:
+# RewriteCond %{REMOTE_ADDR} !^123\.123\.123\.123$
+
+RewriteRule ^.*$ /maintenance.html [R=302,L]
+
+
+# =========================================================
+# 3) Custom 404 page
+#   - Put your 404 file: 404.html
+# =========================================================
+ErrorDocument 404 /404.html
