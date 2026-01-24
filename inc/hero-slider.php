@@ -51,8 +51,8 @@
     const slides = [
         {
         images: [
-            'assets/slide_1.jpg',
-            'assets/A_rubber.jpeg'
+            'assets/slider/1.JPG',
+            'assets/slider/1.2.jpg'
         ],
         // OPTIONAL: responsive classes from JSON (won’t change your layout, only makes it adapt)
         imgTopClass: 'w-[280px] h-[220px] sm:w-[340px] sm:h-[260px] md:w-[400px] md:h-[300px]',
@@ -66,8 +66,8 @@
         },
         {
         images: [
-            'https://picsum.photos/600/500?random=3',
-            'https://picsum.photos/600/500?random=35'
+            'assets/slider/2.1.jpg',
+            'assets/slider/2.2.JPG'
         ],
         imgTopClass: 'w-[280px] h-[220px] sm:w-[340px] sm:h-[260px] md:w-[400px] md:h-[300px]',
         imgBottomClass: 'w-[240px] h-[170px] sm:w-[280px] sm:h-[190px] md:w-[330px] md:h-[220px] right-4 sm:right-10 md:right-20',
@@ -80,8 +80,8 @@
         },
         {
         images: [
-            'https://picsum.photos/600/500?random=2',
-            'https://picsum.photos/600/500?random=25'
+            'assets/slider/3.1.jpg',
+            'assets/slider/3.2.jpg'
         ],
         imgTopClass: 'w-[280px] h-[220px] sm:w-[340px] sm:h-[260px] md:w-[400px] md:h-[300px]',
         imgBottomClass: 'w-[240px] h-[170px] sm:w-[280px] sm:h-[190px] md:w-[330px] md:h-[220px] right-4 sm:right-10 md:right-20',
