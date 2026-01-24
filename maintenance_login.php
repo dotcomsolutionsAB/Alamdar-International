@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label class="text-sm text-white/70">Admin ID</label>
         <input name="admin_id" type="text" required
                class="mt-2 w-full rounded-2xl bg-slate-900/50 border border-white/10 px-4 py-3 outline-none focus:border-white/25"
-               placeholder="admin@dotcom.com">
+               placeholder="example@gmail.com">
       </div>
 
       <div>
