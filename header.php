@@ -1,5 +1,20 @@
 <html lang="en">
 <?php include 'config/static-data.php'; ?>
+<?php
+// Maintenance Mode (global)
+if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
+
+    // Allow the maintenance page itself (avoid infinite loop)
+    $current = basename(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
+
+    if ($current !== 'maintenance.html') {
+        header("HTTP/1.1 503 Service Unavailable");
+        header("Location: maintenance.html");
+        exit;
+    }
+}
+?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
