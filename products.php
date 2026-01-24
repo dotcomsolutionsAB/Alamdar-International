@@ -19,7 +19,7 @@
             </h1>
 
             <div class="mt-4 flex items-center justify-start gap-2 text-white/80 text-lg animate-fade-up delay-150">
-                <a href="index.php" class="hover:text-primary transition">Home</a>
+                <a href="index" class="hover:text-primary transition">Home</a>
                 <span class="text-primary font-bold">/</span>
                 <span class="text-white">Products</span>
             </div>

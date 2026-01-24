@@ -103,13 +103,13 @@
 
         <div class="max-w-7xl mx-auto flex items-center justify-between px-4 h-20">
             <!-- Logo -->
-            <a href="index.php" class="flex items-center flex-shrink-0 h-full">
+            <a href="index" class="flex items-center flex-shrink-0 h-full">
                 <img src="<?= SITE_LOGO ?>" alt="getizy HTML" class="h-8 md:h-16 w-auto drop-shadow-xl" />
             </a>
             <!-- Menu -->
             <ul class="hidden lg:flex flex-1 justify-center space-x-2 font-semibold text-base">
                 <li>
-                    <a href="index.php"
+                    <a href="index"
                         class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
                         <i class="fa-solid fa-house text-primary"></i>
                         <span class="relative z-10">Home</span>
@@ -118,7 +118,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="about.php"
+                    <a href="about"
                         class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
                         <i class="fa-solid fa-user-tie text-primary"></i>
                         <span class="relative z-10">About</span>
@@ -137,7 +137,7 @@
                 </li> -->
                 <!-- Products Dropdown (Desktop) -->
                 <li class="relative group">
-                    <a href="products.php"
+                    <a href="products"
                         class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
                         <i class="fa-solid fa-diagram-project text-primary"></i>
                         <span class="relative z-10">Products</span>
@@ -151,25 +151,25 @@
                     <div
                         class="absolute left-0 top-full mt-3 w-64 rounded-2xl border border-white/10 bg-[#0b1430]/95 backdrop-blur shadow-2xl overflow-hidden opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
                         
-                        <a href="products.php?category=valves"
+                        <a href="products?category=valves"
                             class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">
                             <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
                             Valves
                         </a>
 
-                        <a href="products.php?category=rubber-products"
+                        <a href="products?category=rubber-products"
                             class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">
                             <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
                             Rubber Products
                         </a>
 
-                        <a href="products.php?category=expansion-joints"
+                        <a href="products?category=expansion-joints"
                             class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">
                             <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
                             Expansion Joints
                         </a>
 
-                        <a href="products.php?category=measure-products"
+                        <a href="products?category=measure-products"
                             class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">
                             <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
                             Measure Products
@@ -181,7 +181,7 @@
             <div class="flex items-center gap-2 md:gap-3 flex-shrink-0 whitespace-nowrap">
     
                 <!-- Contact button: show always -->
-                <a href="contact.php" class="btn-primary-grad text-[#1A2230] px-7 py-2 rounded-2xl font-bold shadow-xl transition-all duration-200 border-2 border-primary-30 hover:scale-105 text-sm md:text-base">
+                <a href="contact" class="btn-primary-grad text-[#1A2230] px-7 py-2 rounded-2xl font-bold shadow-xl transition-all duration-200 border-2 border-primary-30 hover:scale-105 text-sm md:text-base">
                     <i class="fa-solid fa-envelope"></i>
                     <span class="ml-3 relative z-10">Contact</span>
                 </a>
@@ -207,13 +207,13 @@
         <div id="mobileMenu" class="lg:hidden hidden border-t border-white/10 bg-[#0b1430]/95 backdrop-blur">
             <div class="max-w-7xl mx-auto px-4 py-4 space-y-2">
 
-                <a href="index.php"
+                <a href="index"
                 class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
                     <i class="fa-solid fa-house text-primary"></i>
                     Home
                 </a>
 
-                <a href="about.php"
+                <a href="about"
                 class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
                     <i class="fa-solid fa-user-tie text-primary"></i>
                     About
@@ -232,25 +232,25 @@
                     </button>
 
                     <div id="mobileProductsDropdown" class="hidden mt-1 ml-2 border-l border-white/10 pl-3 space-y-1">
-                        <a href="products.php?category=valves"
+                        <a href="products?category=valves"
                             class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
                             <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
                             Valves
                         </a>
 
-                        <a href="products.php?category=rubber-products"
+                        <a href="products?category=rubber-products"
                             class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
                             <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
                             Rubber Products
                         </a>
 
-                        <a href="products.php?category=expansion-joints"
+                        <a href="products?category=expansion-joints"
                             class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
                             <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
                             Expansion Joints
                         </a>
 
-                        <a href="products.php?category=measure-products"
+                        <a href="products?category=measure-products"
                             class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
                             <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
                             Measure Products
@@ -259,7 +259,7 @@
                 </div>
 
                 <div class="pt-3 border-t border-white/10 flex flex-col gap-3">
-                    <a href="contact.php"
+                    <a href="contact"
                     class="w-full text-center bg-gradient-to-r from-[#ff7a4d] to-[#ff5c2a] text-[#1A2230] px-6 py-3 rounded-2xl font-bold shadow-xl">
                         Contact Us
                     </a>

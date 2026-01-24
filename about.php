@@ -1,4 +1,4 @@
-<?php include 'header'; ?>
+<?php include 'header.php'; ?>
 
     <!-- ===================== ABOUT (same as screenshot + animations) ===================== -->
     <section id="about-best-agency" class="relative py-24 bg-white overflow-hidden">
@@ -172,6 +172,6 @@
     </section>
 
     <!-- ===================== OUR TEAM (icons fixed + hover effect like image) ===================== -->
-    <?php include 'inc/our-team'; ?>
+    <?php include 'inc/our-team.php'; ?>
 
-<?php include 'footer'; ?>
+<?php include 'footer.php'; ?>

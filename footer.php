@@ -44,9 +44,9 @@
                     <div class="md:col-span-1 relative md:pl-12 footer-col with-line">
                         <h4 class="text-xl font-extrabold text-primary mb-7">Links</h4>
                         <ul class="space-y-4 text-white/55 text-lg">
-                            <li><a href="about.php" class="footer-link">About Us</a></li>
-                            <li><a href="contact.php" class="footer-link">Contact Us</a></li>
-                            <li><a href="products.php" class="footer-link">Products</a></li>
+                            <li><a href="about" class="footer-link">About Us</a></li>
+                            <li><a href="contact" class="footer-link">Contact Us</a></li>
+                            <li><a href="products" class="footer-link">Products</a></li>
                         </ul>
                     </div>
 
