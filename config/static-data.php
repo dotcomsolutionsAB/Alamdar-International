@@ -10,3 +10,4 @@ define('SITE_MAP', 'https://maps.app.goo.gl/RU419bHcAWhNFQqb8');
 define('SITE_FACEBOOK', 'https://facebook.com');
 define('SITE_TWITTER', 'https://twitter.com'); 
 define('SITE_YOUTUBE', 'https://youtube.com');
+define('SITE_MAINTENANCE', 1);  // 1 for enable, 0 for disable
