@@ -55,8 +55,8 @@
             'assets/slider/1.2.jpg'
         ],
         // OPTIONAL: responsive classes from JSON (won’t change your layout, only makes it adapt)
-        imgTopClass: 'w-[280px] h-[220px] sm:w-[340px] sm:h-[260px] md:w-[400px] md:h-[300px]',
-        imgBottomClass: 'w-[240px] h-[170px] sm:w-[280px] sm:h-[190px] md:w-[330px] md:h-[220px] right-4 sm:right-10 md:right-20',
+        imgTopClass: 'w-[280px] h-[220px] sm:w-[340px] sm:h-[260px] md:w-[600px] md:h-[400px]',
+        imgBottomClass: 'w-[240px] h-[170px] sm:w-[280px] sm:h-[190px] md:w-[530px] md:h-[320px] right-4 sm:right-10 md:right-20',
 
         title: 'Alamdar International',
         heading: ['Welcome', 'to <span class="text-primary font-black">Alamdar International</span>'],
