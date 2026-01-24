@@ -1,20 +1,29 @@
 <?php
+session_start();
 include __DIR__ . '/config/static-data.php';
 
-// Maintenance Mode (global)
+// If maintenance is ON and admin is NOT logged in, redirect to maintenance page
 if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
 
     $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
     $current = basename($path);
 
-    // allow maintenance.html and assets (so page styles load)
-    if ($current !== 'maintenance.html' && strpos($path, '/assets/') !== 0) {
-        http_response_code(503);
-        header("Location: /maintenance.html");
-        exit;
+    $isLoggedIn = !empty($_SESSION[MAINT_SESSION_KEY]);
+
+    // allow these without login
+    $allowedFiles = ['maintenance.html', 'maintenance_login.php'];
+
+    if (!$isLoggedIn) {
+        // allow assets so maintenance page loads properly
+        if (!in_array($current, $allowedFiles, true) && strpos($path, '/assets/') !== 0) {
+            http_response_code(503);
+            header("Location: /maintenance.html");
+            exit;
+        }
     }
 }
 ?>
+
 
 <html lang="en">
 <head>

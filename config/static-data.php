@@ -11,3 +11,8 @@ define('SITE_FACEBOOK', 'https://facebook.com');
 define('SITE_TWITTER', 'https://twitter.com'); 
 define('SITE_YOUTUBE', 'https://youtube.com');
 define('SITE_MAINTENANCE', 1);  // 1 for enable, 0 for disable
+// Maintenance Admin Login
+define('MAINT_ADMIN_ID', 'admin@dotcom.com');
+define('MAINT_ADMIN_PWD', 'admin@dotcom.com');
+// Session key
+define('MAINT_SESSION_KEY', 'maint_admin_logged_in');
