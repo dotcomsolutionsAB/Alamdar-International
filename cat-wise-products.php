@@ -1,144 +1,65 @@
 <?php include 'header.php'; ?>
+    <!-- Breadcrumb  -->
+    <section class="relative overflow-hidden">
+        <!-- background image -->
+        <div class="absolute inset-0 bg-cover bg-center"
+            style="background-image:url('assets/bg.webp');">
+        </div>
+
+        <!-- overlay -->
+        <div class="absolute inset-0 bg-[#0b1430]/90"></div>
+
+        <!-- glow -->
+        <div class="absolute -right-40 -top-40 w-[420px] h-[220px] rounded-full bg-primary-glow-10 blur-3xl"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 py-8 text-left">
+            <h1 class="text-white text-4xl md:text-5xl font-extrabold tracking-tight
+                    animate-fade-up">
+                Our Products
+            </h1>
+
+            <div class="mt-4 flex items-center justify-start gap-2 text-white/80 text-lg animate-fade-up delay-150">
+                <a href="index.php" class="hover:text-primary transition">Home</a>
+                <span class="text-primary font-bold">/</span>
+                <span class="text-white">Products</span>
+            </div>
+
+            <!-- underline -->
+            <div class="flex items-center justify-start mt-6 w-24 h-1 bg-primary rounded-full animate-scale-in"></div>
+        </div>
+    </section>
 
     <!-- ===================== PRODUCTS GRID (same as screenshot + animation + hover) ===================== -->
     <section id="products" class="relative py-24 bg-white overflow-hidden">
         <div class="max-w-7xl mx-auto px-4">
             <!-- Top bar -->
-            <div
-                class="prod-top flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-12 opacity-0 translate-y-6">
-                <div class="text-[#23223b] text-xl font-semibold">
-                    Showing <span class="font-bold">1–9</span> of <span class="font-bold">12</span> Results
+            <div class="prod-top flex flex-col md:flex-row md:items-baseline md:justify-between gap-6 mb-12 opacity-0 translate-y-6">
+                <div class="text-secondary text-xl font-semibold">
+                    Showing <span class="font-bold" id="shownCount">0</span> of
+                    <span class="font-bold" id="totalCount">0</span> Results
                 </div>
 
                 <!-- Sort dropdown (static UI like screenshot) -->
-                <div class="relative w-full md:w-[420px]">
-                    <select
-                        class="w-full bg-[#f3f5f6] text-[#23223b] font-semibold px-8 py-5 pr-14 outline-none appearance-none border border-black/5">
-                        <option>Sort by popular</option>
-                        <option>Sort by latest</option>
-                        <option>Sort by price: low to high</option>
-                        <option>Sort by price: high to low</option>
+                <div class="flex flex-col md:flex-row gap-4 mb-10">
+                <div class="w-full md:w-[340px]">
+                    <select id="categorySelect"
+                    class="w-full bg-[#f3f5f6] text-secondary font-semibold px-6 py-4 outline-none border border-black/5">
+                    <option value="">Loading categories...</option>
                     </select>
+                </div>
 
-                    <!-- caret -->
-                    <span class="pointer-events-none absolute right-6 top-1/2 -translate-y-1/2 text-primary">
-                        <i class="fa fa-chevron-down"></i>
-                    </span>
+                <div class="w-full md:w-[340px] hidden" id="subcatWrap">
+                    <select id="subcatSelect"
+                    class="w-full bg-[#f3f5f6] text-secondary font-semibold px-6 py-4 outline-none border border-black/5">
+                    <option value="">Select subcategory</option>
+                    </select>
                 </div>
             </div>
-
-            <!-- Grid -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-                <!-- Product Card (repeat) -->
-                <article class="prod-card opacity-0 translate-y-10">
-                    <div class="prod-inner border border-black/20 p-8 text-center bg-white">
-                        <div class="h-[260px] flex items-center justify-center">
-                            <img src="https://picsum.photos/420/420?random=301" alt="Sofa Chair"
-                                class="prod-img max-h-[230px] w-auto object-contain" />
-                        </div>
-
-                        <h3 class="mt-10 text-3xl font-extrabold text-[#8a8a93] leading-tight">Sofa Chair</h3>
-
-                        <div class="mt-4 text-xl text-[#8a8a93] font-semibold flex items-center justify-center gap-3">
-                            <span>$25.00</span>
-                            <span class="line-through opacity-70">$25.00</span>
-                        </div>
-
-                        <!-- stars -->
-                        <div class="mt-5 flex items-center justify-center gap-2 text-[#23223b] text-lg">
-                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                class="fa fa-star"></i><i class="fa fa-star"></i>
-                        </div>
-
-                        <div class="mt-10 flex justify-center">
-                            <button class="prod-btn bg-[#f3f5f6] text-[#23223b] font-semibold px-10 py-4">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="prod-card opacity-0 translate-y-10">
-                    <div class="prod-inner border border-black/20 p-8 text-center bg-white">
-                        <div class="h-[260px] flex items-center justify-center">
-                            <img src="https://picsum.photos/420/420?random=302" alt="Relax Chair"
-                                class="prod-img max-h-[230px] w-auto object-contain" />
-                        </div>
-
-                        <h3 class="mt-10 text-3xl font-extrabold text-[#8a8a93] leading-tight">Relax Chair</h3>
-
-                        <div class="mt-4 text-xl text-[#8a8a93] font-semibold flex items-center justify-center gap-3">
-                            <span>$25.00</span>
-                            <span class="line-through opacity-70">$25.00</span>
-                        </div>
-
-                        <div class="mt-5 flex items-center justify-center gap-2 text-[#23223b] text-lg">
-                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                class="fa fa-star"></i><i class="fa fa-star"></i>
-                        </div>
-
-                        <div class="mt-10 flex justify-center">
-                            <button class="prod-btn bg-[#f3f5f6] text-[#23223b] font-semibold px-10 py-4">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="prod-card opacity-0 translate-y-10">
-                    <div class="prod-inner border border-black/20 p-8 text-center bg-white">
-                        <div class="h-[260px] flex items-center justify-center">
-                            <img src="https://picsum.photos/420/420?random=303" alt="Office Chair"
-                                class="prod-img max-h-[230px] w-auto object-contain" />
-                        </div>
-
-                        <h3 class="mt-10 text-3xl font-extrabold text-[#8a8a93] leading-tight">Office Chair</h3>
-
-                        <div class="mt-4 text-xl text-[#8a8a93] font-semibold flex items-center justify-center gap-3">
-                            <span>$25.00</span>
-                            <span class="line-through opacity-70">$25.00</span>
-                        </div>
-
-                        <div class="mt-5 flex items-center justify-center gap-2 text-[#23223b] text-lg">
-                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                class="fa fa-star"></i><i class="fa fa-star"></i>
-                        </div>
-
-                        <div class="mt-10 flex justify-center">
-                            <button class="prod-btn bg-[#f3f5f6] text-[#23223b] font-semibold px-10 py-4">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="prod-card opacity-0 translate-y-10">
-                    <div class="prod-inner border border-black/20 p-8 text-center bg-white">
-                        <div class="h-[260px] flex items-center justify-center">
-                            <img src="https://picsum.photos/420/420?random=304" alt="Relax Chair"
-                                class="prod-img max-h-[230px] w-auto object-contain" />
-                        </div>
-
-                        <h3 class="mt-10 text-3xl font-extrabold text-[#8a8a93] leading-tight">Relax Chair</h3>
-
-                        <div class="mt-4 text-xl text-[#8a8a93] font-semibold flex items-center justify-center gap-3">
-                            <span>$25.00</span>
-                            <span class="line-through opacity-70">$25.00</span>
-                        </div>
-
-                        <div class="mt-5 flex items-center justify-center gap-2 text-[#23223b] text-lg">
-                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                class="fa fa-star"></i><i class="fa fa-star"></i>
-                        </div>
-
-                        <div class="mt-10 flex justify-center">
-                            <button class="prod-btn bg-[#f3f5f6] text-[#23223b] font-semibold px-10 py-4">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-                </article>
             </div>
+
+            <!-- Grid (dynamic) -->
+            <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"></div>
+
         </div>
 
         <style>
@@ -169,16 +90,16 @@
             }
 
             #products .prod-card:hover .prod-btn {
-                background: linear-gradient(90deg, #ff5c2a, #ff7a4d);
+                background: linear-gradient(90deg, var(--primary), var(--primary)) !important;
                 color: #fff;
-                box-shadow: 0 18px 40px rgba(255, 92, 42, 0.25);
+                box-shadow: 0 18px 40px rgba(40, 165, 219, .30);
                 transform: translateY(-2px);
-                border-color: rgba(255, 92, 42, 0.25);
+                border-color: rgba(40, 165, 219, .30);
             }
 
             #products .prod-btn:hover {
                 transform: translateY(-3px) scale(1.01);
-                box-shadow: 0 22px 52px rgba(255, 92, 42, 0.32);
+                box-shadow: 0 22px 52px rgba(40, 165, 219, .60);
             }
 
             /* entrance animations */
@@ -231,6 +152,190 @@
                 io.observe(root);
             })();
         </script>
+
+<script>
+  (function () {
+    const grid = document.getElementById("productGrid");
+    const categorySelect = document.getElementById("categorySelect");
+    const subcatWrap = document.getElementById("subcatWrap");
+    const subcatSelect = document.getElementById("subcatSelect");
+
+    const shownCount = document.getElementById("shownCount");
+    const totalCount = document.getElementById("totalCount");
+
+    let DATA = null;
+
+    function slugify(str) {
+      return String(str || "")
+        .toLowerCase()
+        .trim()
+        .replace(/&/g, "and")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/(^-|-$)/g, "");
+    }
+
+    function renderCards(products) {
+      grid.innerHTML = "";
+
+      const list = Array.isArray(products) ? products : [];
+      shownCount.textContent = list.length;
+      totalCount.textContent = list.length;
+
+      if (!list.length) {
+        grid.innerHTML = `<div class="col-span-full text-center text-secondary/70 text-xl py-16">
+          No products found.
+        </div>`;
+        return;
+      }
+
+      list.forEach((p, i) => {
+        const name = p?.name || "Product";
+        const img = p?.image?.url || "https://picsum.photos/420/420?random=" + (300 + i);
+        const alt = p?.image?.alt || name;
+        const desc = p?.description || "";
+        const ctaText = p?.cta?.text || "Technical Specs";
+        const ctaHref = p?.cta?.href || "#";
+
+        const card = document.createElement("article");
+        card.className = "prod-card opacity-0 translate-y-10";
+
+        card.innerHTML = `
+          <div class="prod-inner border border-black/20 px-4 py-4 text-center bg-white">
+            <div class="h-[260px] flex items-center justify-center">
+              <img src="${img}" alt="${alt}"
+                class="prod-img max-h-[230px] w-auto object-cover" />
+            </div>
+
+            <h3 class="mt-10 text-xl text-justify font-selmibold text-[#8a8a93] leading-tight">
+              ${name}
+            </h3>
+
+            <p class="mt-4 text-base text-justify text-[#8a8a93] font-medium leading-relaxed line-clamp-3">
+              ${desc}
+            </p>
+
+            <div class="mt-10 flex justify-center">
+              <a href="${ctaHref}" class="prod-btn inline-block bg-[#f3f5f6] text-secondary font-semibold px-10 py-4">
+                ${ctaText}
+              </a>
+            </div>
+          </div>
+        `;
+
+        grid.appendChild(card);
+      });
+
+      // re-run entrance animation on newly added cards
+      const cards = [...document.querySelectorAll("#products .prod-card")];
+      cards.forEach((card, idx) => {
+        setTimeout(() => card.classList.add("prod-in-up"), 70 * idx);
+      });
+    }
+
+    function fillCategories(categories) {
+      categorySelect.innerHTML = "";
+      categories.forEach((c) => {
+        const opt = document.createElement("option");
+        opt.value = c.id;
+        opt.textContent = c.name;
+        categorySelect.appendChild(opt);
+      });
+    }
+
+    function fillSubcategories(subcategories) {
+      subcatSelect.innerHTML = `<option value="">All</option>`;
+      subcategories.forEach((s) => {
+        const opt = document.createElement("option");
+        opt.value = s.id;
+        opt.textContent = s.name;
+        subcatSelect.appendChild(opt);
+      });
+    }
+
+    function getCategoryById(id) {
+      return DATA?.categories?.find((c) => c.id === id);
+    }
+
+    function refreshView() {
+    const catId = categorySelect.value;
+    const cat = getCategoryById(catId);
+    if (!cat) return;
+
+    // category with subcategories
+    if (Array.isArray(cat.subcategories) && cat.subcategories.length) {
+        subcatWrap.classList.remove("hidden");
+
+        const selectedSub = subcatSelect.value || ""; // "" = all
+
+        if (!selectedSub) {
+        const all = cat.subcategories.flatMap((s) => s.products || []);
+        renderCards(all);
+        } else {
+        const sc = cat.subcategories.find((s) => s.id === selectedSub);
+        renderCards(sc?.products || []);
+        }
+    } else {
+        subcatWrap.classList.add("hidden");
+        renderCards(cat.products || []);
+    }
+    }
+
+    async function init() {
+      try {
+        const res = await fetch("data/product.json", { cache: "no-store" });
+        DATA = await res.json();
+
+        const categories = DATA?.categories || [];
+        if (!categories.length) throw new Error("No categories found");
+
+        fillCategories(categories);
+
+        // default category = first one
+        categorySelect.value = categories[0].id;
+
+        const firstCat = getCategoryById(categorySelect.value);
+
+        if (firstCat?.subcategories?.length) {
+        subcatWrap.classList.remove("hidden");
+        fillSubcategories(firstCat.subcategories);
+        } else {
+        subcatWrap.classList.add("hidden");
+        }
+
+        // reset subcat
+        subcatSelect.value = "";
+        refreshView();
+
+        categorySelect.addEventListener("change", () => {
+            const cat = getCategoryById(categorySelect.value);
+
+            subcatSelect.value = "";
+
+            if (cat?.subcategories?.length) {
+                subcatWrap.classList.remove("hidden");
+                fillSubcategories(cat.subcategories);
+            } else {
+                subcatWrap.classList.add("hidden");
+                subcatSelect.innerHTML = `<option value="">Select subcategory</option>`;
+            }
+
+            refreshView();
+        });
+
+
+        subcatSelect.addEventListener("change", refreshView);
+      } catch (e) {
+        console.error(e);
+        grid.innerHTML = `<div class="col-span-full text-center text-red-600 text-lg py-16">
+          Failed to load products JSON. Check <b>data/product.json</b> path.
+        </div>`;
+      }
+    }
+
+    init();
+  })();
+</script>
+
     </section>
 
 <!-- ===================== FOOTER (same as image) ===================== -->

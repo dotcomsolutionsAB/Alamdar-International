@@ -135,24 +135,47 @@
                             class="absolute left-0 bottom-0 w-0 h-1 bg-primary rounded-full group-hover:w-full transition-all duration-300"></span>
                     </a>
                 </li> -->
-                <li>
+                <!-- Products Dropdown (Desktop) -->
+                <li class="relative group">
                     <a href="products.php"
                         class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
                         <i class="fa-solid fa-diagram-project text-primary"></i>
                         <span class="relative z-10">Products</span>
+                        <i class="fa-solid fa-chevron-down text-xs opacity-80 relative z-10"></i>
+
                         <span
                             class="absolute left-0 bottom-0 w-0 h-1 bg-primary rounded-full group-hover:w-full transition-all duration-300"></span>
                     </a>
+
+                    <!-- Dropdown -->
+                    <div
+                        class="absolute left-0 top-full mt-3 w-64 rounded-2xl border border-white/10 bg-[#0b1430]/95 backdrop-blur shadow-2xl overflow-hidden opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
+                        
+                        <a href="products.php?category=valves"
+                            class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">
+                            <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
+                            Valves
+                        </a>
+
+                        <a href="products.php?category=rubber-products"
+                            class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">
+                            <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
+                            Rubber Products
+                        </a>
+
+                        <a href="products.php?category=expansion-joints"
+                            class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">
+                            <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
+                            Expansion Joints
+                        </a>
+
+                        <a href="products.php?category=measure-products"
+                            class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">
+                            <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
+                            Measure Products
+                        </a>
+                    </div>
                 </li>
-                <!-- <li>
-                    <a href="blog-grid.html"
-                        class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
-                        <i class="fa-solid fa-blog text-primary"></i>
-                        <span class="relative z-10">Blog</span>
-                        <span
-                            class="absolute left-0 bottom-0 w-0 h-1 bg-primary rounded-full group-hover:w-full transition-all duration-300"></span>
-                    </a>
-                </li> -->
             </ul>
             <!-- Actions -->
             <div class="flex items-center gap-2 md:gap-3 flex-shrink-0 whitespace-nowrap">
@@ -196,29 +219,44 @@
                     About
                 </a>
 
-                <a href="services-grid.php"
-                class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
-                    <i class="fa-solid fa-cogs text-primary"></i>
-                    Services
-                </a>
+                <!-- Products Dropdown (Mobile) -->
+                <div class="rounded-xl overflow-hidden">
+                    <button type="button"
+                        class="w-full flex items-center justify-between gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition"
+                        onclick="toggleMobileProducts()">
+                        <span class="flex items-center gap-3">
+                            <i class="fa-solid fa-diagram-project text-primary"></i>
+                            Products
+                        </span>
+                        <i id="mobileProductsIcon" class="fa-solid fa-chevron-down text-sm transition-transform duration-200"></i>
+                    </button>
 
-                <a href="project.php"
-                class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
-                    <i class="fa-solid fa-diagram-project text-primary"></i>
-                    Projects
-                </a>
+                    <div id="mobileProductsDropdown" class="hidden mt-1 ml-2 border-l border-white/10 pl-3 space-y-1">
+                        <a href="products.php?category=valves"
+                            class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
+                            <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
+                            Valves
+                        </a>
 
-                <a href="blog-grid.php"
-                class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
-                    <i class="fa-solid fa-blog text-primary"></i>
-                    Blog
-                </a>
+                        <a href="products.php?category=rubber-products"
+                            class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
+                            <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
+                            Rubber Products
+                        </a>
 
-                <a href="contact.php"
-                class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
-                    <i class="fa-solid fa-envelope text-primary"></i>
-                    Contact
-                </a>
+                        <a href="products.php?category=expansion-joints"
+                            class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
+                            <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
+                            Expansion Joints
+                        </a>
+
+                        <a href="products.php?category=measure-products"
+                            class="flex items-center gap-3 px-4 py-3 rounded-xl text-white hover:bg-white/10 transition">
+                            <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
+                            Measure Products
+                        </a>
+                    </div>
+                </div>
 
                 <div class="pt-3 border-t border-white/10 flex flex-col gap-3">
                     <a href="contact.php"
@@ -235,3 +273,18 @@
             </div>
         </div>
     </nav>
+<script>
+    function toggleMobileProducts() {
+        const dd = document.getElementById('mobileProductsDropdown');
+        const icon = document.getElementById('mobileProductsIcon');
+
+        dd.classList.toggle('hidden');
+
+        // rotate icon
+        if (dd.classList.contains('hidden')) {
+            icon.classList.remove('rotate-180');
+        } else {
+            icon.classList.add('rotate-180');
+        }
+    }
+</script>
