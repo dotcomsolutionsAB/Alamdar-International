@@ -1,20 +1,22 @@
-<html lang="en">
-<?php include 'config/static-data.php'; ?>
 <?php
+include __DIR__ . '/config/static-data.php';
+
 // Maintenance Mode (global)
 if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
 
-    // Allow the maintenance page itself (avoid infinite loop)
-    $current = basename(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
+    $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    $current = basename($path);
 
-    if ($current !== 'maintenance.html') {
-        header("HTTP/1.1 503 Service Unavailable");
-        header("Location: maintenance.html");
+    // allow maintenance.html and assets (so page styles load)
+    if ($current !== 'maintenance.html' && strpos($path, '/assets/') !== 0) {
+        http_response_code(503);
+        header("Location: /maintenance.html");
         exit;
     }
 }
 ?>
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
