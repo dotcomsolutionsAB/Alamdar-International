@@ -1,14 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Page Not Found</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes floaty {
+
+            0%,
+            100% {
+                transform: translateY(0)
+            }
+
+            50% {
+                transform: translateY(-12px)
+            }
+        }
+
+        .floaty {
+            animation: floaty 3.8s ease-in-out infinite;
+        }
+
+        @keyframes glowPulse {
+
+            0%,
+            100% {
+                opacity: .45
+            }
+
+            50% {
+                opacity: .9
+            }
+        }
+
+        .glowPulse {
+            animation: glowPulse 2.4s ease-in-out infinite;
+        }
+
+        @keyframes scan {
+            0% {
+                transform: translateY(-60%)
+            }
+
+            100% {
+                transform: translateY(160%)
+            }
+        }
+
+        .scan::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 120px;
+            top: -60%;
+            background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, .12), transparent);
+            animation: scan 2.6s ease-in-out infinite;
+        }
+    </style>
 </head>
 
-<body>
-    <h4>404 Not found</h4>
+<body class="min-h-screen bg-slate-950 text-white overflow-hidden">
+    <!-- Background glow -->
+    <div class="pointer-events-none absolute inset-0">
+        <div class="absolute -top-40 -left-40 h-[520px] w-[520px] rounded-full bg-cyan-500/20 blur-3xl"></div>
+        <div class="absolute -bottom-48 -right-40 h-[620px] w-[620px] rounded-full bg-indigo-500/20 blur-3xl"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-950 via-slate-950/80 to-slate-950"></div>
+    </div>
+
+    <main class="relative mx-auto max-w-6xl px-6 py-16 lg:py-24">
+        <!-- Top bar -->
+        <div class="flex items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="h-10 w-10 rounded-2xl bg-white/10 border border-white/10 grid place-items-center">
+                    <!-- compass icon -->
+                    <svg class="h-5 w-5 text-white/90" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M16 8l-2 8-8 2 2-8 8-2Z"></path>
+                    </svg>
+                </div>
+                <div>
+                    <p class="text-sm text-white/60">Error</p>
+                    <p class="font-semibold tracking-tight">Page not found</p>
+                </div>
+            </div>
+
+            <div class="hidden sm:flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-2">
+                <span class="relative flex h-2.5 w-2.5">
+                    <span
+                        class="absolute inline-flex h-full w-full rounded-full bg-cyan-400/40 opacity-60 glowPulse"></span>
+                    <span class="relative inline-flex h-2.5 w-2.5 rounded-full bg-cyan-400"></span>
+                </span>
+                <span class="text-sm text-white/70">Let’s get you back</span>
+            </div>
+        </div>
+
+        <section class="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <!-- Left -->
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-8 lg:p-10 shadow-2xl shadow-black/30">
+                <p class="text-white/60 text-sm">Error code</p>
+                <h1 class="mt-2 text-5xl lg:text-6xl font-extrabold tracking-tight">
+                    404
+                </h1>
+                <p class="mt-3 text-white/70 leading-relaxed">
+                    The page you’re looking for doesn’t exist, was moved, or the URL is incorrect.
+                </p>
+
+                <div class="mt-7 flex flex-col sm:flex-row gap-3">
+                    <a href="/"
+                        class="inline-flex items-center justify-center rounded-2xl bg-white text-slate-900 font-semibold px-5 py-3 hover:bg-white/90 transition">
+                        Go to Home
+                    </a>
+                    <button onclick="history.back()"
+                        class="inline-flex items-center justify-center rounded-2xl border border-white/15 bg-white/5 text-white font-semibold px-5 py-3 hover:bg-white/10 transition">
+                        Go Back
+                    </button>
+                </div>
+
+                <div class="mt-8 rounded-2xl border border-white/10 bg-slate-900/40 p-5">
+                    <p class="text-sm text-white/75 font-semibold">Try this:</p>
+                    <ul class="mt-2 text-sm text-white/60 space-y-2 list-disc pl-5">
+                        <li>Check for typos in the URL</li>
+                        <li>Use the navigation menu</li>
+                        <li>Go back to the homepage</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right: animated "scanner" card -->
+            <div class="relative">
+                <div
+                    class="floaty mx-auto max-w-md rounded-3xl border border-white/10 bg-white/5 p-8 shadow-2xl shadow-black/30 relative overflow-hidden scan">
+                    <div class="flex items-center justify-between">
+                        <p class="text-sm text-white/60">Locator</p>
+                        <span class="text-xs text-white/50">searching…</span>
+                    </div>
+
+                    <div class="mt-6 grid place-items-center">
+                        <div class="relative h-44 w-44">
+                            <div class="absolute inset-0 rounded-full border border-white/15"></div>
+                            <div class="absolute inset-5 rounded-full border border-white/10"></div>
+                            <div class="absolute inset-10 rounded-full border border-white/10"></div>
+                            <div class="absolute inset-0 grid place-items-center">
+                                <div
+                                    class="h-14 w-14 rounded-2xl bg-white/10 border border-white/10 grid place-items-center">
+                                    <!-- magnifier -->
+                                    <svg class="h-7 w-7 text-white/85" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <circle cx="11" cy="11" r="7"></circle>
+                                        <path d="M21 21l-4.35-4.35"></path>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <!-- dot -->
+                            <div class="absolute top-3 left-8 h-3 w-3 rounded-full bg-cyan-400 glowPulse"></div>
+                            <div class="absolute bottom-6 right-10 h-2.5 w-2.5 rounded-full bg-indigo-400 glowPulse">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="mt-7 rounded-2xl bg-gradient-to-r from-cyan-500/15 to-indigo-500/15 border border-white/10 p-5">
+                        <p class="text-sm text-white/80 font-semibold">Hint</p>
+                        <p class="text-sm text-white/65 mt-1">
+                            If you typed the URL manually, double-check the spelling.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- decorative ring -->
+                <div class="pointer-events-none absolute -z-10 inset-0 grid place-items-center">
+                    <div class="h-[420px] w-[420px] rounded-full border border-white/10"></div>
+                    <div class="absolute h-[520px] w-[520px] rounded-full border border-white/5"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="mt-12 text-center text-sm text-white/40">
+            © <span id="yr"></span> Your Company. All rights reserved.
+        </footer>
+    </main>
+
+    <script>
+        document.getElementById('yr').textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>

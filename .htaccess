@@ -21,7 +21,7 @@ RewriteRule ^(.+?)/?$ $1.php [L]
 #   - Put your maintenance page: maintenance.html
 #   - Remove maintenance.on to disable
 # =========================================================
-RewriteCond %{DOCUMENT_ROOT}/maintenance.off -f
+RewriteCond %{DOCUMENT_ROOT}/maintenance.on -f
 
 # Allow these even in maintenance (adjust if needed)
 RewriteCond %{REQUEST_URI} !^/maintenance\.html$ [NC]
