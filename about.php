@@ -89,7 +89,7 @@
                     </div>
 
                     <div class="aboutMini opacity-0 translate-y-6">
-                        <img src="https://picsum.photos/520/360?random=211" alt="about small"
+                        <img src="assets/about/about_2.png" alt="about small"
                             class="w-full h-[220px] object-cover shadow-xl border border-black/5" />
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                 <div class="absolute -left-6 top-10 bottom-10 w-16 btn-primary-grad"></div>
 
                 <div class="relative bg-white shadow-[0_18px_60px_rgba(16,24,40,0.16)] border border-black/5">
-                    <img src="https://picsum.photos/900/1100?random=212" alt="about main"
+                    <img src="assets/about/about_1.png" alt="about main"
                         class="w-full h-[560px] object-cover" />
 
                     <!-- semi circle badge -->
