@@ -391,7 +391,7 @@
                     <div class="flex items-center gap-4">
                         <div class="w-16 h-16 rounded-2xl bg-white border border-black/10 shadow-sm flex items-center justify-center overflow-hidden">
                             <img
-                                src="assets/certifications/rohs.png"
+                                src="assets/about/ROHS.png"
                                 alt="RoHS Certification"
                                 class="w-12 h-12 object-contain"
                             />
@@ -417,7 +417,7 @@
                     <div class="flex items-center gap-4">
                         <div class="w-16 h-16 rounded-2xl bg-white border border-black/10 shadow-sm flex items-center justify-center overflow-hidden">
                             <img
-                                src="assets/certifications/dag.png"
+                                src="assets/about/DAG.png"
                                 alt="DAG Certification"
                                 class="w-12 h-12 object-contain"
                             />
@@ -443,7 +443,7 @@
                     <div class="flex items-center gap-4">
                         <div class="w-16 h-16 rounded-2xl bg-white border border-black/10 shadow-sm flex items-center justify-center overflow-hidden">
                             <img
-                                src="assets/certifications/iaf.png"
+                                src="assets/about/IAF_small.png"
                                 alt="IAF Accreditation"
                                 class="w-12 h-12 object-contain"
                             />
@@ -472,13 +472,13 @@
 
                     <div class="flex items-center gap-4">
                         <div class="w-14 h-14 rounded-2xl bg-white border border-black/10 shadow-sm flex items-center justify-center overflow-hidden">
-                            <img src="assets/certifications/rohs.png" alt="RoHS" class="w-10 h-10 object-contain">
+                            <img src="assets/about/ROHS.png" alt="RoHS" class="w-10 h-10 object-contain">
                         </div>
                         <div class="w-14 h-14 rounded-2xl bg-white border border-black/10 shadow-sm flex items-center justify-center overflow-hidden">
-                            <img src="assets/certifications/dag.png" alt="DAG" class="w-10 h-10 object-contain">
+                            <img src="assets/about/DAG.png" alt="DAG" class="w-10 h-10 object-contain">
                         </div>
                         <div class="w-14 h-14 rounded-2xl bg-white border border-black/10 shadow-sm flex items-center justify-center overflow-hidden">
-                            <img src="assets/certifications/iaf.png" alt="IAF" class="w-10 h-10 object-contain">
+                            <img src="assets/about/IAF_small.png" alt="IAF" class="w-10 h-10 object-contain">
                         </div>
                     </div>
 
