@@ -74,7 +74,7 @@
 
             <!-- RIGHT: Categories -->
             <div class="lg:col-span-7">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="flex flex-col gap-6">
 
                     <!-- VALVES -->
                     <div class="rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
@@ -154,7 +154,7 @@
                     </div>
 
                     <!-- MECHANICAL & FABRICATION PRODUCT -->
-                    <div class="rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition md:col-span-2">
+                    <div class="rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
                         <div class="flex items-center gap-3 mb-3">
                             <div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
                                 <i class="fa-solid fa-screwdriver-wrench"></i>
