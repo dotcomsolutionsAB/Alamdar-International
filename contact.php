@@ -24,173 +24,163 @@
         </div>
 
         <!-- layout -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-            <!-- LEFT: Letter / Intro -->
-            <div class="lg:col-span-5">
-                <div class="rounded-3xl border border-black/10 bg-white p-8 shadow-sm hover:shadow-md transition">
-                    <div class="flex items-center gap-3 mb-4">
-                        <div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
-                            <i class="fa-solid fa-file-signature text-lg"></i>
-                        </div>
-                        <div>
-                            <div class="text-sm font-bold tracking-wide text-primary">INTRODUCTION</div>
-                            <div class="text-2xl font-extrabold text-secondary">Dear Sir,</div>
-                        </div>
-                    </div>
+        <div class="max-w-5xl mx-auto flex flex-col gap-7">
 
+            <!-- INTRODUCTION (FULL WIDTH FIRST) -->
+            <div class="rounded-3xl border border-black/10 bg-white p-8 shadow-sm hover:shadow-md transition">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+                        <i class="fa-solid fa-file-signature text-lg"></i>
+                    </div>
+                    <div>
+                        <div class="text-sm font-bold tracking-wide text-primary">INTRODUCTION</div>
+                        <div class="text-2xl font-extrabold text-secondary">Dear Sir,</div>
+                    </div>
+                </div>
+
+                <p class="text-gray-600 leading-relaxed">
+                    Being one of the leading manufacturers having set up under approval by
+                    <span class="font-bold text-secondary">ISO 9001 – 2015</span> certified,
+                    and we would like to undertake the supplies of various products applicable in your project.
+                </p>
+
+                <div class="mt-6 rounded-2xl bg-slate-50 border border-black/5 p-5">
+                    <div class="flex items-center gap-3 mb-2 text-secondary font-extrabold">
+                        <i class="fa-solid fa-industry text-primary"></i>
+                        Supply Experience
+                    </div>
                     <p class="text-gray-600 leading-relaxed">
-                        Being one of the leading manufacturers having set up under approval by
-                        <span class="font-bold text-secondary">ISO 9001 – 2015</span> certified,
-                        and we would like to undertake the supplies of various products applicable in your project.
+                        The products we supplied in different
+                        <span class="font-semibold text-secondary">Thermal Power Plants</span>,
+                        <span class="font-semibold text-secondary">Steel Industries</span>,
+                        <span class="font-semibold text-secondary">Railways</span>,
+                        <span class="font-semibold text-secondary">Collieries</span>
+                        & various private industries.
                     </p>
+                </div>
 
-                    <div class="mt-6 rounded-2xl bg-slate-50 border border-black/5 p-5">
-                        <div class="flex items-center gap-3 mb-2 text-secondary font-extrabold">
-                            <i class="fa-solid fa-industry text-primary"></i>
-                            Supply Experience
-                        </div>
-                        <p class="text-gray-600 leading-relaxed">
-                            The products we supplied in different
-                            <span class="font-semibold text-secondary">Thermal Power Plants</span>,
-                            <span class="font-semibold text-secondary">Steel Industries</span>,
-                            <span class="font-semibold text-secondary">Railways</span>,
-                            <span class="font-semibold text-secondary">Collieries</span>
-                            & various private industries.
-                        </p>
-                    </div>
-
-                    <div class="mt-7 flex flex-col sm:flex-row gap-3">
-                        <a href="#contact"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-2xl btn-primary-grad text-white font-bold shadow hover:opacity-95 transition">
-                            <i class="fa-solid fa-paper-plane"></i> Request Registration
-                        </a>
-                        <a href="#our-locations"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-2xl border border-black/10 text-secondary font-bold hover:bg-black/5 transition">
-                            <i class="fa-solid fa-location-dot"></i> Our Offices
-                        </a>
-                    </div>
+                <div class="mt-7 flex flex-col sm:flex-row gap-3">
+                    <a href="#contact"
+                    class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-2xl btn-primary-grad text-white font-bold shadow hover:opacity-95 transition">
+                        <i class="fa-solid fa-paper-plane"></i> Request Registration
+                    </a>
+                    <a href="#our-locations"
+                    class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-2xl border border-black/10 text-secondary font-bold hover:bg-black/5 transition">
+                        <i class="fa-solid fa-location-dot"></i> Our Offices
+                    </a>
                 </div>
             </div>
 
-            <!-- RIGHT: Categories -->
-            <div class="lg:col-span-7">
-                <div class="flex flex-col gap-6">
-
-                    <!-- VALVES -->
-                    <div class="rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
-                                <i class="fa-solid fa-faucet-drip"></i>
-                            </div>
-                            <h3 class="text-lg font-extrabold text-secondary">Valves & Fitting</h3>
-                        </div>
-                        <ol class="list-decimal ml-5 text-gray-600 space-y-3 leading-relaxed">
-                            <li>
-                                All types of OIL, Steam & Water line valves 1/2” – 16”
-                                like Gate Valve, Globe Valve, Butterfly Valve, Safety Valve, Diaphragm Valve,
-                                Manifold Valve, Ball Valve, Plug Valve, Non-Return Valve & Actuator Valve,
-                                IBR & Non IBR etc.
-                            </li>
-                            <li>
-                                Pipe fittings items like Flanges, Bends, Socket, Tee, Elbow, Cross, Hex Nipple,
-                                Pipe Nipple, Plug, Reducer, Cap, Weldolet, Pipe Coupling, Union etc.
-                                Material: Forged Steel, Carbon Steel, Alloy Steel, Stainless Steel.
-                            </li>
-                        </ol>
+            <!-- VALVES -->
+            <div class="rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+                        <i class="fa-solid fa-faucet-drip"></i>
                     </div>
+                    <h3 class="text-lg font-extrabold text-secondary">Valves & Fitting</h3>
+                </div>
+                <ol class="list-decimal ml-5 text-gray-600 space-y-3 leading-relaxed">
+                    <li>
+                        All types of OIL, Steam & Water line valves 1/2” – 16”
+                        like Gate Valve, Globe Valve, Butterfly Valve, Safety Valve, Diaphragm Valve,
+                        Manifold Valve, Ball Valve, Plug Valve, Non-Return Valve & Actuator Valve,
+                        IBR & Non IBR etc.
+                    </li>
+                    <li>
+                        Pipe fittings items like Flanges, Bends, Socket, Tee, Elbow, Cross, Hex Nipple,
+                        Pipe Nipple, Plug, Reducer, Cap, Weldolet, Pipe Coupling, Union etc.
+                        Material: Forged Steel, Carbon Steel, Alloy Steel, Stainless Steel.
+                    </li>
+                </ol>
+            </div>
 
-                    <!-- PRESSURE/TEMP -->
-                    <div class="rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
-                                <i class="fa-solid fa-gauge-high"></i>
-                            </div>
-                            <h3 class="text-lg font-extrabold text-secondary">Pressure & Temperature Measuring</h3>
-                        </div>
-                        <ol class="list-decimal ml-5 text-gray-600 space-y-3 leading-relaxed">
-                            <li>
-                                Pressure Gauge, Temp. Gauge, Contact Gauge, Differential Pressure Gauge,
-                                Diaphragm Seal, Gauge, ThermoCouple, RTD, etc.
-                            </li>
-                        </ol>
+            <!-- PRESSURE/TEMP -->
+            <div class="rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+                        <i class="fa-solid fa-gauge-high"></i>
                     </div>
+                    <h3 class="text-lg font-extrabold text-secondary">Pressure & Temperature Measuring</h3>
+                </div>
+                <ol class="list-decimal ml-5 text-gray-600 space-y-3 leading-relaxed">
+                    <li>
+                        Pressure Gauge, Temp. Gauge, Contact Gauge, Differential Pressure Gauge,
+                        Diaphragm Seal, Gauge, ThermoCouple, RTD, etc.
+                    </li>
+                </ol>
+            </div>
 
-                    <!-- RUBBER -->
-                    <div class="rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
-                                <i class="fa-solid fa-circle-notch"></i>
-                            </div>
-                            <h3 class="text-lg font-extrabold text-secondary">Rubber Moulding Product & Seals</h3>
-                        </div>
-                        <ol class="list-decimal ml-5 text-gray-600 space-y-3 leading-relaxed">
-                            <li>
-                                Rubber ‘O’ Ring, Oil Seals, Gasket, Anti Vibration Pad, Expansion Joint,
-                                Hydraulic Bucket, Cylinder Seal Kit, Bellows, Mounting, Channels,
-                                all types of Rubber Liner etc.
-                            </li>
-                        </ol>
+            <!-- RUBBER -->
+            <div class="rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+                        <i class="fa-solid fa-circle-notch"></i>
                     </div>
+                    <h3 class="text-lg font-extrabold text-secondary">Rubber Moulding Product & Seals</h3>
+                </div>
+                <ol class="list-decimal ml-5 text-gray-600 space-y-3 leading-relaxed">
+                    <li>
+                        Rubber ‘O’ Ring, Oil Seals, Gasket, Anti Vibration Pad, Expansion Joint,
+                        Hydraulic Bucket, Cylinder Seal Kit, Bellows, Mounting, Channels,
+                        all types of Rubber Liner etc.
+                    </li>
+                </ol>
+            </div>
 
-                    <!-- CERAMIC LINER -->
-                    <div class="rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
-                                <i class="fa-solid fa-layer-group"></i>
-                            </div>
-                            <h3 class="text-lg font-extrabold text-secondary">Wear Resist Ceramic Liner & Fittings</h3>
-                        </div>
-                        <ol class="list-decimal ml-5 text-gray-600 space-y-3 leading-relaxed">
-                            <li>
-                                Rubber ‘O’ Ring, Oil Seals, Gasket, Anti Vibration Pad, Expansion Joint,
-                                Hydraulic Bucket, Cylinder Seal Kit, Bellows, Mounting, Channels,
-                                all types of Rubber Liner etc.
-                            </li>
-                            <li>
-                                Wear resistant high alumina ceramic lining, cast basalt and all types of ceramic lining,
-                                pipe lines like Bend, Tee, Reducer, Ventury etc.
-                            </li>
-                        </ol>
+            <!-- CERAMIC LINER -->
+            <div class="rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+                        <i class="fa-solid fa-layer-group"></i>
                     </div>
+                    <h3 class="text-lg font-extrabold text-secondary">Wear Resist Ceramic Liner & Fittings</h3>
+                </div>
+                <ol class="list-decimal ml-5 text-gray-600 space-y-3 leading-relaxed">
+                    <li>
+                        Rubber ‘O’ Ring, Oil Seals, Gasket, Anti Vibration Pad, Expansion Joint,
+                        Hydraulic Bucket, Cylinder Seal Kit, Bellows, Mounting, Channels,
+                        all types of Rubber Liner etc.
+                    </li>
+                    <li>
+                        Wear resistant high alumina ceramic lining, cast basalt and all types of ceramic lining,
+                        pipe lines like Bend, Tee, Reducer, Ventury etc.
+                    </li>
+                </ol>
+            </div>
 
-                    <!-- MECHANICAL & FABRICATION PRODUCT -->
-                    <div class="rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
-                                <i class="fa-solid fa-screwdriver-wrench"></i>
-                            </div>
-                            <h3 class="text-lg font-extrabold text-secondary">Mechanical & Fabrication Product</h3>
-                        </div>
-
-                        <ol class="list-decimal ml-5 text-gray-600 space-y-3 leading-relaxed">
-                            <li>
-                                Mechanical and fabricated casting, machining items as per Customer's sample specification and drawing.
-                            </li>
-                            <li>
-                                Develop import substitute items as per client’s requirements.
-                            </li>
-                        </ol>
-
-                        <div class="mt-5 rounded-2xl bg-slate-50 border border-black/5 p-5 text-gray-600 leading-relaxed">
-                            We shall be glad if you look through the documents, we assure you of our quick and prompt service
-                            and waiting to receive your valued enquiries of referred items. If you need any more information
-                            on our line, please feel free to contact the undersigned.
-                        </div>
-
-                        <div class="mt-6 flex flex-col sm:flex-row gap-3">
-                            <a href="#contact"
-                                class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl btn-primary-grad text-white font-bold shadow hover:opacity-95 transition">
-                                <i class="fa-solid fa-envelope"></i> Send Enquiry
-                            </a>
-
-                            <a href="tel:+919903861421"
-                                class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl border border-black/10 text-secondary font-bold hover:bg-black/5 transition">
-                                <i class="fa-solid fa-phone"></i> Call Us
-                            </a>
-                        </div>
+            <!-- MECHANICAL & FABRICATION PRODUCT -->
+            <div class="rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
                     </div>
+                    <h3 class="text-lg font-extrabold text-secondary">Mechanical & Fabrication Product</h3>
+                </div>
+
+                <ol class="list-decimal ml-5 text-gray-600 space-y-3 leading-relaxed">
+                    <li>Mechanical and fabricated casting, machining items as per Customer's sample specification and drawing.</li>
+                    <li>Develop import substitute items as per client’s requirements.</li>
+                </ol>
+
+                <div class="mt-5 rounded-2xl bg-slate-50 border border-black/5 p-5 text-gray-600 leading-relaxed">
+                    We shall be glad if you look through the documents, we assure you of our quick and prompt service
+                    and waiting to receive your valued enquiries of referred items. If you need any more information
+                    on our line, please feel free to contact the undersigned.
+                </div>
+
+                <div class="mt-6 flex flex-col sm:flex-row gap-3">
+                    <a href="#contact"
+                    class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl btn-primary-grad text-white font-bold shadow hover:opacity-95 transition">
+                        <i class="fa-solid fa-envelope"></i> Send Enquiry
+                    </a>
+
+                    <a href="tel:+919903861421"
+                    class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl border border-black/10 text-secondary font-bold hover:bg-black/5 transition">
+                        <i class="fa-solid fa-phone"></i> Call Us
+                    </a>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
