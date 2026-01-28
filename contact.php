@@ -24,7 +24,7 @@
         </div>
 
         <!-- layout -->
-        <div class="max-w-5xl mx-auto flex flex-col gap-7">
+        <div class="max-w-7xl mx-auto flex flex-col gap-7">
 
             <!-- INTRODUCTION (FULL WIDTH FIRST) -->
             <div class="rounded-3xl border border-black/10 bg-white p-8 shadow-sm hover:shadow-md transition">
