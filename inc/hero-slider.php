@@ -47,7 +47,7 @@
             </div>
         </div>
 
-    <script>
+<script>
     const slides = [
         {
         images: [
@@ -215,7 +215,7 @@
     updateSlideContent(slides[0]);
     setActiveDot(0);
     animateIn();
-    </script>
+</script>
     <style>
         @media (max-width: 1024px) {
 
