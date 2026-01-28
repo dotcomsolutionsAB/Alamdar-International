@@ -174,4 +174,198 @@
     <!-- ===================== OUR TEAM (icons fixed + hover effect like image) ===================== -->
     <?php include 'inc/our-team.php'; ?>
 
+    <!-- ===================== OUR LOCATIONS / OFFICES ===================== -->
+    <section id="our-locations" class="relative py-20 bg-white overflow-hidden">
+        <!-- soft glow like your page -->
+        <div class="absolute -left-40 -bottom-40 w-[520px] h-[520px] rounded-full bg-primary-glow-10 blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <div class="inline-flex items-center gap-3 text-sm font-bold tracking-wide mb-3">
+                    <span class="w-3 h-3 rotate-45 bg-secondary inline-block"></span>
+                    <span class="text-primary">OUR LOCATIONS</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-black text-secondary leading-tight">
+                    Offices & Factories
+                </h2>
+                <p class="mt-4 text-gray-500 text-lg max-w-2xl mx-auto">
+                    Reach us anytime — our teams are available across multiple locations.
+                </p>
+            </div>
+
+            <!-- HEAD OFFICE -->
+            <div class="rounded-3xl border border-black/10 shadow-sm bg-white p-7 md:p-9 mb-10">
+                <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
+                    <div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-11 h-11 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+                                <i class="fa-solid fa-building text-lg"></i>
+                            </div>
+                            <h3 class="text-2xl font-extrabold text-secondary">Head Office</h3>
+                        </div>
+
+                        <div class="mt-5 space-y-3 text-gray-600">
+                            <div class="flex gap-3">
+                                <i class="fa-solid fa-location-dot text-primary mt-1"></i>
+                                <div>
+                                    34, Jackson Lane, Clive Square, Shop No - G9, Kolkata - 700 001
+                                </div>
+                            </div>
+
+                            <div class="flex gap-3">
+                                <i class="fa-solid fa-phone text-primary mt-1"></i>
+                                <div class="space-y-1">
+                                    <div>+91 (033) 2243-5134</div>
+                                    <div>+91 (033) 2248-4210</div>
+                                    <div>+91 7980937046</div>
+                                    <div>+91 9903861421</div>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-3">
+                                <i class="fa-solid fa-envelope text-primary mt-1"></i>
+                                <div class="space-y-1">
+                                    <a href="mailto:sales@alamdarinternational.com" class="hover:text-secondary transition">
+                                        sales@alamdarinternational.com
+                                    </a>
+                                    <div class="text-black/20">|</div>
+                                    <a href="mailto:alamdarinternational21@gmail.com" class="hover:text-secondary transition">
+                                        alamdarinternational21@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- quick actions -->
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <a href="mailto:sales@alamdarinternational.com"
+                            class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl btn-primary-grad text-white font-bold shadow hover:opacity-95 transition">
+                            <i class="fa-solid fa-paper-plane"></i> Email Us
+                        </a>
+                        <a href="tel:+919903861421"
+                            class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl border border-black/10 text-secondary font-bold hover:bg-black/5 transition">
+                            <i class="fa-solid fa-phone"></i> Call Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BRANCH OFFICES -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-7 mb-10">
+                <!-- Dubai -->
+                <div class="rounded-3xl border border-black/10 shadow-sm bg-white p-7 hover:shadow-md transition">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-11 h-11 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+                            <i class="fa-solid fa-map-location-dot text-lg"></i>
+                        </div>
+                        <h3 class="text-xl font-extrabold text-secondary">Branch Office (UAE)</h3>
+                    </div>
+
+                    <div class="space-y-3 text-gray-600">
+                        <div class="flex gap-3">
+                            <i class="fa-solid fa-location-dot text-primary mt-1"></i>
+                            <div>Silicon oasis, FZCO Economic zones, Dubai - UAE, Post Box No - 341041</div>
+                        </div>
+                        <div class="flex gap-3">
+                            <i class="fa-solid fa-phone text-primary mt-1"></i>
+                            <div>+971 542375253</div>
+                        </div>
+                        <div class="flex gap-3">
+                            <i class="fa-solid fa-envelope text-primary mt-1"></i>
+                            <a href="mailto:ucs.uae21@gmail.com" class="hover:text-secondary transition">ucs.uae21@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secunderabad -->
+                <div class="rounded-3xl border border-black/10 shadow-sm bg-white p-7 hover:shadow-md transition">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-11 h-11 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+                            <i class="fa-solid fa-map-location-dot text-lg"></i>
+                        </div>
+                        <h3 class="text-xl font-extrabold text-secondary">Branch Office</h3>
+                    </div>
+
+                    <div class="space-y-3 text-gray-600">
+                        <div class="flex gap-3">
+                            <i class="fa-solid fa-location-dot text-primary mt-1"></i>
+                            <div>4-4-29, Mahankali Street, Ground Floor, Ranigunj, Secunderabad - 500003</div>
+                        </div>
+                        <div class="flex gap-3">
+                            <i class="fa-solid fa-phone text-primary mt-1"></i>
+                            <div>040-27713226</div>
+                        </div>
+                        <div class="flex gap-3">
+                            <i class="fa-solid fa-envelope text-primary mt-1"></i>
+                            <a href="mailto:ucs2@redimail.com" class="hover:text-secondary transition">ucs2@redimail.com</a>
+                        </div>
+                        <div class="flex gap-3">
+                            <i class="fa-solid fa-globe text-primary mt-1"></i>
+                            <a href="https://www.alamdarinternational.com" target="_blank" class="hover:text-secondary transition">
+                                www.alamdarinternational.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Raipur -->
+                <div class="rounded-3xl border border-black/10 shadow-sm bg-white p-7 hover:shadow-md transition">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-11 h-11 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+                            <i class="fa-solid fa-map-location-dot text-lg"></i>
+                        </div>
+                        <h3 class="text-xl font-extrabold text-secondary">Branch Office</h3>
+                    </div>
+
+                    <div class="space-y-3 text-gray-600">
+                        <div class="flex gap-3">
+                            <i class="fa-solid fa-location-dot text-primary mt-1"></i>
+                            <div>Surja Devi Complex, Shop No. 119, 2nd Floor, Garbajans Tall, Raipur - 492009</div>
+                        </div>
+                        <div class="flex gap-3">
+                            <i class="fa-solid fa-envelope text-primary mt-1"></i>
+                            <a href="mailto:ucs2@redimail.com" class="hover:text-secondary transition">ucs2@redimail.com</a>
+                        </div>
+                        <div class="flex gap-3">
+                            <i class="fa-solid fa-globe text-primary mt-1"></i>
+                            <a href="https://www.alamdarinternational.com" target="_blank" class="hover:text-secondary transition">
+                                www.alamdarinternational.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FACTORIES -->
+            <div class="rounded-3xl border border-black/10 shadow-sm bg-white p-7 md:p-9">
+                <div class="flex items-center gap-3 mb-5">
+                    <div class="w-11 h-11 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+                        <i class="fa-solid fa-industry text-lg"></i>
+                    </div>
+                    <h3 class="text-2xl font-extrabold text-secondary">Factories</h3>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-600">
+                    <div class="flex gap-3">
+                        <i class="fa-solid fa-location-dot text-primary mt-1"></i>
+                        <div>
+                            <div class="font-bold text-secondary">Unit - I</div>
+                            66, Srinath Poural Lane, Howrah-1
+                        </div>
+                    </div>
+
+                    <div class="flex gap-3">
+                        <i class="fa-solid fa-location-dot text-primary mt-1"></i>
+                        <div>
+                            <div class="font-bold text-secondary">Unit - II</div>
+                            Math Bagan, National Highway 6, Opp. Kolkata West International City,<br>
+                            Salop Howrah – 711 049, West Bengal, India
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <?php include 'footer.php'; ?>

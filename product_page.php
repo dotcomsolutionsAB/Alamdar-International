@@ -297,7 +297,7 @@
 
   async function init() {
     try {
-      const res = await fetch("data/product.json", { cache: "no-store" });
+      const res = await fetch("data/product-data.json", { cache: "no-store" });
       DATA = await res.json();
 
       const categories = DATA?.categories || [];

@@ -1,0 +1,635 @@
+{
+    "categories": [
+        {
+            "id": "measure-products",
+            "name": "Measure Products",
+            "products": [
+                {
+                    "id": "pressure-gauge",
+                    "name": "Pressure Gauge",
+                    "image": {
+                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/1-5.jpg",
+                        "alt": "Pressure Gauge"
+                    },
+                    "description": "A pressure gauge measures and displays the pressure of gases or liquids in a system, ensuring safe and efficient operation.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Accuracy": "±0.25% of Span (Master Gauges – only 200mm dial, all stainless steel internals), ±0.5% of Span (Test Gauges – 100mm & 150mm dial), ±1% of Span (Quality Gauges – 63mm, 100mm, 150mm & 200mm dial), ±2% of Span (Regular Gauges – 40mm & 50mm dial, non-weatherproof casing)",
+                        "Dial Size (mm)": "40, 50, 63, 100, 150, 200, 250, 300",
+                        "Dial": "Aluminium, stove enameled white with black markings",
+                        "Sensing Element": "C or coil bourdon tube",
+                        "Bourdon Material": "Brass / Phosphor Bronze / AISI 3116 SS",
+                        "Movement Material": "Brass / AISI 304 SS with Deirin impregnated sector & pinion bushing",
+                        "Socket (Shank)": "Extruded brass for phosphor bronze bourdon & AISI 316 SS for stainless steel bourdon",
+                        "Case & Bezel": "Cast aluminium stove enameled black – all dial sizes; Cast aluminium epoxy black – all dial sizes",
+                        "Window": "Clear glass; shatterproof glass available only in 100mm & 150mm dial sizes",
+                        "Mounting & Entry": "Direct bottom; Direct back; Surface bottom & Flush panel back",
+                        "Connection Size": "1/4\", 1/8\", NPT, BSP – standard for below 100mm & above dial size 3/8\"; 1/2\", BSP, NPT, BSPT, API or M20 x 1.5 – standard for 100mm & above dial size",
+                        "Over Range Protection": "As per IS 3624 – 1979",
+                        "Standard Filaments": "Blow Out Disc, Micro Adjustable Pointer",
+                        "Standard Ranges": "0–1, 1.6, 2, 2.5, 4, 6, 10, 16, 25, 40, 60, 100, 250, 400, 800, 1000, 760mm HG to 06 & up to 24kg/cm²"
+                    }
+                },
+                {
+                    "id": "temperature-gauge",
+                    "name": "Temperature Gauge",
+                    "image": {
+                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/5-3.jpg",
+                        "alt": "Temperature Gauge"
+                    },
+                    "description": "A temperature gauge measures process temperature using a dial indication system.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Accuracy": "±5% of Span, ±1% of Span",
+                        "Dial Size (mm)": "100, 150, 200, 300",
+                        "Bourdon Tube Material": "Chrome-Moly Steel (Standard), Stainless Steel (Optional)",
+                        "Thermal System": "Simm Class VB",
+                        "Movement Assembly Material": "Brass – Standard",
+                        "Bulb, Stem & Connection Material": "Mild Steel, AISI 316 Stainless Steel",
+                        "Bulb Fitting Type": "Standard bulb fitting; custom-built design also available",
+                        "Bulb Diameter": "12mm & 16mm – Standard; 8mm – Optional",
+                        "Stem Diameter": "9mm up to 800mm length for 10mm & 12mm bulb diameter; 8mm for 8mm bulb",
+                        "Immersion Length": "Minimum 100mm (Standard bulb dia); Maximum 2000mm",
+                        "Connection": "3/4\" BSP & 1/2\" BSP (M) – Standard; Flanged – Optional",
+                        "Case & Bezel": "Cast aluminium stove enameled black; Cast aluminium epoxy black; Pressed stainless steel (100mm & 150mm dial size)",
+                        "Window": "Clear glass – Standard; Shatter proof glass – Enameled",
+                        "Dial": "Aluminium stove enameled white with black markings",
+                        "Pointer": "Micro zero adjustable type",
+                        "Type of Capillary": "Steel inner capillary covered with copper sheet",
+                        "Mounting & Entry": "Local (bottom or back entry); Surface (wall) with bottom entry; Flush panel with back entry",
+                        "Standard Ranges (°C)": "(-)30 to (+)70, 0 to 60, 100, 120, 150, 200, 250, 300, 400, 500, 600",
+                        "Over Range Protection": "130%"
+                    }
+                },
+                {
+                    "id": "thermo-couple",
+                    "name": "Thermo Couple",
+                    "image": {
+                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/6-3.jpg",
+                        "alt": "Thermo Couple"
+                    },
+                    "description": "A thermocouple is a temperature-sensing device made of two dissimilar metals that generate a voltage based on temperature difference.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Product Description": "Complete weatherproof thermocouple assembly manufactured as per IS 2848:1985, BS 1904:1964 and DIN 43760 standards",
+                        "Construction": "Made of specially selected, straightened, cleaned, polished and cut-to-length thermocouple wires",
+                        "Calibration Types Available": "K, T and S calibrations",
+                        "Additional Options": "Resistance Temperature Detectors (RTD) also available"
+                    }
+                },
+                {
+                    "id": "sealed-diaphragm-gauge",
+                    "name": "Sealed Diaphragm Gauge",
+                    "image": {
+                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/2-3.jpg",
+                        "alt": "Sealed Diaphragm Gauge"
+                    },
+                    "description": "A diaphragm sealed gauge isolates the sensing element from corrosive or viscous media, ensuring accurate pressure measurement in harsh process conditions.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Accuracy": "±1% of Range Span",
+                        "Dial Size (mm)": "65, 100 & 150",
+                        "Dial Material & Color": "Aluminium, stove enameled white",
+                        "Dial Markings Window": "Black on white ground",
+                        "Bourdon Tube Material": "Clear glass – Standard; Shatter proof glass – Optional",
+                        "Movement Material": "Phosphor Bronze; AISI 316 Stainless Steel",
+                        "Shank Material": "Brass; AISI 304 Stainless Steel with SS impregnated Delrin sector & pinion bushing",
+                        "Case & Bezel": "Brass for phosphor bronze bourdon tube; AISI 316 SS for AISI 316 bourdon; Cast aluminium weatherproof with screwed inner bezel",
+                        "Enclosure Type": "Stove enameled black – Standard; Epoxy black painted – Optional; Pressed AISI 304 SS – Optional",
+                        "Mounting": "NEMA-3, IP-54/55 & ISA-RP-8.1-2B",
+                        "Connection Location": "Local (surface/wall/projection); Flush panel",
+                        "Length of Capillary": "Standard – 2 meters; Available up to 15 meters",
+                        "Type of Capillary & Protection": "Inner copper capillary with copper sheet; Inner copper capillary with SS sheet; Solid drawn SS capillary",
+                        "Standard Fitments": "Blow out disc; Micro adjustable pointer",
+                        "Standard Pressure Ranges": "0–1, 1.6, 2, 2.5, 4, 6, 10, 16, 25, 40, 60, 100, 160, 250, 400 & 600 kg/cm²",
+                        "Vacuum & Compound Ranges": "Vacuum 0 to 760 mm Hg; Compound (-)760 mm Hg to 0.6, 1, 1.5, 3, 5, 9, 15 & 24 kg/cm²",
+                        "Accessories Available": "Shatter proof glass, Electric contact, Booster relay, Max pointer, Glycerine filled case, Adjustable pulsation dampener, 2-way / 3-way isolation needle valve, 2-way / 3-way isolation cock, Anti-vibration spring dampening screw, Syphon",
+                        "Sealed Unit Construction": "Diaphragm welded with SS chamber; diaphragm loosely placed between top & bottom chamber",
+                        "Sensing Element": "Diaphragm",
+                        "Diaphragm Material": "AISI 316L",
+                        "Diaphragm Protection": "Teflon coating",
+                        "Sealing Liquid": "Silicone oil up to 150°C",
+                        "Top Chamber Material": "AISI 316L; Cast iron stove enameled black (only for loose diaphragm construction)",
+                        "Bottom Chamber & Connection Material": "AISI 316 SS – Standard; Teflon coating – Optional",
+                        "Connection": "1/2\" BSP (M), 1/2\" NPT (M), M20 x 1.5 (M) – Standard; Flange as per BS, ASA & DIN – Optional"
+                    }
+                },
+                {
+                    "id": "contact-gauge",
+                    "name": "Contact Gauge",
+                    "image": {
+                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/4-4.jpg",
+                        "alt": "Contact Gauge"
+                    },
+                    "description": "An electric contact gauge combines pressure measurement with electrical switching, enabling automatic control or alarms at set pressure points.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Accuracy": "±1% Span (Quality Gauges – available only in 100mm & 150mm dial size)",
+                        "Dial Size (mm)": "100, 150",
+                        "Dial": "Aluminium, stove enameled white with black markings",
+                        "Sensing Element": "C or coil bourdon tube",
+                        "Bourdon Material": "Phosphor Bronze / AISI 316 Stainless Steel",
+                        "Movement Material": "Brass; AISI 304 Stainless Steel with Deirin impregnated sector & pinion bushing",
+                        "Socket (Shank)": "Extruded brass for phosphor bronze bourdon; AISI 316 SS for stainless steel bourdon",
+                        "Case & Bezel": "Cast aluminium stove enameled black – all dial sizes; Cast aluminium epoxy black – all dial sizes; Pressed stainless steel – 100mm & 150mm dial size",
+                        "Window": "Clear glass; shatterproof glass available only in 100mm & 150mm dial sizes",
+                        "Mounting & Entry": "Direct bottom; Direct back; Surface bottom",
+                        "Connection Size": "Standard for below 100mm dial size: 3/8\", 1/2\", BSP, NPT, BSPT, API or M20 x 1.5; Standard for 150mm and above dial size",
+                        "Over Range Protection": "As per IS 3624 – 1979",
+                        "Standard Fitments": "Blow out disc; Micro adjustable pointer",
+                        "Standard Ranges": "0–1, 1.6, 2, 2.5, 4, 6, 10, 16, 25, 40, 60, 100, 160, 250, 400, 600, 800, 1000 kg/cm²"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "compressed",
+            "name": "Compressed",
+            "products": [
+                {
+                    "id": "gate-valve-api-600",
+                    "name": "Gate Valve (API 600)",
+                    "image": {
+                        "url": "",
+                        "alt": "Gate Valve API 600"
+                    },
+                    "description": "Gate Valve as per API 600, available in Class 150/300/600/900/1500/2500 with IBR / Non-IBR options.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Standard": "API 600",
+                        "Classes": "150 / 300 / 600 / 900 / 1500 / 2500",
+                        "IBR": "IBR / Non-IBR",
+                        "bom": [
+                            {
+                                "nomenclature": "Body",
+                                "qty": "1",
+                                "material": "C.S. ASTM A216 Gr. WCB"
+                            },
+                            {
+                                "nomenclature": "Seat Rings",
+                                "qty": "2",
+                                "material": "13% Cr. Steel"
+                            },
+                            {
+                                "nomenclature": "Wedge / Wedge Ring",
+                                "qty": "1",
+                                "material": "13% Cr. Steel / Stellite"
+                            },
+                            {
+                                "nomenclature": "Spindle",
+                                "qty": "1",
+                                "material": "AISI 410"
+                            },
+                            {
+                                "nomenclature": "Bonnet",
+                                "qty": "1",
+                                "material": "C.S. ASTM A216 Gr. WCB"
+                            },
+                            {
+                                "nomenclature": "Gasket",
+                                "qty": "1",
+                                "material": "Spiral wound S.S. 304 with CAF"
+                            },
+                            {
+                                "nomenclature": "Bonnet Studs & Nuts",
+                                "qty": "Reqd",
+                                "material": "ASTM 193 Gr. B7 / ASTM 194 Gr. B7"
+                            },
+                            {
+                                "nomenclature": "Bonnet Bush",
+                                "qty": "1",
+                                "material": "S.S. AISI 410"
+                            },
+                            {
+                                "nomenclature": "Gland Packing",
+                                "qty": "6 min",
+                                "material": "Metallic wire reinforced asbestos"
+                            },
+                            {
+                                "nomenclature": "Gland",
+                                "qty": "1",
+                                "material": "C.S. ASTM A216 Gr. WCB"
+                            },
+                            {
+                                "nomenclature": "Yoke Bush",
+                                "qty": "1",
+                                "material": "G.M. / Ni-resist"
+                            },
+                            {
+                                "nomenclature": "Cross Bolts & Nuts",
+                                "qty": "2/2",
+                                "material": "Carbon steel"
+                            },
+                            {
+                                "nomenclature": "Eye Bolts & Nuts",
+                                "qty": "2/2",
+                                "material": "Carbon steel"
+                            },
+                            {
+                                "nomenclature": "Grease Nipples",
+                                "qty": "1",
+                                "material": "Carbon steel"
+                            },
+                            {
+                                "nomenclature": "Hand Wheel",
+                                "qty": "1",
+                                "material": "C.I. / C.S."
+                            },
+                            {
+                                "nomenclature": "Wheel Nut",
+                                "qty": "1",
+                                "material": "Carbon steel"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "globe-valve-bs-1873",
+                    "name": "Globe Valve (BS 1873)",
+                    "image": {
+                        "url": "",
+                        "alt": "Globe Valve BS 1873"
+                    },
+                    "description": "Globe Valve as per BS 1873, available in Class 150/300/600/900/1500/2500.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Standard": "BS 1873",
+                        "Classes": "150 / 300 / 600 / 900 / 1500 / 2500",
+                        "bom": [
+                            {
+                                "nomenclature": "Body",
+                                "qty": "1",
+                                "material": "ASTM A216 Gr. WCB"
+                            },
+                            {
+                                "nomenclature": "Seat Rings",
+                                "qty": "1",
+                                "material": "SS 13% Cr. Steel / Stellite"
+                            },
+                            {
+                                "nomenclature": "Disc / Throttle Cone",
+                                "qty": "1",
+                                "material": "CD with 13% Cr. facing"
+                            },
+                            {
+                                "nomenclature": "Spindle Nut",
+                                "qty": "1",
+                                "material": "AISI 410"
+                            },
+                            {
+                                "nomenclature": "Spindle",
+                                "qty": "1",
+                                "material": "AISI 410"
+                            },
+                            {
+                                "nomenclature": "Bonnet Bush",
+                                "qty": "1",
+                                "material": "AISI 410"
+                            },
+                            {
+                                "nomenclature": "Body Seal",
+                                "qty": "1",
+                                "material": "SS304 spiral wound metallic gasket"
+                            },
+                            {
+                                "nomenclature": "Bonnet",
+                                "qty": "1",
+                                "material": "ASTM A216 Gr. WCB"
+                            },
+                            {
+                                "nomenclature": "Bonnet Stud",
+                                "qty": "As reqd",
+                                "material": "ASTM A193 Gr. B7"
+                            },
+                            {
+                                "nomenclature": "Bonnet Studs & Nuts",
+                                "qty": "As reqd",
+                                "material": "ASTM A194 Gr. 2H"
+                            },
+                            {
+                                "nomenclature": "Gland Packing",
+                                "qty": "As reqd",
+                                "material": "Metallic wire reinforced graphited asbestos"
+                            },
+                            {
+                                "nomenclature": "Gland",
+                                "qty": "1",
+                                "material": "AISI 410"
+                            },
+                            {
+                                "nomenclature": "Gland Flange",
+                                "qty": "1",
+                                "material": "Carbon steel"
+                            },
+                            {
+                                "nomenclature": "Cross Bolt / Nut",
+                                "qty": "2/2",
+                                "material": "Carbon steel"
+                            },
+                            {
+                                "nomenclature": "Eye Bolts & Nuts",
+                                "qty": "2/2",
+                                "material": "Carbon steel"
+                            },
+                            {
+                                "nomenclature": "Yoke Nut",
+                                "qty": "1",
+                                "material": "A.I. Bronze / Ni-resist"
+                            },
+                            {
+                                "nomenclature": "Hand Wheel",
+                                "qty": "1",
+                                "material": "Cast iron"
+                            },
+                            {
+                                "nomenclature": "Washer",
+                                "qty": "1",
+                                "material": "Carbon steel"
+                            },
+                            {
+                                "nomenclature": "Hand Wheel Nut",
+                                "qty": "1",
+                                "material": "Carbon steel"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pulse-jet-valve",
+                    "name": "Pulse Jet Valve",
+                    "image": {
+                        "url": "",
+                        "alt": "Pulse Jet Valve"
+                    },
+                    "description": "Pulse jet valve for dust collector/baghouse applications, available in multiple sizes and voltage options.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Size Range": "3/8\" to 4\" (Screwed / Flanged / Triclover)",
+                        "Body & Bonnet Construction": "ASTM A351 Gr. CFS, CF8M, LM6",
+                        "Diaphragm": "Nitrile or Neoprene / Viton / PU / Teflon",
+                        "Temperature or Fluid": "(-)5°C to 210°C",
+                        "Voltage (AC)": "24, 48, 110, 220 Volts AC, 50Hz",
+                        "Voltage (DC)": "12, 24, 48, 110, 220 Volts DC"
+                    }
+                },
+                {
+                    "id": "cast-iron-diaphragm-valve-non-rising-spindle",
+                    "name": "Cast Iron Diaphragm Valve (Inside Screw Non-Rising Spindle)",
+                    "image": {
+                        "url": "",
+                        "alt": "Cast Iron Diaphragm Valve Inside Screw Non Rising Spindle"
+                    },
+                    "description": "Cast iron diaphragm valve with inside screw non-rising spindle design, suitable for flow isolation and throttling applications with corrosive and abrasive media.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Design": "Inside screw non-rising spindle",
+                        "Flange Standard": "As per BS10 Table D",
+                        "Size Range": "1/2\" to 12\"",
+                        "Range to Range (Without Lining)": "4\" to 29½\" (depending on size)",
+                        "End Connection": "Screwed or flanged (screwed only up to 2\")",
+                        "Body Material": "Cast iron",
+                        "Bonnet Material": "Cast iron (square or round shape)",
+                        "Compressor": "Cast iron with fingers supporting diaphragm when closed",
+                        "Hand Wheel": "Cast iron, seating type wheel for easy operation",
+                        "Spindle": "Mild steel (optional in brass or stainless steel)",
+                        "Nut & Bush": "Gun metal / steel for smooth operation",
+                        "Diaphragm Material": "Rubber – Natural rubber, Neoprene, Hypalon & reinforced type for heavy pressure",
+                        "Bolts, Studs & Nuts": "Mild steel for securing the bonnet body"
+                    }
+                },
+                {
+                    "id": "swing-check-valve-class-150-300",
+                    "name": "Swing Check Valve",
+                    "image": {
+                        "url": "",
+                        "alt": "Swing Check Valve Class 150 300"
+                    },
+                    "description": "Swing check valve designed to allow unidirectional flow and prevent backflow, suitable for various industrial piping systems.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Standards": "IS 5312:1984, BS 1868, API 6D",
+                        "Classes": "150 / 300 (Dimension table applicable for 150 / 300 / 600)",
+                        "Valve Type": "Swing Check Valve",
+                        "bom": [
+                            {
+                                "nomenclature": "Lever Arm",
+                                "qty": "1",
+                                "material": "ASTM A216 Gr. WCB / ASTM A351 Gr. CF8 / CF8M / CN7M"
+                            },
+                            {
+                                "nomenclature": "Arm Nut",
+                                "qty": "1",
+                                "material": "Carbon Steel / SS 316 / SS 304"
+                            },
+                            {
+                                "nomenclature": "Disc",
+                                "qty": "1",
+                                "material": "Carbon Steel with 13% Cr facing / Integral seat for alloy steel valve"
+                            },
+                            {
+                                "nomenclature": "Seat Ring",
+                                "qty": "1",
+                                "material": "AISI 410 / 304 / 316 / A-20"
+                            },
+                            {
+                                "nomenclature": "Arm Pin",
+                                "qty": "1",
+                                "material": "ASTM A216 Gr. WCB / ASTM A351 Gr. CF8 / CF8M / CN7M"
+                            },
+                            {
+                                "nomenclature": "Bracket",
+                                "qty": "1",
+                                "material": "ASTM A216 Gr. WCB / ASTM A351 Gr. CF8 / CF8M / CN7M"
+                            },
+                            {
+                                "nomenclature": "Body",
+                                "qty": "1",
+                                "material": "ASTM A216 Gr. WCB / ASTM A351 Gr. CF8 / CF8M / CN7M"
+                            },
+                            {
+                                "nomenclature": "Body Seal",
+                                "qty": "1",
+                                "material": "Compressed asbestos fibre"
+                            },
+                            {
+                                "nomenclature": "Stud & Nut",
+                                "qty": "As reqd",
+                                "material": "ASTM A193 Gr. B7 / ASTM A194 Gr. 2B"
+                            },
+                            {
+                                "nomenclature": "Cover Plate",
+                                "qty": "1",
+                                "material": "ASTM A216 Gr. WCB / ASTM A351 Gr. CF8 / CF8M / CN7M"
+                            },
+                            {
+                                "nomenclature": "Bracket Stud / Nut",
+                                "qty": "2/2",
+                                "material": "Carbon Steel / SS 304 / SS 316"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "plug-valve",
+                    "name": "Plug Valve",
+                    "image": {
+                        "url": "",
+                        "alt": "Plug Valve"
+                    },
+                    "description": "Plug valve for reliable shut-off and flow control, manufactured to ANSI/API standards and available in multiple materials and pressure classes.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Design & Manufacture Standards": "ANSI B16.34, API 6D, API 599",
+                        "Face to Face": "ANSI B16.10",
+                        "End Flange": "ANSI B16.5, ANSI B16.25",
+                        "Material": "Carbon steel, Stainless steel",
+                        "Inspection Standard": "API 598",
+                        "Body Materials / Grades": "WCB / WC6 / WC9 / CF8 / CF8M / CF3 / CF3M / MONEL / CI",
+                        "Size Range": "1\" to 24\"",
+                        "Class Range": "150 LBS to 1500 LB"
+                    }
+                },
+                {
+                    "id": "pneumatic-diaphragm-operated-control-valve",
+                    "name": "Pneumatic Diaphragm Operated Control Valve",
+                    "image": {
+                        "url": "",
+                        "alt": "Pneumatic Diaphragm Operated Control Valve"
+                    },
+                    "description": "Pneumatic diaphragm operated control valve designed for precise flow control applications, suitable for diverting and mixing services with metal or soft seating options.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Body & Bonnet Material": "ASTM A216 Gr. WCB, C.S. Bronze",
+                        "End Connection": "Flanged ends as per ANSI B16.5 RF 150# / 300#",
+                        "Trim (Tims)": "Stainless Steel AISI 410 Gr. & hard chrome plated",
+                        "Stem Packings": "Self adjusting spring loaded Teflon 'V' packing",
+                        "Plug & Sealing": "Metal to metal seated stellite plug; hardened seat; soft seated Teflon optional",
+                        "Pressure–Temperature Rating": "As per ANSI B16.5 Class 150# / 300#",
+                        "Leakage Class": "Metal to metal seated – Class III; Soft seated Teflon – Class IV",
+                        "Valve Type": "Diverting and / or Mixing",
+                        "Working Temperature": "Metal to metal seated up to 200°C; Soft seat / Teflon seat up to 300°C",
+                        "Actuator": "Sheet metal pressing",
+                        "Cover / Yoke": "Fabricated steel",
+                        "Diaphragm": "Polyurethane / Hypalon",
+                        "Spring": "Stainless steel",
+                        "Pneumatic Working Pressure": "Up to 2 bar max for sizes up to 50mm; 65mm & above up to 3.2 bar max",
+                        "Operating Cycle": "Approx. 240 cycles/hour up to 25mm (tested on air; may vary for other fluids)",
+                        "Size Range": "1/2\" to 4\" (Flanged / Screwed)"
+                    }
+                },
+                {
+                    "id": "knife-edge-gate-valve-butterfly-valve",
+                    "name": "Knife Edge Gate Valve / Butterfly Valve",
+                    "image": {
+                        "url": "",
+                        "alt": "Knife Edge Gate Valve / Butterfly Valve"
+                    },
+                    "description": "Knife edge gate / butterfly valve combination designed for handling slurry, powder and viscous media, available in large sizes with multiple seat and body options.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Size Range": "2\" to 84\"",
+                        "Body": "ASTM A351 Gr. CF8 / CF8M / Combination of WCB & SS",
+                        "Knife Plate": "SS 304 / SS 316",
+                        "Seat": "Nitrile / Silicon / EPDM / Viton / Teflon (metal seated on request)",
+                        "Packings": "PTFE impregnated asbestos layered with molded rubber",
+                        "Bushes": "SS 304 / SS 316",
+                        "Hydraulic Test": "Body: 11 kg/cm²; Seat: 2.8 kg/cm²",
+                        "Pressure": ""
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ceramic-lining-bends-fittings",
+            "name": "Ceramic Lining Bends & Fittings",
+            "products": [
+                {
+                    "id": "ceramic-lined-bends-fittings",
+                    "name": "Ceramic Lining Bends & Fittings",
+                    "image": {
+                        "url": "",
+                        "alt": "Ceramic Lining Bends & Fittings"
+                    },
+                    "description": "Erosion-resistant ceramic lining bends and fittings designed for hostile and abrasive environments, manufactured using advanced ceramic materials and modern in-house technology.",
+                    "cta": {
+                        "text": "Technical Specs",
+                        "href": "#"
+                    },
+                    "technical_specs": {
+                        "Application": "Abrasion and erosion resistant piping systems for hostile industrial environments",
+                        "Ceramic Type": "Alumina ceramic lining",
+                        "Years of Expertise": "Over 30 years in ceramic material formulation",
+                        "Properties of Alumina Ceramic Tile": {
+                            "Alumina (Al₂O₃) Content": "90% minimum",
+                            "Bulk Density": "3.3 – 3.6 gm/cc",
+                            "Cold Crushing Strength": "More than 3000 kg/sq.cm",
+                            "Flexural Strength": "More than 2200 kg/sq.cm",
+                            "Water Absorption": "Less than 0.1%",
+                            "Abrasion Test Loss": "0.03 gm max",
+                            "Jet Erosion Test Loss (45°)": "0.02 gm max",
+                            "Jet Erosion Test Loss (90°)": "0.04 gm max",
+                            "Coefficient of Thermal Expansion": "7.2 × 10⁻⁶ per °C (Min.)",
+                            "Service Temperature Withstand": "Up to 1000°C (Max.)",
+                            "Hardness": "9 Mohs"
+                        },
+                        "Available Tile Dimensions (L × W × Thickness in mm)": [
+                            "20 × 20 × 3, 4, 6, 8, 10 & 13",
+                            "20 × 20 × 3, 5, 8, 10 & 13 (raised dimples on one face)",
+                            "23.5 × 23.5 × 3, 4, 6, 8, 10 & 13",
+                            "25 × 25 × 3, 4, 6, 8, 10, 13, 20 & 25",
+                            "25 × 50 × 3, 4, 6, 8, 10, 13, 20 & 25",
+                            "25 × 75 × 3, 6, 8, 10, 13, 20 & 25",
+                            "50 × 50 × 3, 6, 8, 10, 13, 20 & 25",
+                            "50 × 75 × 3, 6, 8, 10, 13, 20 & 25",
+                            "90 × 100 × 3, 6, 8, 10, 13, 20 & 25",
+                            "75 × 75 × 3, 6, 8, 10, 13, 20, 25, 30, 40 & 50",
+                            "100 × 100 × 3, 6, 8, 10, 13, 20, 25, 30, 40 & 50",
+                            "150 × 50 × 6, 8, 10, 13, 20, 25, 30, 40 & 50",
+                            "150 × 100 × 6, 8, 10, 13, 20, 25, 30, 40 & 50",
+                            "200 × 100 × 8, 10, 13, 20, 25, 30, 40 & 50"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

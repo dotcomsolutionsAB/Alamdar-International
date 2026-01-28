@@ -1,0 +1,103 @@
+[
+    {
+        "product_name": "Pressure Gauge",
+        "features": {
+            "Accuracy": "±0.25% of Span (Master Gauges – only 200mm dial, all stainless steel internals), ±0.5% of Span (Test Gauges – 100mm & 150mm dial), ±1% of Span (Quality Gauges – 63mm, 100mm, 150mm & 200mm dial), ±2% of Span (Regular Gauges – 40mm & 50mm dial, non-weatherproof casing)",
+            "Dial Size (mm)": "40, 50, 63, 100, 150, 200, 250, 300",
+            "Dial": "Aluminium, stove enameled white with black markings",
+            "Sensing Element": "C or coil bourdon tube",
+            "Bourdon Material": "Brass / Phosphor Bronze / AISI 3116 SS",
+            "Movement Material": "Brass / AISI 304 SS with Deirin impregnated sector & pinion bushing",
+            "Socket (Shank)": "Extruded brass for phosphor bronze bourdon & AISI 316 SS for stainless steel bourdon",
+            "Case & Bezel": "Cast aluminium stove enameled black – all dial sizes; Cast aluminium epoxy black – all dial sizes",
+            "Window": "Clear glass; shatterproof glass available only in 100mm & 150mm dial sizes",
+            "Mounting & Entry": "Direct bottom; Direct back; Surface bottom & Flush panel back",
+            "Connection Size": "1/4\", 1/8\", NPT, BSP – standard for below 100mm & above dial size 3/8\"; 1/2\", BSP, NPT, BSPT, API or M20 x 1.5 – standard for 100mm & above dial size",
+            "Over Range Protection": "As per IS 3624 – 1979",
+            "Standard Filaments": "Blow Out Disc, Micro Adjustable Pointer",
+            "Standard Ranges": "0–1, 1.6, 2, 2.5, 4, 6, 10, 16, 25, 40, 60, 100, 250, 400, 800, 1000, 760mm HG to 06 & up to 24kg/cm²"
+        }
+    },
+    {
+        "product_name": "Temperature Gauge",
+        "features": {
+            "Accuracy": "±5% of Span, ±1% of Span",
+            "Dial Size (mm)": "100, 150, 200, 300",
+            "Bourdon Tube Material": "Chrome-Moly Steel (Standard), Stainless Steel (Optional)",
+            "Thermal System": "Simm Class VB",
+            "Movement Assembly Material": "Brass – Standard",
+            "Bulb, Stem & Connection Material": "Mild Steel, AISI 316 Stainless Steel",
+            "Bulb Fitting Type": "Standard bulb fitting; custom-built design also available",
+            "Bulb Diameter": "12mm & 16mm – Standard; 8mm – Optional",
+            "Stem Diameter": "9mm up to 800mm length for 10mm & 12mm bulb diameter; 8mm for 8mm bulb",
+            "Immersion Length": "Minimum 100mm (Standard bulb dia); Maximum 2000mm",
+            "Connection": "3/4\" BSP & 1/2\" BSP (M) – Standard; Flanged – Optional",
+            "Case & Bezel": "Cast aluminium stove enameled black; Cast aluminium epoxy black; Pressed stainless steel (100mm & 150mm dial size)",
+            "Window": "Clear glass – Standard; Shatter proof glass – Enameled",
+            "Dial": "Aluminium stove enameled white with black markings",
+            "Pointer": "Micro zero adjustable type",
+            "Type of Capillary": "Steel inner capillary covered with copper sheet",
+            "Mounting & Entry": "Local (bottom or back entry); Surface (wall) with bottom entry; Flush panel with back entry",
+            "Standard Ranges (°C)": "(-)30 to (+)70, 0 to 60, 100, 120, 150, 200, 250, 300, 400, 500, 600",
+            "Over Range Protection": "130%"
+        }
+    },
+    {
+        "product_name": "Thermo Couple",
+        "features": {
+            "Product Description": "Complete weatherproof thermocouple assembly manufactured as per IS 2848:1985, BS 1904:1964 and DIN 43760 standards",
+            "Construction": "Made of specially selected, straightened, cleaned, polished and cut-to-length thermocouple wires",
+            "Calibration Types Available": "K, T and S calibrations",
+            "Additional Options": "Resistance Temperature Detectors (RTD) also available"
+        }
+    },
+    {
+        "product_name": "Sealed Diaphragm Gauge",
+        "features": {
+            "Accuracy": "±1% of Range Span",
+            "Dial Size (mm)": "65, 100 & 150",
+            "Dial Material & Color": "Aluminium, stove enameled white",
+            "Dial Markings Window": "Black on white ground",
+            "Bourdon Tube Material": "Clear glass – Standard; Shatter proof glass – Optional",
+            "Movement Material": "Phosphor Bronze; AISI 316 Stainless Steel",
+            "Shank Material": "Brass; AISI 304 Stainless Steel with SS impregnated Delrin sector & pinion bushing",
+            "Case & Bezel": "Brass for phosphor bronze bourdon tube; AISI 316 SS for AISI 316 bourdon; Cast aluminium weatherproof with screwed inner bezel",
+            "Enclosure Type": "Stove enameled black – Standard; Epoxy black painted – Optional; Pressed AISI 304 SS – Optional",
+            "Mounting": "NEMA-3, IP-54/55 & ISA-RP-8.1-2B",
+            "Connection Location": "Local (surface/wall/projection); Flush panel",
+            "Length of Capillary": "Standard – 2 meters; Available up to 15 meters",
+            "Type of Capillary & Protection": "Inner copper capillary with copper sheet; Inner copper capillary with SS sheet; Solid drawn SS capillary",
+            "Standard Fitments": "Blow out disc; Micro adjustable pointer",
+            "Standard Pressure Ranges": "0–1, 1.6, 2, 2.5, 4, 6, 10, 16, 25, 40, 60, 100, 160, 250, 400 & 600 kg/cm²",
+            "Vacuum & Compound Ranges": "Vacuum 0 to 760 mm Hg; Compound (-)760 mm Hg to 0.6, 1, 1.5, 3, 5, 9, 15 & 24 kg/cm²",
+            "Accessories Available": "Shatter proof glass, Electric contact, Booster relay, Max pointer, Glycerine filled case, Adjustable pulsation dampener, 2-way / 3-way isolation needle valve, 2-way / 3-way isolation cock, Anti-vibration spring dampening screw, Syphon",
+            "Sealed Unit Construction": "Diaphragm welded with SS chamber; diaphragm loosely placed between top & bottom chamber",
+            "Sensing Element": "Diaphragm",
+            "Diaphragm Material": "AISI 316L",
+            "Diaphragm Protection": "Teflon coating",
+            "Sealing Liquid": "Silicone oil up to 150°C",
+            "Top Chamber Material": "AISI 316L; Cast iron stove enameled black (only for loose diaphragm construction)",
+            "Bottom Chamber & Connection Material": "AISI 316 SS – Standard; Teflon coating – Optional",
+            "Connection": "1/2\" BSP (M), 1/2\" NPT (M), M20 x 1.5 (M) – Standard; Flange as per BS, ASA & DIN – Optional"
+        }
+    },
+    {
+        "product_name": "Contact Gauge",
+        "features": {
+            "Accuracy": "±1% Span (Quality Gauges – available only in 100mm & 150mm dial size)",
+            "Dial Size (mm)": "100, 150",
+            "Dial": "Aluminium, stove enameled white with black markings",
+            "Sensing Element": "C or coil bourdon tube",
+            "Bourdon Material": "Phosphor Bronze / AISI 316 Stainless Steel",
+            "Movement Material": "Brass; AISI 304 Stainless Steel with Deirin impregnated sector & pinion bushing",
+            "Socket (Shank)": "Extruded brass for phosphor bronze bourdon; AISI 316 SS for stainless steel bourdon",
+            "Case & Bezel": "Cast aluminium stove enameled black – all dial sizes; Cast aluminium epoxy black – all dial sizes; Pressed stainless steel – 100mm & 150mm dial size",
+            "Window": "Clear glass; shatterproof glass available only in 100mm & 150mm dial sizes",
+            "Mounting & Entry": "Direct bottom; Direct back; Surface bottom",
+            "Connection Size": "Standard for below 100mm dial size: 3/8\", 1/2\", BSP, NPT, BSPT, API or M20 x 1.5; Standard for 150mm & above dial size",
+            "Over Range Protection": "As per IS 3624 – 1979",
+            "Standard Fitments": "Blow out disc; Micro adjustable pointer",
+            "Standard Ranges": "0–1, 1.6, 2, 2.5, 4, 6, 10, 16, 25, 40, 60, 100, 160, 250, 400, 600, 800, 1000 kg/cm²"
+        }
+    }
+]

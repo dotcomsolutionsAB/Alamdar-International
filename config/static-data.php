@@ -2,10 +2,10 @@
 define('SITE_NAME', 'Alamdar International');
 define('SITE_DOMAIN', 'https://alamdarinternational.com');
 define('SITE_LOGO', 'assets/logo.png');
-define('SITE_ADDRESS', '75, Netaji Subhas Road, 1st FLOOR, Room No. 7A, Kolkata – 700 001');
-define('SITE_PHONE', '+91( 033) 2243-5134');
-define('SITE_PHONE_LINK', '+9103322435134');
-define('SITE_EMAIL', 'info@alamdarinternational.com');
+define('SITE_ADDRESS', '34, Indra Kumar Karnani Street, Clive Square, Shop No. G9, Kolkata - 700 001');
+define('SITE_PHONE', '+91 9903861481');
+define('SITE_PHONE_LINK', '+919903861481');
+define('SITE_EMAIL', 'alamdarinternational21@gmail.com');
 define('SITE_MAP', 'https://maps.app.goo.gl/RU419bHcAWhNFQqb8');
 define('SITE_FACEBOOK', 'https://facebook.com');
 define('SITE_TWITTER', 'https://twitter.com'); 
