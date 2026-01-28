@@ -368,4 +368,127 @@
         </div>
     </section>
 
+    <!-- ===================== CERTIFICATIONS / ACCREDITATIONS ===================== -->
+    <section id="certifications" class="relative py-16 bg-white overflow-hidden">
+        <div class="absolute -right-40 -top-40 w-[520px] h-[520px] rounded-full bg-primary-glow-10 blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-10">
+                <div class="inline-flex items-center gap-3 text-sm font-bold tracking-wide mb-3">
+                    <span class="w-3 h-3 rotate-45 bg-secondary inline-block"></span>
+                    <span class="text-primary">CERTIFICATIONS</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-black text-secondary">Accreditations & Compliance</h2>
+                <p class="mt-3 text-gray-500 text-lg max-w-2xl mx-auto">
+                    Verified standards that reflect our commitment to quality and reliability.
+                </p>
+            </div>
+
+            <!-- Icon-style certification cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- ROHS -->
+                <div class="group rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 rounded-2xl bg-white border border-black/10 shadow-sm flex items-center justify-center overflow-hidden">
+                            <img
+                                src="assets/certifications/rohs.png"
+                                alt="RoHS Certification"
+                                class="w-12 h-12 object-contain"
+                            />
+                        </div>
+                        <div>
+                            <div class="text-lg font-extrabold text-secondary leading-tight">RoHS</div>
+                            <div class="text-gray-500">Restriction of Hazardous Substances</div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5 text-gray-600 leading-relaxed">
+                        Ensures compliance with restricted hazardous materials and safer manufacturing practices.
+                    </div>
+
+                    <div class="mt-5 flex items-center gap-2 text-sm font-bold text-primary">
+                        <i class="fa-solid fa-badge-check"></i>
+                        Verified Certification
+                    </div>
+                </div>
+
+                <!-- DAG -->
+                <div class="group rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 rounded-2xl bg-white border border-black/10 shadow-sm flex items-center justify-center overflow-hidden">
+                            <img
+                                src="assets/certifications/dag.png"
+                                alt="DAG Certification"
+                                class="w-12 h-12 object-contain"
+                            />
+                        </div>
+                        <div>
+                            <div class="text-lg font-extrabold text-secondary leading-tight">DAG</div>
+                            <div class="text-gray-500">Quality & compliance assurance</div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5 text-gray-600 leading-relaxed">
+                        Confirms defined quality systems and compliance processes to maintain consistent standards.
+                    </div>
+
+                    <div class="mt-5 flex items-center gap-2 text-sm font-bold text-primary">
+                        <i class="fa-solid fa-badge-check"></i>
+                        Verified Certification
+                    </div>
+                </div>
+
+                <!-- IAF -->
+                <div class="group rounded-3xl border border-black/10 bg-white p-7 shadow-sm hover:shadow-md transition">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 rounded-2xl bg-white border border-black/10 shadow-sm flex items-center justify-center overflow-hidden">
+                            <img
+                                src="assets/certifications/iaf.png"
+                                alt="IAF Accreditation"
+                                class="w-12 h-12 object-contain"
+                            />
+                        </div>
+                        <div>
+                            <div class="text-lg font-extrabold text-secondary leading-tight">IAF</div>
+                            <div class="text-gray-500">International Accreditation Forum</div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5 text-gray-600 leading-relaxed">
+                        Accreditation recognition aligned with international conformity assessment standards.
+                    </div>
+
+                    <div class="mt-5 flex items-center gap-2 text-sm font-bold text-primary">
+                        <i class="fa-solid fa-badge-check"></i>
+                        Verified Accreditation
+                    </div>
+                </div>
+            </div>
+
+            <!-- Optional compact strip (icon-only row) -->
+            <div class="mt-10 rounded-3xl border border-black/10 bg-slate-50 p-6">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div class="text-secondary font-extrabold text-xl">Trusted & Certified</div>
+
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 rounded-2xl bg-white border border-black/10 shadow-sm flex items-center justify-center overflow-hidden">
+                            <img src="assets/certifications/rohs.png" alt="RoHS" class="w-10 h-10 object-contain">
+                        </div>
+                        <div class="w-14 h-14 rounded-2xl bg-white border border-black/10 shadow-sm flex items-center justify-center overflow-hidden">
+                            <img src="assets/certifications/dag.png" alt="DAG" class="w-10 h-10 object-contain">
+                        </div>
+                        <div class="w-14 h-14 rounded-2xl bg-white border border-black/10 shadow-sm flex items-center justify-center overflow-hidden">
+                            <img src="assets/certifications/iaf.png" alt="IAF" class="w-10 h-10 object-contain">
+                        </div>
+                    </div>
+
+                    <a href="#contact"
+                    class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl btn-primary-grad text-white font-bold shadow hover:opacity-95 transition">
+                        <i class="fa-solid fa-circle-info"></i> Know More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <?php include 'footer.php'; ?>
