@@ -169,6 +169,8 @@
         </script>
     </section>
 
+    <?php include 'inc/our-strength.php'; ?>
+
     <!-- ===================== OUR TEAM (icons fixed + hover effect like image) ===================== -->
     <?php include 'inc/our-team.php'; ?>
 

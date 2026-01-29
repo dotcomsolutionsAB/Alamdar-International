@@ -1,12 +1,17 @@
-:root {
+/* :root {
     --primary: #28a5db;
-    /* OLD: #ff7a4d */
     --secondary: #0b1430;
-    /* OLD: #0b1430 */
     --secondary-mid: #1a223d;
-    /* OLD: #1a223d */
     --primary-2: #1f8fc0;
-    /* slightly darker for gradient */
+    --placeholder-bg: #414b6a46;
+    --prev-color: ;
+} */
+
+:root {
+    --primary: #004D84;
+    --secondary: #374151;
+    --secondary-mid: #56575a;
+    --primary-2: #1f8fc0;
     --placeholder-bg: #414b6a46;
     --prev-color: ;
 }
