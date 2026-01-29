@@ -8,7 +8,7 @@
                     "id": "gate-valve",
                     "name": "Gate Valve",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/1-2.jpg",
+                        "url": "gate_valve.jpeg",
                         "alt": "gate value"
                     },
                     "description": "Gate valves are on/off flow control devices that use a sliding gate to block or allow fluid passage, offering minimal pressure drop when fully open.",
@@ -21,7 +21,7 @@
                     "id": "globe-valve",
                     "name": "Globe Valve",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/2.jpg",
+                        "url": "assets/prods/globe_valve.jpeg",
                         "alt": "Seals"
                     },
                     "description": "Globe valves regulate flow using a movable disc and stationary ring, ideal for precise throttling and flow control in pipelines.",
@@ -34,7 +34,7 @@
                     "id": "swing-check-valve",
                     "name": "Swing Check Valve",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/12.jpg",
+                        "url": "assets/prods/swing check valve.jpg.jpeg",
                         "alt": "swing check value"
                     },
                     "description": "Swing check valves allow one-way flow and prevent backflow using a hinged disc that swings open with forward flow and closes with reverse flow",
@@ -47,7 +47,7 @@
                     "id": "plug-valve",
                     "name": "Plug Valve",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/9.jpg",
+                        "url": "assets/prods/plug_valve.jpeg",
                         "alt": "plug value"
                     },
                     "description": "Plug valves control flow using a cylindrical or tapered plug that rotates inside the valve body, offering quick and reliable shut-off.",
@@ -60,7 +60,7 @@
                     "id": "pneumatic-diaphragm-operated-control-valve",
                     "name": "Pneumatic Diaphragm Operated Control Valve",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/10.jpg",
+                        "url": "assets/prods/pneumatic diaphragm operated control valve.jpeg",
                         "alt": "Pneumatic Diaphragm Operated Control Valve"
                     },
                     "description": "A pneumatic diaphragm operated control valve uses air pressure to actuate a diaphragm, precisely regulating flow, pressure, or temperature in automated process systems.",
@@ -73,7 +73,7 @@
                     "id": "butterfly-valve",
                     "name": "Butterfly Valve",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/4-1.jpg",
+                        "url": "assets/prods/butterfly-valves.jpeg",
                         "alt": "butterfly value"
                     },
                     "description": "Butterfly valves use a rotating disc to control flow, offering quick shut-off, compact design, and low-pressure drop—ideal for large volume applications.",
@@ -86,7 +86,7 @@
                     "id": "cast-iron-diaphragm-valve",
                     "name": "Cast Iron Diaphragm Valve",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/5.jpg",
+                        "url": "assets/prods/cast_iron_diaphragm_valve.jpeg",
                         "alt": "Cast Iron Diaphragm Valve"
                     },
                     "description": "Cast iron diaphragm valves use a flexible diaphragm to regulate flow, providing leak-proof control for corrosive or abrasive fluids in low-pressure systems.",
@@ -125,7 +125,7 @@
                     "id": "liquid-level-glass-gauge",
                     "name": "Liquid Level Glass Gauge",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/3.jpg",
+                        "url": "assets/prods/level-gauge-500x500.jpeg",
                         "alt": "Liquid Level Glass Gauge"
                     },
                     "description": "A liquid level glass gauge provides direct visual indication of fluid levels in tanks and vessels, ensuring accurate and continuous monitoring.",
@@ -261,7 +261,7 @@
                     "id": "mechanical-seals",
                     "name": "Mechanical Seals",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/placeholder-2.png",
+                        "url": "assets/prods/pulse-jet-valve.jpg.jpeg",
                         "alt": "Mechanical Seals"
                     },
                     "description": "Pulse jet valves deliver sudden bursts of air to clean dust collector filters, ensuring efficient and continuous operation in baghouse systems.",
