@@ -15,7 +15,7 @@
                 class="absolute left-20 top-0 w-[30vw] h-[520px] object-cover shadow-2xl opacity-0 -translate-y-16 animate-[aboutImg1In_0.7s_ease_forwards]"
                 style="animation-delay:0.2s;">
 
-            <img src="assets/home_pressure_temp.jpg" alt="About Image 2"
+            <img src="assets/about/about_2.png" alt="About Image 2"
                 class="absolute right-0 bottom-0 w-[27vw] h-[400px] object-cover shadow-xl opacity-0 translate-y-16 animate-[aboutImg2In_0.7s_ease_forwards]"
                 style="animation-delay:0.45s;">
 
