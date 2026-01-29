@@ -61,7 +61,7 @@
         heading: ['Welcome', 'to <span class="text-primary font-black">Alamdar International</span>'],
         desc: 'Your trusted partner for high-quality industrial products and solutions. We specialize in manufacturing and supplying premium valves, rubber products, bellows, pressure & temperature instruments, ceramic products, and cast basalt.',
         btn: 'Discover More',
-        btnLink: '#'
+        btnLink: 'about'
         },
         {
         images: [

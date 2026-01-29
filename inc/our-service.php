@@ -74,7 +74,7 @@
                     </div>
                 </div>
 
-                <a href="#"
+                <a href="about"
                     class="inline-block mt-10 bg-primary hover:bg-[#ff7a4d] text-white font-bold px-9 py-3 rounded-none shadow transition">
                     Discover More
                 </a>
