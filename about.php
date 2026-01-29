@@ -23,9 +23,7 @@
                 </h2>
 
                 <p class="mt-6 text-gray-500 text-lg leading-relaxed max-w-xl">
-                    There are many variations of passages of Lorem Ipsum avalab but
-                    the majority have suffered alteration in some form, by injected
-                    humour, or randomised words which don't
+                    Our product range includes expansion joints, rubber products, industrial valves, measuring instruments, and ceramic & basalt lining solutions. Along with in-house manufacturing, we also stock selected products from reputed and trusted brands, enabling us to meet both standard and urgent requirements efficiently.
                 </p>
 
                 <!-- two feature blocks -->
@@ -215,10 +213,10 @@
                             <div class="flex gap-3">
                                 <i class="fa-solid fa-phone text-primary mt-1"></i>
                                 <div class="space-y-1">
-                                    <div>+91 (033) 2243-5134</div>
-                                    <div>+91 (033) 2248-4210</div>
-                                    <div>+91 7980937046</div>
-                                    <div>+91 9903861421</div>
+                                    <span>+91 (033) 2243-5134</span> | 
+                                    <span>+91 (033) 2248-4210</span> |
+                                    <span>+91 7980937046</span> |
+                                    <span>+91 9903861421</span>
                                 </div>
                             </div>
 
@@ -227,8 +225,7 @@
                                 <div class="space-y-1">
                                     <a href="mailto:sales@alamdarinternational.com" class="hover:text-secondary transition">
                                         sales@alamdarinternational.com
-                                    </a>
-                                    <div class="text-black/20">|</div>
+                                    </a> | 
                                     <a href="mailto:alamdarinternational21@gmail.com" class="hover:text-secondary transition">
                                         alamdarinternational21@gmail.com
                                     </a>

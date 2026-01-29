@@ -58,7 +58,7 @@
                             class="w-16 h-16 rounded-full object-cover border-4 border-white" />
                         <div>
                             <h3 class="text-xl font-bold text-white mb-1">Our Products Range</h3>
-                            <p class="text-white/70 text-sm">Comprehensive industrial solutions for diverse applications</p>
+                            <p class="text-white/70 text-sm">ALAMDAR INTERNATIONAL is a professionally managed industrial solutions company with over 20 years of industry experience in manufacturing and supplying engineered products across multiple sectors. Founded by HN Dhaman, the company has consistently focused on delivering quality-driven and reliable solutions backed by technical expertise.</p>
                         </div>
                     </div>
 
