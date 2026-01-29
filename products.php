@@ -200,16 +200,18 @@
 
           <p class="mt-4 text-base text-justify text-secondary font-medium leading-relaxed line-clamp-3">${desc}</p>
 
-          <div class="mt-10 flex justify-start">
-            <a href="${ctaHref}" class="prod-btn inline-block bg-secondary text-white font-semibold px-4 py-2">
-              ${ctaText}
-            </a>
           </div>
         </div>
       `;
 
       grid.appendChild(card);
     });
+
+    // 
+            //   <div class="mt-10 flex justify-start">
+            // <a href="${ctaHref}" class="prod-btn inline-block bg-secondary text-white font-semibold px-4 py-2">
+            //   ${ctaText}
+            // </a>
 
     const cards = [...document.querySelectorAll("#products .prod-card")];
     cards.forEach((card, idx) => {
