@@ -14,12 +14,11 @@
                 <p id="slide-desc" class="text-lg text-gray-600">There are many variations of passages of lorem
                     Ipsum available, but the majority have suffered alteration in some form,</p>
                 <div class="flex items-center gap-4 mt-6">
-                    <a id="slide-btn" href="#"
+                    <a id="slide-btn" href="about"
                         class="inline-block bg-primary hover:bg-[#ff7a4d] text-white font-bold px-8 py-3 rounded-lg shadow transition">Discover
                         More</a>
-                    <button
-                        class="w-12 h-12 rounded-full bg-[#232c3b] flex items-center justify-center text-white text-2xl shadow-lg hover:bg-primary transition"><i
-                            class="fa fa-play"></i></button>
+                    <!-- <button class="w-12 h-12 rounded-full bg-[#232c3b] flex items-center justify-center text-white text-2xl shadow-lg hover:bg-primary transition"><i
+                            class="fa fa-play"></i></button> -->
                 </div>
             </div>
             <!-- Right: Images & Arrow -->

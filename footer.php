@@ -51,7 +51,7 @@
                     </div>
 
                     <!-- EXPLORE -->
-                    <div class="md:col-span-1 relative md:pl-12 footer-col with-line">
+                    <!-- <div class="md:col-span-1 relative md:pl-12 footer-col with-line">
                         <h4 class="text-xl font-extrabold text-primary mb-7">Explore</h4>
                         <ul class="space-y-4 text-white/55 text-lg">
                             <li><a href="#" class="footer-link">What We Offer</a></li>
@@ -59,7 +59,7 @@
                             <li><a href="#" class="footer-link">Latest News</a></li>
                             <li><a href="#" class="footer-link">Help Center</a></li>
                         </ul>
-                    </div>
+                    </div> -->
 
                     <!-- GALLERY -->
                     <div class="md:col-span-1 relative md:pl-12 footer-col with-line">
@@ -74,7 +74,7 @@
                             <img class="w-full h-20 object-cover" src="assets/home_pressure_temp.jpg" alt="">
                         </div>
 
-                        <div class="mt-8 flex items-center gap-3">
+                        <!-- <div class="mt-8 flex items-center gap-3">
                             <a href="#" class="footer-social" aria-label="Facebook"><i
                                     class="fa-brands fa-facebook-f"></i></a>
                             <a href="#" class="footer-social" aria-label="Twitter"><i
@@ -83,7 +83,7 @@
                                     class="fa-brands fa-pinterest-p"></i></a>
                             <a href="#" class="footer-social" aria-label="YouTube"><i
                                     class="fa-brands fa-youtube"></i></a>
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>

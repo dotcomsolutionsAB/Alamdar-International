@@ -114,14 +114,14 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
                 <span class="flex items-center"><i class="fa-solid fa-envelope ml-4 mr-1 text-primary"></i><a
                         href="mailto:<?= SITE_EMAIL ?>" class="hover:underline"><?= SITE_EMAIL ?></a></span>
             </div>
-            <div class="flex flex-wrap items-center gap-x-6 gap-y-1 mt-1 md:mt-0">
+            <!-- <div class="flex flex-wrap items-center gap-x-6 gap-y-1 mt-1 md:mt-0">
                 <span class="flex items-center"><i class="fa-solid fa-clock mr-1 text-primary"></i>Mon to Sat: 8.00
                     am - 7.00 pm</span>
-                <a href="<?= SITE_FACEBOOK ?>" class="ml-2 hover:text-blue-500"><i class="fab fa-facebook-f"></i></a>
-                <a href="<?= SITE_TWITTER ?>" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="ml-2 hover:text-blue-500"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
                 <a href="https://pinterest.com" class="hover:text-red-500"><i class="fab fa-pinterest-p"></i></a>
                 <a href="https://instagram.com" class="hover:text-pink-500"><i class="fab fa-instagram"></i></a>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- Navigation Bar -->
