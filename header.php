@@ -34,7 +34,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
     <link rel="apple-touch-icon" sizes="180x180" href="<?= SITE_LOGO ?>">
     <link rel="icon" type="image/png" sizes="32x32" href="<?= SITE_LOGO ?>">
     <link rel="icon" type="image/png" sizes="16x16" href="<?= SITE_LOGO ?>">
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+    <!-- <link rel="manifest" href="assets/images/favicons/site.webmanifest"> -->
     <link rel="stylesheet" href="assets/css/color.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
 
