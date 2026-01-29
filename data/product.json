@@ -8,7 +8,7 @@
                     "id": "gate-valve",
                     "name": "Gate Valve",
                     "image": {
-                        "url": "gate_valve.jpeg",
+                        "url": "assets/prods/gate_valve.jpeg",
                         "alt": "gate value"
                     },
                     "description": "Gate valves are on/off flow control devices that use a sliding gate to block or allow fluid passage, offering minimal pressure drop when fully open.",
