@@ -11,20 +11,19 @@
 
         <!-- LEFT: Images + Center Logo Circle (NO water effect here) -->
         <div class="absolute z-20 w-[38vw] h-[100vh] flex-shrink-0 flex items-center justify-center">
-            <img src="assets/home_valve.jpg" alt="About Image 1"
+            <img src="assets/ab_1.jpeg" alt="About Image 1"
                 class="absolute left-20 top-0 w-[30vw] h-[520px] object-cover shadow-2xl opacity-0 -translate-y-16 animate-[aboutImg1In_0.7s_ease_forwards]"
                 style="animation-delay:0.2s;">
 
-            <img src="assets/about/about_2.png" alt="About Image 2"
+            <img src="assets/about_2.jpeg" alt="About Image 2"
                 class="absolute right-0 bottom-0 w-[27vw] h-[400px] object-cover shadow-xl opacity-0 translate-y-16 animate-[aboutImg2In_0.7s_ease_forwards]"
                 style="animation-delay:0.45s;">
 
         </div>
         <!-- Center Logo Circle -->
         <div
-            class="absolute left-[35%] top-[40%] -translate-x-1/2 -translate-y-1/2 z-20 w-48 h-48 rounded-full bg-[#1f8fc0] flex items-center justify-center shadow-2xl border-4 border-white/20">
-            <img src="<?= FAV_LOGO ?>" alt="Logo"
-                class="w-44 h-44 rounded-full object-cover" />
+            class="absolute left-[35%] top-[40%] -translate-x-1/2 -translate-y-1/2 z-20 w-48 h-48 rounded-full bg-[var(--primary)] flex items-center justify-center shadow-2xl border-4 border-white/20">
+            <img src="<?= FAV_LOGO ?>" alt="Logo" class="w-44 h-44 rounded-full object-cover" />
         </div>
         <!-- RIGHT: ORANGE CIRCLE SECTION + WATER RING -->
         <div class="relative flex-1 flex items-center justify-center md:justify-end">
@@ -40,7 +39,7 @@
                     </span>
 
                     <h2 class="text-3xl md:text-5xl font-extrabold text-white leading-tight">
-                        Discover <br />Our Products Range
+                        Innovation, <br /> Quality, and Integrity.
                     </h2>
 
                     <!-- <p class="text-white/85 mt-5 max-w-xl">
@@ -52,7 +51,7 @@
                     </div>
 
                     <!-- Consultation Box -->
-                    <p class="text-white/70 text-sm">ALAMDAR INTERNATIONAL is a professionally managed industrial solutions company with over 20 years of industry experience in manufacturing and supplying engineered products across multiple sectors. Founded by HN Dhaman, the company has consistently focused on delivering quality-driven and reliable solutions backed by technical expertise.</p>
+                    <p class="text-white/70 text-sm">Alamdar International a dependable associate for precision engineering. Our status as the leading Industrial Valve Manufacturer, oil and gas pipeline fittings supplier, and ISO certified exporter from India of industrial equipment gives you confidence in dealing with off-the-shelf, innovative, reliable, and designed and engineered solutions that are consistent with international standards.</p>
 
                     <!-- List -->
                     <div class="mt-8 space-y-4">
@@ -81,7 +80,7 @@
                         </div>
                     </div>
 
-                    <a href="#"
+                    <a href="about"
                         class="inline-block mt-10 bg-[var(--secondary)] hover:bg-[var(--primary)] text-white font-semibold px-8 py-3 rounded-lg shadow transition">
                         Discover More
                     </a>
