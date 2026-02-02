@@ -74,7 +74,7 @@
                             <img class="w-full h-20 object-cover" src="assets/home_pressure_temp.jpg" alt="">
                         </div>
 
-                        <div class="mt-8 flex items-center gap-3">
+                        <!-- <div class="mt-8 flex items-center gap-3">
                             <a href="#" class="footer-social" aria-label="Facebook"><i
                                     class="fa-brands fa-facebook-f"></i></a>
                             <a href="#" class="footer-social" aria-label="Twitter"><i
@@ -83,7 +83,7 @@
                                     class="fa-brands fa-pinterest-p"></i></a>
                             <a href="#" class="footer-social" aria-label="YouTube"><i
                                     class="fa-brands fa-youtube"></i></a>
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
