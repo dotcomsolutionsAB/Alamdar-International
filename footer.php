@@ -16,14 +16,13 @@
         <div class="relative z-10">
             <!-- TOP CONTENT -->
             <div class="max-w-7xl mx-auto px-4 py-20">
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-10 items-start">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
 
                     <!-- LEFT: logo + text + subscribe -->
                     <div class="md:col-span-1">
                         <div class="flex items-center gap-3">
-                            <img src="<?= SITE_LOGO ?>" class="w-10 h-10 rounded-full object-cover"
+                            <img src="<?= FAV_LOGO ?>" class="w-10 h-10 rounded-full object-cover"
                                 alt="Logo">
-                            <div class="text-2xl font-extrabold"><?= SITE_NAME ?></div>
                         </div>
 
                         <p class="mt-6 text-white/55 leading-relaxed text-lg max-w-sm">
