@@ -32,7 +32,7 @@
             <div class="about-orange-ring relative w-full max-w-[62vw] min-h-[580px] md:min-h-[590px]">
 
                 <!-- Orange Circle Body -->
-                <div class="about-orange-body relative h-full w-full rounded-full bg-gradient-to-br from-[#28a5db] to-[#1a223d] shadow-2xl px-24 py-16 md:px-48 md:py-20 overflow-hidden opacity-0 translate-x-16 animate-[cardIn_0.7s_ease_forwards]"
+                <div class="about-orange-body relative h-full w-full rounded-full bg-gradient-to-br from-[var(--secondary)] to-[var(--primary)] shadow-2xl px-24 py-16 md:px-48 md:py-20 overflow-hidden opacity-0 translate-x-16 animate-[cardIn_0.7s_ease_forwards]"
                     style="animation-delay:0.25s;">
 
                     <span class="text-xs font-bold text-white flex items-center gap-2 mb-3">
@@ -52,15 +52,7 @@
                     </div>
 
                     <!-- Consultation Box -->
-                    <div class="flex items-center gap-4 bg-[#23223b] rounded-2xl px-6 py-4 shadow-xl opacity-0 translate-x-16 animate-[consultIn_0.7s_ease_forwards]"
-                        style="animation-delay:0.6s;">
-                        <img src="https://picsum.photos/200/200?random=44" alt="Consultation"
-                            class="w-16 h-16 rounded-full object-cover border-4 border-white" />
-                        <div>
-                            <h3 class="text-xl font-bold text-white mb-1">Our Products Range</h3>
-                            <p class="text-white/70 text-sm">ALAMDAR INTERNATIONAL is a professionally managed industrial solutions company with over 20 years of industry experience in manufacturing and supplying engineered products across multiple sectors. Founded by HN Dhaman, the company has consistently focused on delivering quality-driven and reliable solutions backed by technical expertise.</p>
-                        </div>
-                    </div>
+                    <p class="text-white/70 text-sm">ALAMDAR INTERNATIONAL is a professionally managed industrial solutions company with over 20 years of industry experience in manufacturing and supplying engineered products across multiple sectors. Founded by HN Dhaman, the company has consistently focused on delivering quality-driven and reliable solutions backed by technical expertise.</p>
 
                     <!-- List -->
                     <div class="mt-8 space-y-4">
@@ -90,7 +82,7 @@
                     </div>
 
                     <a href="#"
-                        class="inline-block mt-10 bg-[#23223b] hover:bg-[#1b2230] text-white font-semibold px-8 py-3 rounded-lg shadow transition">
+                        class="inline-block mt-10 bg-[var(--secondary)] hover:bg-[var(--primary)] text-white font-semibold px-8 py-3 rounded-lg shadow transition">
                         Discover More
                     </a>
 
@@ -138,7 +130,7 @@
 
         #about-us {
             position: relative;
-            background-color: var(--getizy-secondary, #222230);
+            background-color: var(--primary, --primary-2);
             padding-bottom: 160px;
             z-index: 1;
             overflow: hidden;
