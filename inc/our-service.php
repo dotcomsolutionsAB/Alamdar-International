@@ -132,7 +132,7 @@
         </div>
 
         <h3
-          class="svc-title mt-6 text-2xl font-extrabold text-primary group-hover:text-[var(--primary-2)] leading-snug transition-all duration-300">
+          class="svc-title mt-6 text-2xl font-extrabold text-primary hover:text-[var(--primary-2)] leading-snug transition-all duration-300">
           ${card.titleHtml}
         </h3>
 
@@ -204,7 +204,7 @@
 
         /* text colors on hover */
         .service-hover:hover .svc-title {
-            color: #fff;
+            color: var(--primary-2);
         }
 
         .service-hover:hover .svc-desc {
