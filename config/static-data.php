@@ -1,7 +1,8 @@
 <?php
 define('SITE_NAME', 'Alamdar International');
 define('SITE_DOMAIN', 'https://alamdarinternational.com');
-define('SITE_LOGO', 'assets/logo.png');
+define('SITE_LOGO', 'assets/AI_logo_full.png');
+define('FAV_LOGO', 'assets/AI_logo.png');
 define('SITE_ADDRESS', '34, Indra Kumar Karnani Street, Clive Square, Shop No. G9, Kolkata - 700 001');
 define('SITE_PHONE', '+91 9903861481');
 define('SITE_PHONE_LINK', '+919903861481');

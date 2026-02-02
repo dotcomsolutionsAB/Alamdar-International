@@ -7,11 +7,20 @@
     --prev-color: ;
 } */
 
-:root {
+/* :root {
     --primary: #004D84;
     --secondary: #374151;
     --secondary-mid: #56575a;
     --primary-2: #1f8fc0;
+    --placeholder-bg: #414b6a46;
+    --prev-color: ;
+} */
+
+:root {
+    --primary: #6fffbe;
+    --secondary: #008d4e;
+    --secondary-mid: #ffffff;
+    --primary-2: #8EE2BC;
     --placeholder-bg: #414b6a46;
     --prev-color: ;
 }
