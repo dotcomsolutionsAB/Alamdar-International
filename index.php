@@ -12,6 +12,6 @@
     <?php include 'inc/brands.php'; ?>    
 
     <!-- ===================== OUR TEAM (icons fixed + hover effect like image) ===================== -->
-    <?php include 'inc/our-team.php'; ?>
+    <?php //include 'inc/our-team.php'; ?>
 
 <?php include 'footer.php'; ?>

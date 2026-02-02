@@ -57,15 +57,9 @@
                                 <div class="mt-2 text-gray-500 font-semibold">Satisfied<br>Clients</div>
                             </div>
                             <div class="px-10 py-7 text-center min-w-[210px]">
-                                <div class="text-3xl font-black text-[#23223b] leading-none">3600</div>
+                                <div class="text-3xl font-black text-[#23223b] leading-none">300+</div>
                                 <div class="mt-2 text-gray-500 font-semibold">Projects<br>completed</div>
                             </div>
-                        </div>
-
-                        <div
-                            class="bg-white border border-[#23223b]/35 w-[190px] h-[130px] flex items-center justify-center">
-                            <img src="https://picsum.photos/140/140?random=88"
-                                class="w-20 h-20 rounded-full object-cover" alt="Logo">
                         </div>
                     </div>
 

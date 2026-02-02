@@ -172,7 +172,7 @@
     <?php include 'inc/our-strength.php'; ?>
 
     <!-- ===================== OUR TEAM (icons fixed + hover effect like image) ===================== -->
-    <?php include 'inc/our-team.php'; ?>
+    <?php //include 'inc/our-team.php'; ?>
 
     <!-- ===================== OUR LOCATIONS / OFFICES ===================== -->
     <section id="our-locations" class="relative py-20 bg-white overflow-hidden">
