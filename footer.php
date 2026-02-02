@@ -63,7 +63,7 @@
 
                     <!-- GALLERY -->
                     <div class="md:col-span-1 relative md:pl-12 footer-col">
-                        <h4 class="text-xl font-extrabold text-primary mb-7">Gallery</h4>
+                        <h4 class="text-xl font-extrabold mb-7">Gallery</h4>
 
                         <div class="grid grid-cols-3 gap-2">
                             <img class="w-full h-20 object-cover" src="assets/A_rubber.jpeg" alt="">
