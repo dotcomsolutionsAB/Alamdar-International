@@ -197,9 +197,6 @@
           </div>
 
           <h3 class="mt-10 text-xl text-left font-semibold text-[#28a5db] leading-tight"><u>${name}</u></h3>
-
-          <p class="mt-4 text-base text-justify text-secondary font-medium leading-relaxed line-clamp-3">${desc}</p>
-
           </div>
         </div>
       `;
@@ -207,7 +204,7 @@
       grid.appendChild(card);
     });
 
-    // 
+            // <p class="mt-4 text-base text-justify text-secondary font-medium leading-relaxed line-clamp-3">${desc}</p>
             //   <div class="mt-10 flex justify-start">
             // <a href="${ctaHref}" class="prod-btn inline-block bg-secondary text-white font-semibold px-4 py-2">
             //   ${ctaText}
