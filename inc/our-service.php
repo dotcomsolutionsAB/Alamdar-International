@@ -203,9 +203,15 @@
         }
 
         /* text colors on hover */
-        /* .service-hover:hover .svc-title {
-            color: var(--primary-2);
-        } */
+
+            .service-hover:hover .svc-title {
+                color: var(--primary-2) !important;
+            }
+
+            /* .service-hover:hover .svc-read {
+                color: #fff !important;
+            } */
+
 
         .service-hover:hover .svc-desc {
             color: rgba(255, 255, 255, 0.55);
@@ -224,7 +230,7 @@
 
         /* Read more + arrow style */
         .service-hover:hover .svc-read {
-            color: var(--primary);
+            color: var(--primary-2);
         }
 
         .service-hover:hover .svc-arrow {
