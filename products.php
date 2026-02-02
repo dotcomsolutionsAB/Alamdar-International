@@ -196,7 +196,7 @@
             <img src="${img}" alt="${alt}" class="prod-img max-h-[230px] w-auto object-cover" />
           </div>
 
-          <h3 class="mt-10 text-xl text-left font-semibold text-[#28a5db] leading-tight"><u>${name}</u></h3>
+          <h3 class="mt-10 text-xl text-center font-semibold text-[#28a5db] leading-tight">${name}</h3>
           </div>
         </div>
       `;
