@@ -120,7 +120,7 @@
   ];
 
   const container = document.getElementById("service-cards");
-#23223b
+
   container.innerHTML = serviceCards.map(card => `
     <a href="${card.link}"
       class="service-card service-hover group relative bg-white border border-black/5 rounded-xl overflow-hidden
