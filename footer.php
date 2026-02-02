@@ -16,10 +16,10 @@
         <div class="relative z-10">
             <!-- TOP CONTENT -->
             <div class="max-w-7xl mx-auto px-4 py-20">
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-10 items-start">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
 
                     <!-- LEFT: logo + text + subscribe -->
-                    <div class="md:col-span-2">
+                    <div class="md:col-span-1">
                         <div class="flex items-center gap-3">
                             <img src="<?= FAV_LOGO ?>" class="w-10 h-10 rounded-full object-cover"
                                 alt="Logo">
@@ -41,7 +41,7 @@
                     </div>
 
                     <!-- LINKS -->
-                    <div class="md:col-span-2 relative md:pl-12 footer-col with-line">
+                    <div class="md:col-span-1 relative md:pl-12 footer-col">
                         <h4 class="text-xl font-extrabold text-primary-2 mb-7">Links</h4>
                         <ul class="space-y-4 text-white/55 text-lg">
                             <li><a href="about" class="footer-link">About Us</a></li>
@@ -62,7 +62,7 @@
                     </div> -->
 
                     <!-- GALLERY -->
-                    <!-- <div class="md:col-span-1 relative md:pl-12 footer-col with-line">
+                    <div class="md:col-span-1 relative md:pl-12 footer-col">
                         <h4 class="text-xl font-extrabold text-primary mb-7">Gallery</h4>
 
                         <div class="grid grid-cols-3 gap-2">
@@ -84,7 +84,7 @@
                             <a href="#" class="footer-social" aria-label="YouTube"><i
                                     class="fa-brands fa-youtube"></i></a>
                         </div>
-                    </div> -->
+                    </div>
 
                 </div>
             </div>
