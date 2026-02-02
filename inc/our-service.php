@@ -32,7 +32,7 @@
         <div class="relative">
             <div class="opacity-0 translate-y-6 service-right" style="animation-delay:0.1s">
                 <div class="flex items-center gap-3 text-sm font-bold tracking-wide">
-                    <span class="w-2 h-2 rotate-45 bg-[#23223b] inline-block"></span>
+                    <span class="w-2 h-2 rotate-45 bg-[var(--primary)] inline-block"></span>
                     <span class="text-primary">OUR SERVICE</span>
                 </div>
 
@@ -47,7 +47,7 @@
                 <!-- stats strip -->
                 <div class="mt-10 relative">
                     <div
-                        class="absolute -left-6 top-1/2 -translate-y-1/2 w-[260px] h-[86px] bg-[#23223b] -skew-x-12 rounded-sm">
+                        class="absolute -left-6 top-1/2 -translate-y-1/2 w-[260px] h-[86px] bg-[var(--primary)] -skew-x-12 rounded-sm">
                     </div>
 
                     <div class="relative flex items-stretch gap-4">
@@ -133,7 +133,7 @@
 
       <div class="relative z-10 p-8">
         <div
-          class="svc-icon w-16 h-16 rounded-full bg-[#23223b] flex items-center justify-center text-white text-2xl shadow-lg transition-all duration-300">
+          class="svc-icon w-16 h-16 rounded-full bg-[var(--primary)] flex items-center justify-center text-white text-2xl shadow-lg transition-all duration-300">
           <i class="${card.icon}"></i>
         </div>
 
@@ -157,7 +157,7 @@
       </div>
 
       <!-- dark overlay layer (animates in) -->
-      <span class="svc-dark absolute inset-0 bg-[#23223b] opacity-0 transition-all duration-300"></span>
+      <span class="svc-dark absolute inset-0 bg-[var(--primary)] opacity-0 transition-all duration-300"></span>
     </a>
   `).join("");
 </script>
