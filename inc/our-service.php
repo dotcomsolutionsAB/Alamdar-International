@@ -2,10 +2,10 @@
     <!-- soft gradient top-right like screenshot -->
     <div class="absolute inset-0 pointer-events-none">
         <div
-            class="absolute -right-40 -top-40 w-[520px] h-[520px] rounded-full bg-gradient-to-br from-[#ff5c2a]/18 to-transparent blur-2xl">
+            class="absolute -right-40 -top-40 w-[520px] h-[520px] rounded-full bg-gradient-to-br from-[var(--primary)]/18 to-transparent blur-2xl">
         </div>
         <div
-            class="absolute -right-64 top-10 w-[700px] h-[700px] rounded-full bg-gradient-to-br from-[#ff5c2a]/10 to-transparent blur-3xl">
+            class="absolute -right-64 top-10 w-[700px] h-[700px] rounded-full bg-gradient-to-br from-[var(--primary)]/10 to-transparent blur-3xl">
         </div>
     </div>
 
