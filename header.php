@@ -109,9 +109,9 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
     <div class="bg-[var(--darkgrey)] text-white text-sm hidden md:block">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center py-2 px-4">
             <div class="flex flex-wrap items-center gap-x-6 gap-y-1">
-                <span class="flex items-center"><i class="fa-solid fa-location-dot mr-1 text-primary"></i><a
+                <span class="flex items-center"><i class="fa-solid fa-location-dot mr-1 text-primary-2"></i><a
                         href="https://maps.app.goo.gl/RU419bHcAWhNFQqb8" class="hover:underline"><?= SITE_ADDRESS ?></a></span>
-                <span class="flex items-center"><i class="fa-solid fa-envelope ml-4 mr-1 text-primary"></i><a
+                <span class="flex items-center"><i class="fa-solid fa-envelope ml-4 mr-1 text-primary-2"></i><a
                         href="mailto:<?= SITE_EMAIL ?>" class="hover:underline"><?= SITE_EMAIL ?></a></span>
             </div>
             <!-- <div class="flex flex-wrap items-center gap-x-6 gap-y-1 mt-1 md:mt-0">
