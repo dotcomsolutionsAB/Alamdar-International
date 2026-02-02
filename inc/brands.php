@@ -65,7 +65,7 @@
         img.src = b.src;
         img.alt = b.alt;
         img.loading = "lazy";
-        img.className = "h-24 w-auto max-w-[260px] object-contain opacity-60 grayscale hover:opacity-100 hover:grayscale-0 transition";
+        img.className = "h-24 w-auto max-w-[260px] object-contain opacity-100 transition";
         row.appendChild(img);
       });
 
