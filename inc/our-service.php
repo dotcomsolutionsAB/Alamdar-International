@@ -208,9 +208,9 @@
                 color: var(--primary-2) !important;
             }
 
-            /* .service-hover:hover .svc-read {
+            .service-hover:hover .svc-read {
                 color: #fff !important;
-            } */
+            }
 
 
         .service-hover:hover .svc-desc {
@@ -229,9 +229,9 @@
         }
 
         /* Read more + arrow style */
-        .service-hover:hover .svc-read {
+        /* .service-hover:hover .svc-read {
             color: var(--primary-2);
-        }
+        } */
 
         .service-hover:hover .svc-arrow {
             background: #fff;
