@@ -36,8 +36,8 @@
                     <span class="text-primary">OUR SERVICE</span>
                 </div>
 
-                <h2 class="mt-4 text-5xl md:text-6xl font-black text-[#23223b] leading-[1.05]">
-                    We’re Providing Best<br>Service to Clients
+                <h2 class="mt-4 text-5xl md:text-6xl font-black text-primary leading-[1.05]">
+                 Committed to Delivering Exceptional<br> Service to Our Clients
                 </h2>
 
                 <p class="mt-6 text-gray-500 text-lg leading-relaxed max-w-xl">
@@ -51,13 +51,13 @@
                     </div>
 
                     <div class="relative flex items-stretch gap-4">
-                        <div class="bg-white border border-[#23223b]/35 shadow-sm flex items-stretch">
-                            <div class="px-10 py-7 text-center border-r border-[#23223b]/25 min-w-[210px]">
-                                <div class="text-3xl font-black text-[#23223b] leading-none">120K</div>
+                        <div class="bg-white border border-primary/35 shadow-sm flex items-stretch">
+                            <div class="px-10 py-7 text-center border-r border-primary/25 min-w-[210px]">
+                                <div class="text-3xl font-black text-primary leading-none">120K</div>
                                 <div class="mt-2 text-gray-500 font-semibold">Satisfied<br>Clients</div>
                             </div>
                             <div class="px-10 py-7 text-center min-w-[210px]">
-                                <div class="text-3xl font-black text-[#23223b] leading-none">300+</div>
+                                <div class="text-3xl font-black text-primary leading-none">300+</div>
                                 <div class="mt-2 text-gray-500 font-semibold">Projects<br>completed</div>
                             </div>
                         </div>
@@ -132,7 +132,7 @@
         </div>
 
         <h3
-          class="svc-title mt-6 text-2xl font-extrabold text-[#23223b] leading-snug transition-all duration-300">
+          class="svc-title mt-6 text-2xl font-extrabold text-primary leading-snug transition-all duration-300">
           ${card.titleHtml}
         </h3>
 
