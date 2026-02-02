@@ -6,7 +6,7 @@
         </div>
 
         <!-- deep blue overlay -->
-        <div class="absolute inset-0 bg-[#1a223d]"></div>
+        <div class="absolute inset-0 bg-[var(--secondary)]"></div>
 
         <!-- subtle pattern overlay (optional to match texture) -->
         <div class="absolute inset-0 opacity-[0.15]"
