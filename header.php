@@ -130,7 +130,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
         <div class="max-w-7xl mx-auto flex items-center justify-between px-4 h-20">
             <!-- Logo -->
             <a href="index" class="flex items-center flex-shrink-0 h-full">
-                <img src="<?= SITE_LOGO ?>" alt="getizy HTML" class="h-8 md:h-16 w-auto drop-shadow-xl" />
+                <img src="<?= SITE_LOGO ?>" alt="getizy HTML" class="h-8 md:h-24 w-auto drop-shadow-xl" />
             </a>
             <!-- Menu -->
             <ul class="hidden lg:flex flex-1 justify-center space-x-2 font-semibold text-base">
