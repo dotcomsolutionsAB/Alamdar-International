@@ -101,7 +101,7 @@
             position: absolute;
             inset: -26px;
             border-radius: 9999px;
-            background: conic-gradient(from 0deg, transparent 0deg, rgba(75, 170, 255, 0.0) 35deg, #3F51B5 85deg, rgba(75, 170, 255, 0.12) 140deg, transparent 215deg, #28a5db 305deg, transparent 360deg);
+            background: conic-gradient(from 0deg, transparent 0deg, #005b32, 35deg, #ffffff 85deg, rgba(75, 170, 255, 0.12) 140deg, transparent 215deg, #8EE2BC 305deg, transparent 360deg);
             animation: orangeRingSpin 2.2s linear infinite;
             z-index: 1;
 
@@ -116,8 +116,8 @@
             position: absolute;
             inset: -10px;
             border-radius: 9999px;
-            border: 2px solid rgba(75, 170, 255, 0.28);
-            box-shadow: 0 0 22px rgba(75, 170, 255, 0.22);
+            border: 2px solid var(--primary);
+            box-shadow: 0 0 22px var(--primary);
             z-index: 2;
             pointer-events: none;
         }
