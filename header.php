@@ -175,7 +175,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
 
                     <!-- Dropdown -->
                     <div
-                        class="absolute left-0 top-full mt-3 w-64 rounded-2xl border border-white/10 bg-[#0b1430]/95 backdrop-blur shadow-2xl overflow-hidden opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
+                        class="absolute left-0 top-full mt-3 w-64 rounded-2xl border border-white/10 bg-[var(--secondary)] backdrop-blur shadow-2xl overflow-hidden opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
                         
                         <a href="products?category=valves"
                             class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">

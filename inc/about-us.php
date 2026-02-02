@@ -5,7 +5,7 @@
     </div>
 
     <!-- Deep Blue Overlay -->
-    <div class="absolute inset-0 bg-[#0b1430]/80"></div>
+    <div class="absolute inset-0 bg-[var(--primary)]/80"></div>
 
     <div class="relative z-10 max-w-9xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 gap-12">
 
