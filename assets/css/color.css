@@ -80,7 +80,7 @@
 
 /* Button gradient using primary color (same on both sides) */
 .btn-primary-grad {
-    background: linear-gradient(90deg, var(--primary), var(--primary)) !important;
+    background: linear-gradient(90deg, var(--primary), var(--secondary)) !important;
 }
 
 .btn-secondary-grad {

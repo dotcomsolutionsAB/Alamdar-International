@@ -207,7 +207,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
             <div class="flex items-center gap-2 md:gap-3 flex-shrink-0 whitespace-nowrap">
     
                 <!-- Contact button: show always -->
-                <a href="contact" class="btn-primary-grad text-[#1A2230] px-7 py-2 rounded-2xl font-bold shadow-xl transition-all duration-200 border-2 border-primary-30 hover:scale-105 text-sm md:text-base">
+                <a href="contact" class="btn-primary-grad text-[#fff] px-7 py-2 rounded-2xl font-bold shadow-xl transition-all duration-200 border-2 border-primary-30 hover:scale-105 text-sm md:text-base">
                     <i class="fa-solid fa-envelope"></i>
                     <span class="ml-3 relative z-10">Contact</span>
                 </a>
