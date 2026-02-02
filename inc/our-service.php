@@ -120,7 +120,7 @@
   ];
 
   const container = document.getElementById("service-cards");
-
+#23223b
   container.innerHTML = serviceCards.map(card => `
     <a href="${card.link}"
       class="service-card service-hover group relative bg-white border border-black/5 rounded-xl overflow-hidden
@@ -133,12 +133,12 @@
 
       <div class="relative z-10 p-8">
         <div
-          class="svc-icon w-16 h-16 rounded-full bg-[var(--primary)] flex items-center justify-center text-white text-2xl shadow-lg transition-all duration-300">
+          class="svc-icon w-16 h-16 rounded-full bg-[#23223b] flex items-center justify-center text-white text-2xl shadow-lg transition-all duration-300">
           <i class="${card.icon}"></i>
         </div>
 
         <h3
-          class="svc-title mt-6 text-2xl font-extrabold text-[#fff] leading-snug transition-all duration-300">
+          class="svc-title mt-6 text-2xl font-extrabold text-[#23223b] leading-snug transition-all duration-300">
           ${card.titleHtml}
         </h3>
 
