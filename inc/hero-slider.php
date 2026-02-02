@@ -71,11 +71,11 @@
         imgTopClass: 'w-[280px] h-[220px] sm:w-[340px] sm:h-[260px] md:w-[400px] md:h-[300px]',
         imgBottomClass: 'w-[240px] h-[170px] sm:w-[280px] sm:h-[190px] md:w-[330px] md:h-[220px] right-4 sm:right-10 md:right-20',
 
-        title: 'Grow Your Business',
-        heading: ['Boost Your', 'Online Presence <span class="text-primary font-black">Now</span>'],
-        desc: 'Unlock new opportunities with our expert marketing strategies and creative campaigns.',
+        title: 'Alamdar International',
+        heading: ['Complete Industrial Flow', '& Sealing <span class="text-primary font-black">Solutions</span>'],
+        desc: 'Delivering precision-engineered rubber solutions, valves, and industrial instruments built to perform in demanding operating conditions.',
         btn: 'Get Started',
-        btnLink: '#services-grid.html'
+        btnLink: 'contact'
         },
         {
         images: [
@@ -85,11 +85,11 @@
         imgTopClass: 'w-[280px] h-[220px] sm:w-[340px] sm:h-[260px] md:w-[400px] md:h-[300px]',
         imgBottomClass: 'w-[240px] h-[170px] sm:w-[280px] sm:h-[190px] md:w-[330px] md:h-[220px] right-4 sm:right-10 md:right-20',
 
-        title: 'Digital Experience',
-        heading: ['Transform Your', 'Business <span class="text-primary font-black">Digitally</span>'],
-        desc: 'We help brands stand out in the digital world with stunning design and technology.',
+        title: 'Alamdar International',
+        heading: ['Engineered', 'Components. <span class="text-primary font-black">Consistent Performance.</span>'],
+        desc: 'Supplying engineered industrial components that combine durability, accuracy, and consistent performance for critical applications.',
         btn: 'Contact Us',
-        btnLink: '#contact.html'
+        btnLink: 'contact'
         }
     ];
 
