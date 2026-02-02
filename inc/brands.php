@@ -65,7 +65,7 @@
         img.src = b.src;
         img.alt = b.alt;
         img.loading = "lazy";
-        img.className = "h-16 w-auto max-w-[180px] object-contain opacity-60 grayscale hover:opacity-100 hover:grayscale-0 transition";
+        img.className = "h-24 w-auto max-w-[260px] object-contain opacity-60 grayscale hover:opacity-100 hover:grayscale-0 transition";
         row.appendChild(img);
       });
 
@@ -84,7 +84,7 @@
     let rafId = null;
 
     // speed: pixels per second (change this)
-    const speed = 55;
+    const speed = 45;
 
     function animate(time) {
       if (!animate.last) animate.last = time;
