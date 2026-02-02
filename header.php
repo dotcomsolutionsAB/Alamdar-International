@@ -285,8 +285,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
                 </div>
 
                 <div class="pt-3 border-t border-white/10 flex flex-col gap-3">
-                    <a href="contact"
-                    class="w-full text-center bg-gradient-to-r from-[var(--primary)] to-bg-[var(--secondary)] text-[#fff] px-6 py-3 rounded-2xl font-bold shadow-xl">
+                    <a href="contact" class="w-full text-center bg-gradient-to-r from-[var(--primary)] to-bg-[var(--secondary)] text-[#fff] px-6 py-3 rounded-2xl font-bold shadow-xl">
                         Contact Us
                     </a>
 
