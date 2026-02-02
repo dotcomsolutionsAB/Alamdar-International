@@ -53,11 +53,11 @@
                     <div class="relative flex items-stretch gap-4">
                         <div class="bg-white border border-[#23223b]/35 shadow-sm flex items-stretch">
                             <div class="px-10 py-7 text-center border-r border-[#23223b]/25 min-w-[210px]">
-                                <div class="text-4xl font-black text-[#23223b] leading-none">120K</div>
+                                <div class="text-3xl font-black text-[#23223b] leading-none">120K</div>
                                 <div class="mt-2 text-gray-500 font-semibold">Satisfied<br>Clients</div>
                             </div>
                             <div class="px-10 py-7 text-center min-w-[210px]">
-                                <div class="text-4xl font-black text-[#23223b] leading-none">3600</div>
+                                <div class="text-3xl font-black text-[#23223b] leading-none">3600</div>
                                 <div class="mt-2 text-gray-500 font-semibold">Projects<br>completed</div>
                             </div>
                         </div>

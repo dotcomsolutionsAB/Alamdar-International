@@ -185,7 +185,7 @@
                     <span class="w-3 h-3 rotate-45 bg-secondary inline-block"></span>
                     <span class="text-primary">OUR LOCATIONS</span>
                 </div>
-                <h2 class="text-4xl md:text-5xl font-black text-secondary leading-tight">
+                <h2 class="text-3xl md:text-5xl font-black text-secondary leading-tight">
                     Offices & Factories
                 </h2>
                 <p class="mt-4 text-gray-500 text-lg max-w-2xl mx-auto">
@@ -377,7 +377,7 @@
                     <span class="w-3 h-3 rotate-45 bg-secondary inline-block"></span>
                     <span class="text-primary">CERTIFICATIONS</span>
                 </div>
-                <h2 class="text-3xl md:text-4xl font-black text-secondary">Accreditations & Compliance</h2>
+                <h2 class="text-3xl md:text-3xl font-black text-secondary">Accreditations & Compliance</h2>
                 <p class="mt-3 text-gray-500 text-lg max-w-2xl mx-auto">
                     Verified standards that reflect our commitment to quality and reliability.
                 </p>

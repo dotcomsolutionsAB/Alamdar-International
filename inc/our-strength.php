@@ -11,7 +11,7 @@
                 <span class="text-primary">OUR STRENGTHS</span>
             </div>
 
-            <h2 class="text-4xl md:text-5xl font-black text-secondary leading-tight">
+            <h2 class="text-3xl md:text-5xl font-black text-secondary leading-tight">
                 Our Strengths
             </h2>
 

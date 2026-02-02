@@ -40,7 +40,7 @@
                         <div class="mt-10 flex items-start gap-8">
                             <div class="text-primary text-6xl leading-none font-black select-none">“</div>
                             <p id="review-text"
-                                class="review-anim text-white/55 text-2xl leading-relaxed italic max-w-4xl"></p>
+                                class="review-anim text-white/55 text-2xl leading-relaxed italic max-w-3xl"></p>
                         </div>
 
                         <div class="mt-10 flex items-center gap-4">

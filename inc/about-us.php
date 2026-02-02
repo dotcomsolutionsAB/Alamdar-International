@@ -39,7 +39,7 @@
                         <span class="w-2 h-2 rounded-full bg-white"></span> ABOUT US
                     </span>
 
-                    <h2 class="text-4xl md:text-5xl font-extrabold text-white leading-tight">
+                    <h2 class="text-3xl md:text-5xl font-extrabold text-white leading-tight">
                         Discover <br />Our Products Range
                     </h2>
 

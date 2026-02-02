@@ -13,7 +13,7 @@
         <div class="absolute -right-40 -top-40 w-[420px] h-[220px] rounded-full bg-primary-glow-10 blur-3xl"></div>
 
         <div class="relative z-10 max-w-7xl mx-auto px-4 py-8 text-left">
-            <h1 class="text-white text-4xl md:text-5xl font-extrabold tracking-tight
+            <h1 class="text-white text-3xl md:text-5xl font-extrabold tracking-tight
                     animate-fade-up">
                 Our Products
             </h1>
