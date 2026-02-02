@@ -132,7 +132,7 @@
         </div>
 
         <h3
-          class="svc-title mt-6 text-2xl font-extrabold text-primary hover:text-[var(--primary-2)] leading-snug transition-all duration-300">
+          class="svc-title mt-6 text-2xl font-extrabold text-primary group-hover:text-[var(--primary-2)] leading-snug transition-all duration-300">
           ${card.titleHtml}
         </h3>
 
@@ -203,9 +203,9 @@
         }
 
         /* text colors on hover */
-        .service-hover:hover .svc-title {
+        /* .service-hover:hover .svc-title {
             color: var(--primary-2);
-        }
+        } */
 
         .service-hover:hover .svc-desc {
             color: rgba(255, 255, 255, 0.55);
@@ -214,7 +214,7 @@
         /* icon circle becomes orange gradient */
         .service-hover:hover .svc-icon {
             background: linear-gradient(135deg, var(--primary), var(--primary-2));
-            box-shadow: 0 14px 30px rgba(27, 2, 137, 0.35);
+            box-shadow: 0 14px 30px rgba(13, 112, 54, 0.35);
         }
 
         /* footer border looks subtle on dark */
