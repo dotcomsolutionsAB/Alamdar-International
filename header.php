@@ -106,7 +106,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
 
 <body class="custom-cursor">
     <!-- Topbar -->
-    <div class="bg-[#222B3A] text-white text-sm hidden md:block">
+    <div class="bg-[var(--secondary)] text-white text-sm hidden md:block">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center py-2 px-4">
             <div class="flex flex-wrap items-center gap-x-6 gap-y-1">
                 <span class="flex items-center"><i class="fa-solid fa-location-dot mr-1 text-primary"></i><a
@@ -230,7 +230,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobileMenu" class="lg:hidden hidden border-t border-white/10 bg-[#0b1430]/95 backdrop-blur">
+        <div id="mobileMenu" class="lg:hidden hidden border-t border-white/10 bg-[var(--secondary)]/95 backdrop-blur">
             <div class="max-w-7xl mx-auto px-4 py-4 space-y-2">
 
                 <a href="index"
