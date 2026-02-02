@@ -15,7 +15,7 @@
 
       <!-- JS will populate inside this track -->
       <div class="brands-viewport overflow-hidden">
-        <div class="brand-marquee flex items-center gap-24 will-change-transform"></div>
+        <div class="brand-marquee flex items-center gap-12 will-change-transform"></div>
       </div>
     </div>
   </div>
@@ -57,7 +57,7 @@
     // 2) helper to create one "row"
     function createRow(isHidden = false) {
       const row = document.createElement("div");
-      row.className = "brand-row flex items-center gap-24";
+      row.className = "brand-row flex items-center gap-12";
       if (isHidden) row.setAttribute("aria-hidden", "true");
 
       brands.forEach((b) => {
@@ -65,7 +65,7 @@
         img.src = b.src;
         img.alt = b.alt;
         img.loading = "lazy";
-        img.className = "h-11 opacity-60 grayscale hover:opacity-100 hover:grayscale-0 transition";
+        img.className = "h-16 w-auto max-w-[180px] object-contain opacity-60 grayscale hover:opacity-100 hover:grayscale-0 transition";
         row.appendChild(img);
       });
 
@@ -84,7 +84,7 @@
     let rafId = null;
 
     // speed: pixels per second (change this)
-    const speed = 70;
+    const speed = 55;
 
     function animate(time) {
       if (!animate.last) animate.last = time;
