@@ -78,7 +78,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
             width: 34px;
             height: 34px;
             border-radius: 9999px;
-            border: 2px solid rgba(0, 110, 157, 0.6);
+            border: 2px solid var(--secondary);
             transition: width .18s ease, height .18s ease, border-color .18s ease, opacity .18s ease;
             opacity: .9;
         }
@@ -87,7 +87,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
         .cursor-hover #cursorRing {
             width: 50px;
             height: 50px;
-            border-color: rgba(40,165,219,.60);
+            border-color: var(--primary-2);
             opacity: 1;
         }
     </style>
@@ -286,7 +286,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
 
                 <div class="pt-3 border-t border-white/10 flex flex-col gap-3">
                     <a href="contact"
-                    class="w-full text-center bg-gradient-to-r from-[#ff7a4d] to-[#ff5c2a] text-[#1A2230] px-6 py-3 rounded-2xl font-bold shadow-xl">
+                    class="w-full text-center bg-gradient-to-r from-[var(--primary)] to-bg-[var(--secondary)] text-[#fff] px-6 py-3 rounded-2xl font-bold shadow-xl">
                         Contact Us
                     </a>
 
