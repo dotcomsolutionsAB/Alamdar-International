@@ -107,16 +107,28 @@
                         </div>
 
                         <!-- email / website -->
-                        <div
-                            class="flex items-center gap-5 px-8 py-8 border-b md:border-b-0 md:border-r border-black/10">
-                            <div
-                                class="w-14 h-14 rounded-full bg-secondary text-white flex items-center justify-center text-xl">
-                                <i class="fa-solid fa-globe"></i>
+                        <div class="flex flex-col gap-5 px-8 py-8 border-b md:border-b-0 md:border-r border-black/10">
+                            <!-- Website -->
+                            <div class="flex items-center gap-5">
+                                <div class="w-14 h-14 rounded-full bg-secondary text-white flex items-center justify-center text-xl">
+                                    <i class="fa-solid fa-globe"></i>
+                                </div>
+                                <div class="font-semibold">
+                                    <div class="mt-1"><?= SITE_DOMAIN ?></div>
+                                </div>
                             </div>
-                            <div class="font-semibold">
-                                <div class="mt-1"><?= SITE_DOMAIN ?></div>
+
+                            <!-- Email -->
+                            <div class="flex items-center gap-5">
+                                <div class="w-14 h-14 rounded-full bg-secondary text-white flex items-center justify-center text-xl">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="font-semibold">
+                                    <div class="mt-1"><?= SITE_EMAIL ?></div>
+                                </div>
                             </div>
                         </div>
+
 
                         <!-- address -->
                         <div class="flex items-center gap-5 px-8 py-8">
@@ -182,6 +194,14 @@
             }
         </style>
     </footer>
+
+    <a href="https://wa.me/919903861421?text=Hi%20I%20want%20to%20enquire"
+        class="wa-float"
+        target="_blank"
+        rel="noopener"
+        aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
 
     <button id="backToTop"
         class="fixed right-6 bottom-6 z-[9999] w-12 h-12 rounded-full bg-secondary text-white shadow-xl border border-white/10 flex items-center justify-center opacity-0 pointer-events-none translate-y-4 transition-all duration-300 hover:bg-primary">
@@ -285,6 +305,61 @@
         });
         });
     </script>
+<style>
+  .wa-float{
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    width: 58px;
+    height: 58px;
+    border-radius: 9999px;
+    background: #25D366;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
+    z-index: 9999;
+    transition: transform .2s ease, box-shadow .2s ease;
+    text-decoration: none;
+  }
+
+  .wa-float:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 14px 30px rgba(0,0,0,.28);
+  }
+
+  .wa-float:active{
+    transform: translateY(0);
+  }
+
+  /* Optional: small pulse */
+  .wa-float::after{
+    content:"";
+    position:absolute;
+    inset:-10px;
+    border-radius:9999px;
+    border:2px solid rgba(37, 211, 102, .45);
+    animation: waPulse 1.6s ease-out infinite;
+  }
+
+  @keyframes waPulse{
+    0%   { transform: scale(.85); opacity: .9; }
+    100% { transform: scale(1.25); opacity: 0; }
+  }
+
+  @media (max-width: 640px){
+    .wa-float{
+      right: 14px;
+      bottom: 14px;
+      width: 54px;
+      height: 54px;
+      font-size: 28px;
+    }
+  }
+</style>
+
 
 </body>
 

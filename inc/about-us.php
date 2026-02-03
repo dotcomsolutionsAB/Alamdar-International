@@ -10,7 +10,7 @@
     <div class="relative z-10 max-w-9xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 gap-12">
 
         <!-- LEFT: Images + Center Logo Circle (NO water effect here) -->
-        <div class="absolute z-20 w-[38vw] h-[100vh] flex-shrink-0 flex items-center justify-center">
+        <div class="about-images absolute z-20 w-[38vw] h-[100vh] flex-shrink-0 flex items-center justify-center">
             <img src="assets/ab_1.jpeg" alt="About Image 1"
                 class="about-img-1 absolute left-20 top-0 w-[30vw] h-[520px] object-cover shadow-2xl opacity-0 -translate-y-16 animate-[aboutImg1In_0.7s_ease_forwards]"
                 style="animation-delay:0.2s;">
@@ -171,42 +171,62 @@
     </style>
     
     <style>
-        @media (max-width: 1024px) {
+  @media (max-width: 1024px) {
 
-            #about-us .absolute {
-                position: relative !important;
-                left: auto !important;
-                top: auto !important;
-                transform: none !important;
-            }
+    /* ✅ Don't convert ALL absolute elements — only the ones we need */
+    .about-images,
+    .about-logo-circle {
+      position: relative !important;
+      left: auto !important;
+      top: auto !important;
+      transform: none !important;
+    }
 
-            .about-orange-ring {
-                max-width: 100% !important;
-            }
+    /* ✅ IMPORTANT: remove the big height that creates space */
+    .about-images {
+      width: 100% !important;
+      height: auto !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: stretch !important;
+      justify-content: flex-start !important;
+      gap: 14px !important;     /* controls space between images */
+      margin-bottom: 18px !important;
+    }
 
-            .about-orange-body {
-                border-radius: 28px !important;
-                padding: 32px !important;
-            }
+    .about-orange-ring {
+      max-width: 100% !important;
+    }
 
-            /* existing code (keep as is) */
+    .about-orange-body {
+      border-radius: 28px !important;
+      padding: 32px !important;
+    }
 
-            .about-img-1{
-                width: 100% !important;
-                height: 260px !important;
-                left: 0 !important;
-                top: 0 !important;
-                position: relative !important;
-                margin-bottom: 18px;
-            }
+    /* images should behave like normal blocks */
+    .about-img-1,
+    .about-img-2 {
+      position: relative !important;
+      inset: auto !important;
+      left: auto !important;
+      right: auto !important;
+      top: auto !important;
+      bottom: auto !important;
+      transform: none !important;
 
-            .about-img-2{
-                width: 100% !important;
-                height: 220px !important;
-                right: 0 !important;
-                bottom: 0 !important;
-                position: relative !important;
-            }
-        }
-    </style>
+      width: 100% !important;
+      margin: 0 !important;
+      display: block !important;
+    }
+
+    .about-img-1 {
+      height: 260px !important;
+    }
+
+    .about-img-2 {
+      height: 220px !important;
+    }
+  }
+</style>
+
 </section>
