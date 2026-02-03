@@ -108,16 +108,6 @@
 
                         <!-- email / website -->
                         <div class="flex flex-col gap-5 px-8 py-8 border-b md:border-b-0 md:border-r border-black/10">
-                            <!-- Website -->
-                            <div class="flex items-center gap-5">
-                                <div class="w-8 h-8 rounded-full bg-secondary text-white flex items-center justify-center text-xl">
-                                    <i class="fa-solid fa-globe"></i>
-                                </div>
-                                <div class="font-semibold">
-                                    <div class="mt-1"><?= SITE_DOMAIN ?></div>
-                                </div>
-                            </div>
-
                             <!-- Email -->
                             <div class="flex items-center gap-5">
                                 <div class="w-8 h-8 rounded-full bg-secondary text-white flex items-center justify-center text-xl">
