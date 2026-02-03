@@ -21,7 +21,7 @@
         </div>
         <!-- Center Logo Circle -->
         <div
-            class="absolute left-[35%] top-[40%] -translate-x-1/2 -translate-y-1/2 z-20 w-48 h-48 rounded-full bg-[var(--primary)] flex items-center justify-center shadow-2xl border-4 border-white/20">
+            class="about-logo-circle absolute left-[35%] top-[40%] -translate-x-1/2 -translate-y-1/2 z-20 w-48 h-48 rounded-full bg-[var(--primary)] flex items-center justify-center shadow-2xl border-4 border-white/20">
             <img src="<?= FAV_LOGO ?>" alt="Logo" class="w-44 h-44 rounded-full object-cover" />
         </div>
         <!-- RIGHT: ORANGE CIRCLE SECTION + WATER RING -->
