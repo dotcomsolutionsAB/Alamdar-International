@@ -297,19 +297,6 @@
                     }
                 },
                 {
-                    "id": "expansion-joints",
-                    "name": "Expansion Joints",
-                    "image": {
-                        "url": "assets/products/rubbers/EXPANSION_JOINTS.jpg",
-                        "alt": "Expansion Joints"
-                    },
-                    "description": "Manifold valves combine multiple valves in a single unit to isolate, calibrate, or vent pressure instruments, optimizing space and system efficiency",
-                    "cta": {
-                        "text": "Technical Specs",
-                        "href": "#"
-                    }
-                },
-                {
                     "id": "hydraulic-chevron-packing",
                     "name": "Hydraulic Chevron Packing",
                     "image": {
