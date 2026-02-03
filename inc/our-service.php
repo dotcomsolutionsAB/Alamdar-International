@@ -36,7 +36,7 @@
                     <span class="text-primary">OUR SERVICE</span>
                 </div>
 
-                <h2 class="mt-4 text-5xl md:text-6xl font-black text-primary leading-[1.05]">
+                <h2 class="mt-4 text-3xl md:text-4xl font-black text-primary leading-[1.05]">
                  Committed to Delivering Exceptional<br> Service to Our Clients
                 </h2>
 
