@@ -397,8 +397,8 @@
             ]
         },
         {
-            "id": "measure-products",
-            "name": "Measure Products",
+            "id": "measuring-instruments",
+            "name": "Measure Instruments",
             "subcategories": [
                 {
                     "id": "pressure-gauge",
