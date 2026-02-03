@@ -137,7 +137,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
                 <li>
                     <a href="index"
                         class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
-                        <i class="fa-solid fa-house text-primary"></i>
+                        <i class="fa-solid fa-house text-white"></i>
                         <span class="relative z-10">Home</span>
                         <span
                             class="absolute left-0 bottom-0 w-0 h-1 bg-primary rounded-full group-hover:w-full transition-all duration-300"></span>
@@ -146,7 +146,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
                 <li>
                     <a href="about"
                         class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
-                        <i class="fa-solid fa-user-tie text-primary"></i>
+                        <i class="fa-solid fa-user-tie text-white"></i>
                         <span class="relative z-10">About</span>
                         <span
                             class="absolute left-0 bottom-0 w-0 h-1 bg-primary rounded-full group-hover:w-full transition-all duration-300"></span>
@@ -155,7 +155,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
                 <!-- <li>
                     <a href="services-grid.html"
                         class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
-                        <i class="fa-solid fa-cogs text-primary"></i>
+                        <i class="fa-solid fa-cogs text-white"></i>
                         <span class="relative z-10">Services</span>
                         <span
                             class="absolute left-0 bottom-0 w-0 h-1 bg-primary rounded-full group-hover:w-full transition-all duration-300"></span>
@@ -165,7 +165,7 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
                 <li class="relative group">
                     <a href="products"
                         class="group flex items-center gap-2 px-5 py-2 rounded-xl transition-all duration-200 relative overflow-hidden">
-                        <i class="fa-solid fa-diagram-project text-primary"></i>
+                        <i class="fa-solid fa-diagram-project text-white"></i>
                         <span class="relative z-10">Products</span>
                         <i class="fa-solid fa-chevron-down text-xs opacity-80 relative z-10"></i>
 
@@ -179,25 +179,25 @@ if (defined('SITE_MAINTENANCE') && SITE_MAINTENANCE == 1) {
                         
                         <a href="products?category=valves"
                             class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">
-                            <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
+                            <i class="fa-solid fa-circle-dot text-white text-xs"></i>
                             Valves
                         </a>
 
                         <a href="products?category=rubber-products"
                             class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">
-                            <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
+                            <i class="fa-solid fa-circle-dot text-white text-xs"></i>
                             Rubber Products
                         </a>
 
                         <a href="products?category=expansion-joints"
                             class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">
-                            <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
+                            <i class="fa-solid fa-circle-dot text-white text-xs"></i>
                             Expansion Joints
                         </a>
 
                         <a href="products?category=measure-products"
                             class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">
-                            <i class="fa-solid fa-circle-dot text-primary text-xs"></i>
+                            <i class="fa-solid fa-circle-dot text-white text-xs"></i>
                             Measure Products
                         </a>
                     </div>
