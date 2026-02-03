@@ -7,7 +7,7 @@
             <div id="slider-left"
                 class="flex-1 max-w-xl space-y-6 transition-all duration-700 opacity-100 translate-x-0">
                 <h5 id="slide-title" class="text-lg font-semibold text-primary">Take the Digital Advantages</h5>
-                <h1 id="slide-heading" class="text-3xl md:text-3xl font-extrabold leading-tight">
+                <h1 id="slide-heading" class="text-3xl md:text-4xl font-extrabold leading-tight">
                     <span class="block">Shaping the</span>
                     <span class="block">Perfect Website <span class="text-primary font-black">Solution</span></span>
                 </h1>
