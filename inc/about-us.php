@@ -51,7 +51,7 @@
                     </div>
 
                     <!-- Consultation Box -->
-                    <p class="text-white/70 text-sm">Alamdar International a dependable associate for precision engineering. Our status as the leading Industrial Valve Manufacturer, oil and gas pipeline fittings supplier, and ISO certified exporter from India of industrial equipment gives you confidence in dealing with off-the-shelf, innovative, reliable, and designed and engineered solutions that are consistent with international standards.</p>
+                    <p class="text-white text-sm">Alamdar International a dependable associate for precision engineering. Our status as the leading Industrial Valve Manufacturer, oil and gas pipeline fittings supplier, and ISO certified exporter from India of industrial equipment gives you confidence in dealing with off-the-shelf, innovative, reliable, and designed and engineered solutions that are consistent with international standards.</p>
 
                     <!-- List -->
                     <div class="mt-8 space-y-4">
