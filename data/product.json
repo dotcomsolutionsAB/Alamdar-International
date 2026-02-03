@@ -183,7 +183,7 @@
                     "id": "seals",
                     "name": "Seals",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/2.jpg",
+                        "url": "assets/products/rubbers/Seals.jpg",
                         "alt": "Seals"
                     },
                     "description": "Globe valves regulate flow using a movable disc and stationary ring, ideal for precise throttling and flow control in pipelines.",
@@ -274,7 +274,7 @@
                     "id": "o-rings",
                     "name": "O-rings",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/placeholder-2.png",
+                        "url": "assets/products/rubbers/O-ringen.jpg",
                         "alt": "O-rings"
                     },
                     "description": "Knife edge gate valves are designed to cut through thick fluids, slurries, and solids, providing reliable shut-off in challenging industrial applications.",
@@ -287,7 +287,7 @@
                     "id": "carbon-seals",
                     "name": "Carbon Seals",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/placeholder-2.png",
+                        "url": "assets/products/rubbers/CARBON_seals.jpg",
                         "alt": "Carbon Seals"
                     },
                     "description": "A liquid level glass gauge provides direct visual indication of fluid levels in tanks and vessels, ensuring accurate and continuous monitoring.",
@@ -300,7 +300,7 @@
                     "id": "expansion-joints",
                     "name": "Expansion Joints",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/placeholder-2.png",
+                        "url": "assets/products/rubbers/EXPANSION_JOINTS.jpg",
                         "alt": "Expansion Joints"
                     },
                     "description": "Manifold valves combine multiple valves in a single unit to isolate, calibrate, or vent pressure instruments, optimizing space and system efficiency",
@@ -313,7 +313,7 @@
                     "id": "hydraulic-chevron-packing",
                     "name": "Hydraulic Chevron Packing",
                     "image": {
-                        "url": "https://unickcontrolsystem.com/wp-content/uploads/2025/08/placeholder-2.png",
+                        "url": "assets/products/rubbers/Hydraulic_Chevron_Packing.jpg",
                         "alt": "Hydraulic Chevron Packing"
                     },
                     "description": "Needle valves offer precise flow control using a fine-threaded stem and narrow seat, ideal for low flow and high-pressure applications.",

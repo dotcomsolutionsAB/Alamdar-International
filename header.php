@@ -198,7 +198,7 @@ include __DIR__ . '/config/static-data.php';
                         <a href="products?category=measuring-instruments"
                             class="flex items-center gap-3 px-5 py-3 text-white hover:bg-white/10 transition">
                             <i class="fa-solid fa-circle-dot text-white text-xs"></i>
-                            Measure Products
+                            Measure Instruments
                         </a>
                     </div>
                 </li>
