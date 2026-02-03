@@ -7,7 +7,7 @@
         </div>
 
         <!-- overlay -->
-        <div class="absolute inset-0 bg-primary/90"></div>
+        <div class="absolute inset-0 bg-secondary"></div>
 
         <!-- glow -->
         <div class="absolute -right-40 -top-40 w-[420px] h-[220px] rounded-full bg-primary-glow-10 blur-3xl"></div>
