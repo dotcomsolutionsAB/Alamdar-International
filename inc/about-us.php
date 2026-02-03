@@ -12,13 +12,12 @@
         <!-- LEFT: Images + Center Logo Circle (NO water effect here) -->
         <div class="absolute z-20 w-[38vw] h-[100vh] flex-shrink-0 flex items-center justify-center">
             <img src="assets/ab_1.jpeg" alt="About Image 1"
-                class="absolute left-20 top-0 w-[30vw] h-[520px] object-cover shadow-2xl opacity-0 -translate-y-16 animate-[aboutImg1In_0.7s_ease_forwards]"
+                class="about-img-1 absolute left-20 top-0 w-[30vw] h-[520px] object-cover shadow-2xl opacity-0 -translate-y-16 animate-[aboutImg1In_0.7s_ease_forwards]"
                 style="animation-delay:0.2s;">
 
             <img src="assets/about_2.jpeg" alt="About Image 2"
-                class="absolute right-0 bottom-0 w-[27vw] h-[400px] object-cover shadow-xl opacity-0 translate-y-16 animate-[aboutImg2In_0.7s_ease_forwards]"
+                class="about-img-2 absolute right-0 bottom-0 w-[27vw] h-[400px] object-cover shadow-xl opacity-0 translate-y-16 animate-[aboutImg2In_0.7s_ease_forwards]"
                 style="animation-delay:0.45s;">
-
         </div>
         <!-- Center Logo Circle -->
         <div
@@ -188,6 +187,25 @@
             .about-orange-body {
                 border-radius: 28px !important;
                 padding: 32px !important;
+            }
+
+            /* existing code (keep as is) */
+
+            .about-img-1{
+                width: 100% !important;
+                height: 260px !important;
+                left: 0 !important;
+                top: 0 !important;
+                position: relative !important;
+                margin-bottom: 18px;
+            }
+
+            .about-img-2{
+                width: 100% !important;
+                height: 220px !important;
+                right: 0 !important;
+                bottom: 0 !important;
+                position: relative !important;
             }
         }
     </style>
