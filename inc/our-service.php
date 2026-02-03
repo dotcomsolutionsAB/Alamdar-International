@@ -17,10 +17,10 @@
             <div
                 class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[520px] h-[520px] pointer-events-none">
                 <div
-                    class="absolute left-1/2 top-0 -translate-x-1/2 w-14 h-full bg-primary-grad-r opacity-85rounded-lg">
+                    class="absolute left-1/2 top-0 -translate-x-1/2 w-14 h-full bg-primary rounded-lg">
                 </div>
                 <div
-                    class="absolute top-1/2 left-0 -translate-y-1/2 h-14 w-full bg-primary-grad-b opacity-85 rounded-lg">
+                    class="absolute top-1/2 left-0 -translate-y-1/2 h-14 w-full bg-primary rounded-lg">
                 </div>
             </div>
 
